@@ -10,16 +10,6 @@
     --card-bg: rgba(255, 255, 255, .7);
 }
 
-[data-theme='dark'] {
-    --card-bg: rgba(0, 0, 0, .2);
-}
-  /* 夜间模式遮罩透明 */
-  [data-theme="dark"] #footer::before {
-    background: transparent !important;
-  }
-  [data-theme="dark"] #page-header::before {
-    background: transparent !important;
-  }
   @font-face {
     /* 为载入的字体取名字(随意) */
     font-family: 'YSHST';	
