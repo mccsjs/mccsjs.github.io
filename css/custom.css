@@ -1,85 +1,14 @@
-/* 首页文章卡片 */
-#recent-posts > .recent-post-item {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 首页侧栏卡片 */
-#aside-content .card-widget {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 文章页面正文背景 */
-div#post {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 分页页面 */
-div#page {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 归档页面 */
-div#archive {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 标签页面 */
-div#tag {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 分类页面 */
-div#category {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/*夜间模式伪类遮罩层透明*/
-[data-theme="dark"] #recent-posts > .recent-post-item {
-  background: #121212;
-}
-
-[data-theme="dark"] .card-widget {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#post {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#tag {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#archive {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#page {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#category {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#category {
-  background: transparent !important;
-}
-/* 页脚透明 */
+/* 页脚与头图透明 */
 #footer {
-  background: transparent !important;
+    background: transparent !important;
+  }
+  #page-header {
+    background: transparent !important;
+  }
+  :root {
+    --card-bg: rgba(255, 255, 255, .7);
 }
-
-/* 头图透明 */
-#page-header {
-  background: transparent !important;
-}
-
-#rightside > div > button {
-  border-radius: 5px;
-}
-
-@font-face {
+  @font-face {
     /* 为载入的字体取名字(随意) */
     font-family: 'YSHST';	
     /* 字体文件地址(相对或者绝对路径都可以) */
