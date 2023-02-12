@@ -1,0 +1,13 @@
+/* 页脚与头图透明 */
+#footer {
+    background: transparent !important;
+  }
+  #footer{
+    background-color: rgba(0, 0, 0, .25) !important;
+    }
+  #page-header {
+    background: transparent !important;
+  }
+  :root {
+    --card-bg: rgba(255, 255, 255, .7);
+}
