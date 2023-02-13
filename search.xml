@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>博客迁移到新电脑</title>
+      <link href="/3f3e8ae2/"/>
+      <url>/3f3e8ae2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><h1 id="因为怕自己忘了，写个教程记录一下"><a href="#因为怕自己忘了，写个教程记录一下" class="headerlink" title="因为怕自己忘了，写个教程记录一下"></a>因为怕自己忘了，写个教程记录一下</h1><h3 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h3><h1 id="node安装"><a href="#node安装" class="headerlink" title="node安装"></a>node安装</h1><p>官网下载最新版就行，目前最新的19版本没有不兼容问题<a href="https://nodejs.org/en/download/">node官网链接</a><br>可以更换淘宝源，速度更快<br>```SHELL<br>npm config set registry <a href="https://registry.npm.taobao.org">https://registry.npm.taobao.org</a><br>```</p><h1 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h1><p>由于官网下载速度难顶，用淘宝源最新的<a href="https://registry.npmmirror.com/binary.html?path=git-for-windows/v2.36.1.windows.1/">链接</a><br>配置用户名和邮箱<br>`<code>`shellgit config --global user.name 用户名git config --global user.email 邮箱\```通过</code>git config -l`检查是否配置成功</p><h1 id="安装HEXO"><a href="#安装HEXO" class="headerlink" title="安装HEXO"></a>安装HEXO</h1><p>在Git BASH输入命令安装<br>```shell<br>npm install -g hexo-cli<br>```</p><h3 id="连接Github"><a href="#连接Github" class="headerlink" title="连接Github"></a>连接Github</h3><p>执行命令生成ssh公钥，连接Github<br>```SHELL<br>ssh-keygen -t rsa -C 邮箱<br>```<br>打开C盘下用户文件夹下的.ssh的文件夹，会看到 id_rsa.pub<br>用记事本打开id_rsa.pub，复制里面的内容，在github中配置ssh密钥。（设置-ssh and key）</p><p>通过以下命令确认是否连接成功<br>```SHELL<br>ssh -T git@github.com<br>```<br><img src="https://s2.loli.net/2023/02/13/MHWSpj871umdqVE.png" alt="HP54WQAHO_5QIP261_B@ZJT.png"><br>出现连接到账户的信息就行</p><h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><p>1.把我的源码解压下来后输入<br>```bash<br>npm i<br>```<br>进行初始化<br>2.安装 hexo-deployer-git<br>```shell<br>npm install hexo-deployer-git —save<br>```<br>3.现在已经完成了，hexo三连试试效果<br>```SHELL<br>hexo cl;hexo g;hexo d<br>```</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>想要传达给你的爱恋</title>
       <link href="/f2f7dc5d/"/>
       <url>/f2f7dc5d/</url>
