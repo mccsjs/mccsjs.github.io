@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>文章永久链接</title>
+      <link href="/eb757e99/"/>
+      <url>/eb757e99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>HEXO默认的文章链接格式是<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">year/:month/:day/:title/</span></span><br></pre></td></tr></table></figure><br>这样子链接生成出来是<a href="https://mccsjs.weie.top/2023/01/25/galgame/qxgj/">https://mccsjs.weie.top/2023/01/25/galgame/qxgj/</a><br>这样的链接很长，而且改一次标题他就会改变，链接也失效了</p><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>在博客根目录用git bash安装以下插件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure></p><p>安装完成后，打开博客根目录下的_config.yml，修改以下配置：<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:abbrlink/</span>  <span class="comment"># 此处可以自己设置，也可以直接使用 :abbrlink/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span> </span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">    <span class="attr">alg:</span> <span class="string">crc32</span>   <span class="comment">#算法： crc16(default) and crc32</span></span><br><span class="line">    <span class="attr">rep:</span> <span class="string">hex</span>     <span class="comment">#进制： dec(default) and hex</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br></pre></td></tr></table></figure><br>我这种是域名/文章的方法，例<a href="https://mccsjs.weie.top/3f3e8ae2/">mccsjs.weie.top/3f3e8ae2</a><br>你也可以设置成permalink: posts/:abbrlink/,链接就会变成这样mccsjs.weie.top/posts/abcd/</p><p>接下来hexo 三连即可看到成品<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo cl;hexo g;hexo d</span><br><span class="line">或者</span><br><span class="line">hexo cl;hexo g;hexo s</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客迁移到新电脑</title>
       <link href="/3f3e8ae2/"/>
       <url>/3f3e8ae2/</url>
