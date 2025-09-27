@@ -1,0 +1,27 @@
+/* 引入全局字体（meow.otf） */
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/font/b.woff2') format('opentype');  /* otf字体，ttf把format改成truetype */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 引入代码字体（shaonv.ttf） */
+@font-face {
+  font-family: 'MyCodeFont';
+  src: url('/font/neko.woff2') format('truetype');  /* ttf字体，otf把format改成opentype */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 设置全局字体 */
+body {
+  font-family: 'MyCustomFont', "Georgia", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+/* 设置代码字体 */
+code, pre {
+  font-family: 'MyCodeFont', "Fira Code", "Courier", monospace;
+  font-size: 16px;
+}
