@@ -75,13 +75,13 @@ function getRandom(option) {
             ret = Math.random() * 6;
             break;
         case 'fnx':
-            random = -0.5 + Math.random() * 1;
+            random = -0.5 + Math.random() * 0.9;
             ret = function (x, y) {
-                return x + 0.25 * random - 0.9;
+                return x + 0.2 * random - 0.75;
             };
             break;
         case 'fny':
-            random = 0.8 + Math.random() * 0.4
+            random = 0.5 + Math.random() * 0.25
             ret = function (x, y) {
                 return y + random;
             };
