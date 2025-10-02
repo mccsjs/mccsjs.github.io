@@ -671,3 +671,4 @@ img.onload = function () {
         }
     }
 };
+
