@@ -8,7 +8,7 @@
       <link href="/posts/ef75bf0/"/>
       <url>/posts/ef75bf0/</url>
       
-        <content type="html"><![CDATA[<p>过几天再写AWA</p>]]></content>
+        <content type="html"><![CDATA[<p>本次还是使用github+vercel形式部署</p><h2 id="将项目fork到自己仓库"><a href="#将项目fork到自己仓库" class="headerlink" title="将项目fork到自己仓库"></a>将项目fork到自己仓库</h2><ol><li>首先访问github，并搜索<a href="https://github.com/lobehub/lobe-chat">lobe-chat</a>，也可以点击前往<div class="hide-block"><button type="button" class="hide-button" style="background-color:  blue;">点我预览</button><div class="hide-content"><p><img src="https://youke1.picui.cn/s1/2025/10/03/68df9b55123f2.png" alt="image" style="zoom:60%;" /></p></div></div></li><li>点击上方的fork按钮<div class="hide-block"><button type="button" class="hide-button" style="background-color:  blue;">点我预览</button><div class="hide-content"><p><img src="https://youke1.picui.cn/s1/2025/10/03/68df9bef9e58b.png" alt="image" style="zoom:60%;" /><br>什么都不需要改，直接按第一个按钮</p></div></div></li></ol><p>项目比较大，fork过来会有点慢，等看到项目出现在自己仓库就行了</p><h2 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h2><p>晚点写，其实看到这个文章的人应该都知道怎么操作的</p>]]></content>
       
       
       
