@@ -59,7 +59,7 @@ var leonus = {
 var now = new Date();
 function createtime() {
   now.setTime(now.getTime() + 1000);
-  var start = new Date("01/22/2023 00:00:00");
+  var start = new Date("01/22/2023 08:00:00");
   var dis = Math.trunc(100 + ((now - start) / 1000) * 17);
   var unit = (dis / 149600000).toFixed(6);
   var grt = new Date("01/22/2023 00:00:00");
