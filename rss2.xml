@@ -15,8 +15,37 @@
     <atom:link href="https://mccsjs.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 11 Oct 2025 11:01:41 GMT</pubDate>
+    <pubDate>Sat, 11 Oct 2025 12:14:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>顶部加载条</title>
+      <link>https://mccsjs.eu.org/posts/38be6655/</link>
+      <guid>https://mccsjs.eu.org/posts/38be6655/</guid>
+      <pubDate>Sat, 11 Oct 2025 12:03:16 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;魔改前请备份，要不然出错了又不知道怎么改就完啦！！！&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;顶部细线加载条&quot;&gt;&lt;a href=&quot;#顶部细线加载条&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <category domain="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <comments>https://mccsjs.eu.org/posts/38be6655/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>友链样式魔改</title>
