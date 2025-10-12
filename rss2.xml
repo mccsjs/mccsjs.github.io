@@ -15,8 +15,39 @@
     <atom:link href="https://mccsjs.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 11 Oct 2025 12:18:17 GMT</pubDate>
+    <pubDate>Sun, 12 Oct 2025 10:04:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>友链一行显示多个</title>
+      <link>https://mccsjs.eu.org/posts/ccc7adfa/</link>
+      <guid>https://mccsjs.eu.org/posts/ccc7adfa/</guid>
+      <pubDate>Sun, 12 Oct 2025 09:35:33 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;请先一步完成[友链样式魔改](https://mccsjs.eu.org/posts/97eebedd/)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;在自定义css中添加以下代码&lt;figure class=&quot;highlight</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <category domain="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <comments>https://mccsjs.eu.org/posts/ccc7adfa/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>顶部加载条</title>
