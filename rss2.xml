@@ -15,7 +15,7 @@
     <atom:link href="https://mccsjs.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 13 Oct 2025 09:17:38 GMT</pubDate>
+    <pubDate>Mon, 13 Oct 2025 13:10:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -24,14 +24,7 @@
       <guid>https://mccsjs.eu.org/posts/c40add2d/</guid>
       <pubDate>Mon, 13 Oct 2025 08:40:16 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;新建图标项目&quot;&gt;&lt;a href=&quot;#新建图标项目&quot; class=&quot;headerlink&quot; title=&quot;新建图标项目&quot;&gt;&lt;/a&gt;新建图标项目&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;访问&lt;a</description>
-          
-        
+      <description>butterfly引入自定义图标</description>
       
       
       
@@ -52,17 +45,7 @@
       <guid>https://mccsjs.eu.org/posts/ccc7adfa/</guid>
       <pubDate>Sun, 12 Oct 2025 09:35:33 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;请先一步完成&lt;/code&gt;&lt;a href=&quot;https://mccsjs.eu.org/posts/97eebedd/&quot;&gt;友链样式魔改&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;在自定义css中添加以下代码&lt;figure</description>
-          
-        
+      <description>butterfly主题友链魔改</description>
       
       
       
@@ -83,15 +66,7 @@
       <guid>https://mccsjs.eu.org/posts/38be6655/</guid>
       <pubDate>Sat, 11 Oct 2025 12:03:16 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;魔改前请备份，要不然出错了又不知道怎么改就完啦！！！&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&quot;顶部细线加载条&quot;&gt;&lt;a href=&quot;#顶部细线加载条&quot; class=&quot;headerlink&quot;</description>
-          
-        
+      <description>butterfly主题魔改</description>
       
       
       
@@ -233,15 +208,7 @@
       <guid>https://mccsjs.eu.org/posts/f38acf51/</guid>
       <pubDate>Mon, 29 Sep 2025 01:37:59 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;魔改前请备份，要不然出错了又不知道怎么改就完啦！！！&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;标题霓虹灯效果&quot;&gt;&lt;a href=&quot;#标题霓虹灯效果&quot; class=&quot;headerlink&quot;</description>
-          
-        
+      <description>butterfly主题魔改</description>
       
       
       
@@ -306,13 +273,7 @@
       <guid>https://mccsjs.eu.org/posts/eb757e99/</guid>
       <pubDate>Mon, 13 Feb 2023 02:48:26 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;HEXO默认的文章链接格式是&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
-          
-        
+      <description>butterfly主题魔改</description>
       
       
       

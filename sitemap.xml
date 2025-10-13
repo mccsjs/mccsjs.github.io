@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mccsjs.eu.org/posts/ccc7adfa/</loc>
+    
+    <lastmod>2025-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mccsjs.eu.org/posts/c40add2d/</loc>
     
     <lastmod>2025-10-13</lastmod>
@@ -11,9 +20,36 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/ccc7adfa/</loc>
+    <loc>https://mccsjs.eu.org/posts/38be6655/</loc>
     
-    <lastmod>2025-10-12</lastmod>
+    <lastmod>2025-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mccsjs.eu.org/posts/eb757e99/</loc>
+    
+    <lastmod>2025-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mccsjs.eu.org/posts/f38acf51/</loc>
+    
+    <lastmod>2025-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mccsjs.eu.org/posts/3f3e8ae2/</loc>
+    
+    <lastmod>2025-10-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -47,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/38be6655/</loc>
-    
-    <lastmod>2025-10-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mccsjs.eu.org/posts/e7f6bd97/</loc>
     
     <lastmod>2025-10-11</lastmod>
@@ -68,33 +95,6 @@
     <loc>https://mccsjs.eu.org/posts/9cdd57e6/</loc>
     
     <lastmod>2025-10-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mccsjs.eu.org/posts/eb757e99/</loc>
-    
-    <lastmod>2025-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mccsjs.eu.org/posts/f38acf51/</loc>
-    
-    <lastmod>2025-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mccsjs.eu.org/posts/3f3e8ae2/</loc>
-    
-    <lastmod>2025-10-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -207,14 +207,14 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
+    <loc>https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
