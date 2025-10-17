@@ -15,7 +15,7 @@
     <atom:link href="https://mccsjs.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 17 Oct 2025 00:12:16 GMT</pubDate>
+    <pubDate>Fri, 17 Oct 2025 06:59:04 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -29,7 +29,7 @@
           
           
       <description>&lt;p&gt;&lt;code&gt;魔改有风险，上传需谨慎&lt;/code&gt;&lt;br&gt;因魔改代码导致加载时长从2秒加载涨到了十几秒，迫不得已回档到2025/10/15的版本&lt;br&gt;魔改一定要多备份&lt;/p&gt;
-</description>
+&lt;p&gt;查出来了，butterfly自带的不蒜子炸了，是不蒜子的问题b不是我的问题，回档是无意义的&lt;</description>
           
         
       
