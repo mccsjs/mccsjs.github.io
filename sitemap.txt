@@ -26,8 +26,8 @@ https://mccsjs.eu.org/categories/index.html
 https://mccsjs.eu.org/tags/index.html
 https://mccsjs.eu.org/
 https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B/
-https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/
 https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/
+https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/
 https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B/
 https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/
 https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/
