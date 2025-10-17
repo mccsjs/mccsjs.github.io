@@ -15,8 +15,65 @@
     <atom:link href="https://mccsjs.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 13 Oct 2025 13:10:26 GMT</pubDate>
+    <pubDate>Fri, 17 Oct 2025 00:12:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>记录博客第一次回档</title>
+      <link>https://mccsjs.eu.org/posts/27de4062/</link>
+      <guid>https://mccsjs.eu.org/posts/27de4062/</guid>
+      <pubDate>Fri, 17 Oct 2025 00:03:52 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;code&gt;魔改有风险，上传需谨慎&lt;/code&gt;&lt;br&gt;因魔改代码导致加载时长从2秒加载涨到了十几秒，迫不得已回档到2025/10/15的版本&lt;br&gt;魔改一定要多备份&lt;/p&gt;
+</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <comments>https://mccsjs.eu.org/posts/27de4062/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo博客添加弹窗公告</title>
+      <link>https://mccsjs.eu.org/posts/5eff52f7/</link>
+      <guid>https://mccsjs.eu.org/posts/5eff52f7/</guid>
+      <pubDate>Wed, 15 Oct 2025 11:46:55 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;新建&lt;code&gt;/css/gg.css&lt;/code&gt;，在css中引入以下代码：（只推荐新建，不推荐粘贴到已有的CSS中）&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <category domain="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <comments>https://mccsjs.eu.org/posts/5eff52f7/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>引入阿里iconfont自定义图标</title>

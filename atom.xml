@@ -6,7 +6,7 @@
   <link href="https://mccsjs.eu.org/atom.xml" rel="self"/>
   
   <link href="https://mccsjs.eu.org/"/>
-  <updated>2025-10-13T13:10:26.304Z</updated>
+  <updated>2025-10-17T00:12:00.478Z</updated>
   <id>https://mccsjs.eu.org/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录博客第一次回档</title>
+    <link href="https://mccsjs.eu.org/posts/27de4062/"/>
+    <id>https://mccsjs.eu.org/posts/27de4062/</id>
+    <published>2025-10-17T00:03:52.000Z</published>
+    <updated>2025-10-17T00:12:00.478Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;code&gt;魔改有风险，上传需谨慎&lt;/code&gt;&lt;br&gt;因魔改代码导致加载时长从2秒加载涨到了十几秒，迫不得已回档到2025/10/15的版本&lt;br&gt;魔改一定要多备份&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客添加弹窗公告</title>
+    <link href="https://mccsjs.eu.org/posts/5eff52f7/"/>
+    <id>https://mccsjs.eu.org/posts/5eff52f7/</id>
+    <published>2025-10-15T11:46:55.000Z</published>
+    <updated>2025-10-16T23:56:38.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;新建&lt;code&gt;/css/gg.css&lt;/code&gt;，在css中引入以下代码：（只推荐新建，不推荐粘贴到已有的CSS中）&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="教程碎片" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="教程碎片" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>引入阿里iconfont自定义图标</title>
@@ -189,7 +242,7 @@
     <link href="https://mccsjs.eu.org/posts/f38acf51/"/>
     <id>https://mccsjs.eu.org/posts/f38acf51/</id>
     <published>2025-09-29T01:37:59.000Z</published>
-    <updated>2025-10-13T13:09:40.368Z</updated>
+    <updated>2025-10-16T23:56:26.055Z</updated>
     
     
     <summary type="html">butterfly主题魔改</summary>
