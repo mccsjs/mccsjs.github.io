@@ -550,7 +550,7 @@ document.addEventListener('pjax:complete', function() {
     }
 });
 
-// Butterfly主题友链状态检测脚本 - 适配提供的CSS样式
+// Butterfly主题友链状态检测脚本 - 仅对Volantis样式的友链显示状态
 class LinkStatusChecker {
   constructor() {
     this.retryCount = 0;
@@ -576,9 +576,9 @@ class LinkStatusChecker {
            document.querySelector('.flink-list-item');
   }
 
-  // 为每个友链卡片注入状态指示器
+  // 为Volantis样式的友链卡片注入状态指示器
   injectStatusIndicators() {
-    // 尝试多种选择器以适应不同版本的Butterfly主题
+    // 查找所有友链卡片
     const linkSelectors = [
       '.flink-list .flink-list-item',
       '.flink-list-item', 
@@ -602,10 +602,15 @@ class LinkStatusChecker {
         return;
       }
 
+      // 检查这个卡片是否在Volantis样式的分类中
+      if (!this.isVolantisStyleCard(card)) {
+        return; // 不是Volantis样式，跳过
+      }
+
       const linkElement = card.querySelector('a');
       if (!linkElement) return;
       
-      // 获取链接名称 - 适配Butterfly主题的不同结构
+      // 获取链接名称
       let linkName = '';
       const nameSelectors = [
         '.flink-item-name',
@@ -633,7 +638,7 @@ class LinkStatusChecker {
       
       const linkUrl = linkElement.href;
 
-      // 创建状态指示器 - 使用你提供的CSS类名
+      // 创建状态指示器
       const statusEl = document.createElement('div');
       statusEl.className = 'site-card-status status-loading';
       statusEl.setAttribute('data-name', linkName);
@@ -648,6 +653,40 @@ class LinkStatusChecker {
         card.style.position = 'relative';
       }
     });
+  }
+
+  // 判断卡片是否属于Volantis样式的分类
+  isVolantisStyleCard(card) {
+    // 方法1: 查找包含flink_style属性的父元素
+    let parent = card;
+    while (parent && parent !== document.body) {
+      if (parent.getAttribute('data-flink-style') === 'volantis' ||
+          parent.classList.contains('volantis-style') ||
+          parent.id.includes('volantis')) {
+        return true;
+      }
+      parent = parent.parentElement;
+    }
+
+    // 方法2: 通过分类标题或容器类名判断
+    const categoryContainer = card.closest('.flink-list');
+    if (categoryContainer) {
+      const categoryTitle = categoryContainer.previousElementSibling;
+      if (categoryTitle && 
+          (categoryTitle.textContent.includes('Volantis') || 
+           categoryTitle.classList.contains('volantis'))) {
+        return true;
+      }
+    }
+
+    // 方法3: 如果是Butterfly主题，可能通过特殊类名标记
+    if (card.closest('.volantis-links') || 
+        document.querySelector('.flink-class#Volantis') ||
+        document.querySelector('[flink_style="volantis"]')) {
+      return true;
+    }
+
+    return false;
   }
 
   async fetchLinkStatus() {
@@ -893,10 +932,4 @@ document.addEventListener('DOMContentLoaded', () => {
 // 支持PJAX重新加载
 document.addEventListener('pjax:complete', () => {
   new LinkStatusChecker();
-});
-
-// 监听主题切换事件（如果Butterfly主题支持动态主题切换）
-document.addEventListener('themechange', () => {
-  // 重新应用样式以确保深色主题正确
-  addLinkStatusStyles();
 });
