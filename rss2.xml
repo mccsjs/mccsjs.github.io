@@ -15,8 +15,35 @@
     <atom:link href="https://mccsjs.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 17 Oct 2025 13:36:22 GMT</pubDate>
+    <pubDate>Sat, 18 Oct 2025 06:37:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>不蒜子out，拥抱Vercount</title>
+      <link>https://mccsjs.eu.org/posts/646e63e3/</link>
+      <guid>https://mccsjs.eu.org/posts/646e63e3/</guid>
+      <pubDate>Sat, 18 Oct 2025 06:29:19 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无了&lt;br&gt;由于butterfly主题自带的就是不蒜子，我就去搜有没有平替，还真找到了&lt;br&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <comments>https://mccsjs.eu.org/posts/646e63e3/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>hexo不蒜子统计的问题</title>
@@ -349,27 +376,6 @@
       
       
       <comments>https://mccsjs.eu.org/posts/e7f6bd97/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>文章永久链接</title>
-      <link>https://mccsjs.eu.org/posts/eb757e99/</link>
-      <guid>https://mccsjs.eu.org/posts/eb757e99/</guid>
-      <pubDate>Mon, 13 Feb 2023 02:48:26 GMT</pubDate>
-      
-      <description>butterfly主题魔改</description>
-      
-      
-      
-      
-      <category domain="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <category domain="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <comments>https://mccsjs.eu.org/posts/eb757e99/#disqus_thread</comments>
       
     </item>
     

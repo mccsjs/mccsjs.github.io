@@ -6,7 +6,7 @@
   <link href="https://mccsjs.eu.org/atom.xml" rel="self"/>
   
   <link href="https://mccsjs.eu.org/"/>
-  <updated>2025-10-17T13:36:22.028Z</updated>
+  <updated>2025-10-18T06:37:22.759Z</updated>
   <id>https://mccsjs.eu.org/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>不蒜子out，拥抱Vercount</title>
+    <link href="https://mccsjs.eu.org/posts/646e63e3/"/>
+    <id>https://mccsjs.eu.org/posts/646e63e3/</id>
+    <published>2025-10-18T06:29:19.000Z</published>
+    <updated>2025-10-18T06:37:22.759Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无了&lt;br&gt;由于butterfly主题自带的就是不蒜子，我就去搜有没有平替，还真找到了&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo不蒜子统计的问题</title>
@@ -319,25 +344,6 @@
     
     <category term="教程" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>文章永久链接</title>
-    <link href="https://mccsjs.eu.org/posts/eb757e99/"/>
-    <id>https://mccsjs.eu.org/posts/eb757e99/</id>
-    <published>2023-02-13T02:48:26.000Z</published>
-    <updated>2025-10-13T13:09:48.953Z</updated>
-    
-    
-    <summary type="html">butterfly主题魔改</summary>
-    
-    
-    
-    <category term="教程" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="教程" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>不蒜子out，拥抱Vercount</title>
+      <link href="/posts/646e63e3/"/>
+      <url>/posts/646e63e3/</url>
+      
+        <content type="html"><![CDATA[<p>昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无了<br>由于butterfly主题自带的就是不蒜子，我就去搜有没有平替，还真找到了<br><a href="https://github.com/EvanNotFound/vercount?tab=readme-ov-file">Vercount</a>，他可以直接使用不蒜子的配置，直接替换链接就行</p><h2 id="在butterfly中使用vercount"><a href="#在butterfly中使用vercount" class="headerlink" title="在butterfly中使用vercount"></a>在butterfly中使用vercount</h2><ol><li><p>在<code>themes\butterfly\layout\includes\additional-js.pug</code>中，替换以下项</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">if theme.busuanzi.site_uv || theme.busuanzi.site_pv || theme.busuanzi.page_pv</span><br><span class="line">  script(async data-pjax src= theme.asset.busuanzi || &#x27;https://events.vercount.one/js&#x27;)</span><br></pre></td></tr></table></figure></li><li><p>在<code>themes\butterfly\layout\includes\head\preconnect.pug</code>中替换</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">if !theme.asset.busuanzi &amp;&amp; (theme.busuanzi.site_uv || theme.busuanzi.site_pv || theme.busuanzi.page_pv)</span><br><span class="line">  link(rel=&quot;preconnect&quot; href=&quot;https://vercount.one&quot;)</span><br></pre></td></tr></table></figure></li></ol><p>vercount比不蒜子快多了，只是访问数据需要从头再来<br>最后将<code>_config.butterfly.yml</code>不蒜子的配置打开<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">busuanzi:</span></span><br><span class="line">  <span class="attr">site_uv:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">site_pv:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">page_pv:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo不蒜子统计的问题</title>
       <link href="/posts/d1f73f4b/"/>
       <url>/posts/d1f73f4b/</url>
