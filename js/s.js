@@ -549,6 +549,7 @@ document.addEventListener('pjax:complete', function() {
         showWelcome();
     }
 });
+
 // Butterfly主题友链状态检测脚本 - 适配提供的CSS样式
 class LinkStatusChecker {
   constructor() {
