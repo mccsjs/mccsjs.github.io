@@ -550,129 +550,48 @@ document.addEventListener('pjax:complete', function() {
     }
 });
 
-// Butterfly主题友链状态检测脚本 - 适配提供的CSS样式
+// Butterfly主题友链状态检测脚本
 class LinkStatusChecker {
   constructor() {
     this.retryCount = 0;
     this.MAX_RETRIES = 3;
     this.STATUS_URL = 'https://flink.seln.cn/status.json';
-    this.VOLANTIS_KEYWORDS = ['volantis', 'Volantis']; // 用于识别Volantis分类的关键词
     this.init();
   }
 
   init() {
-    if (this.hasLinkCards()) {
-      this.markVolantisCategories();
+    // 等待Butterfly主题的友链卡片加载完成
+    if (document.querySelector('.flink')) {
       this.injectStatusIndicators();
       this.fetchAndUpdateStatus();
     } else {
+      // 如果友链容器还没加载，等待一下
       setTimeout(() => this.init(), 100);
     }
   }
 
-  hasLinkCards() {
-    return document.querySelector('.flink-list');
-  }
-
-  // 标记Volantis分类
-  markVolantisCategories() {
-    console.log('正在标记Volantis分类...');
-    
-    // 查找所有分类标题
-    const categoryTitles = document.querySelectorAll('h1, h2, h3, h4, .flink-title');
-    
-    categoryTitles.forEach(title => {
-      const titleText = title.textContent.toLowerCase();
-      
-      // 检查标题是否包含Volantis关键词
-      if (this.VOLANTIS_KEYWORDS.some(keyword => titleText.includes(keyword.toLowerCase()))) {
-        console.log('找到Volantis分类:', title.textContent);
-        
-        // 找到对应的友链列表容器
-        let nextElement = title.nextElementSibling;
-        while (nextElement) {
-          if (nextElement.classList.contains('flink-list')) {
-            // 标记这个分类为Volantis
-            nextElement.classList.add('volantis-category');
-            console.log('已标记Volantis分类容器');
-            break;
-          }
-          nextElement = nextElement.nextElementSibling;
-        }
-      }
-    });
-  }
-
-  // 为Volantis分类的友链卡片注入状态指示器
+  // 为每个友链卡片注入状态指示器
   injectStatusIndicators() {
-    const volantisContainers = document.querySelectorAll('.volantis-category');
+    const linkCards = document.querySelectorAll('.flink-list .flink-list-item');
     
-    if (volantisContainers.length === 0) {
-      console.log('未找到Volantis分类容器');
-      return;
-    }
-
-    console.log(`找到 ${volantisContainers.length} 个Volantis分类`);
-
-    volantisContainers.forEach(container => {
-      const linkCards = container.querySelectorAll('.flink-list-item');
+    linkCards.forEach(card => {
+      const linkElement = card.querySelector('a');
+      if (!linkElement) return;
       
-      linkCards.forEach(card => {
-        // 检查是否已经添加了状态指示器
-        if (card.querySelector('.site-card-status')) {
-          return;
-        }
-
-        const linkElement = card.querySelector('a');
-        if (!linkElement) return;
-        
-        let linkName = this.getLinkName(card, linkElement);
-        const linkUrl = linkElement.href;
-
-        console.log('为Volantis友链添加状态指示器:', linkName);
-
-        // 创建状态指示器
-        const statusEl = document.createElement('div');
-        statusEl.className = 'site-card-status status-loading';
-        statusEl.setAttribute('data-name', linkName);
-        statusEl.setAttribute('data-url', linkUrl);
-        statusEl.textContent = '检测中...';
-        
-        // 添加到卡片中
-        card.appendChild(statusEl);
-        
-        // 确保卡片有相对定位
-        if (getComputedStyle(card).position === 'static') {
-          card.style.position = 'relative';
-        }
-      });
+      const linkName = linkElement.textContent.trim();
+      const linkUrl = linkElement.href;
+      
+      // 创建状态指示器
+      const statusEl = document.createElement('div');
+      statusEl.className = 'site-card-status status-loading';
+      statusEl.setAttribute('data-name', linkName);
+      statusEl.setAttribute('data-url', linkUrl);
+      statusEl.textContent = '检测中...';
+      
+      // 添加到卡片中
+      const cardContent = card.querySelector('.flink-item-info') || card;
+      cardContent.appendChild(statusEl);
     });
-  }
-
-  // 获取链接名称
-  getLinkName(card, linkElement) {
-    const nameSelectors = [
-      '.flink-item-name',
-      '.site-name', 
-      '.friend-name',
-      'h2', 'h3', 'h4',
-      '.card-title',
-      'strong',
-      'b'
-    ];
-    
-    for (const selector of nameSelectors) {
-      const nameEl = card.querySelector(selector);
-      if (nameEl && nameEl.textContent && nameEl.textContent.trim()) {
-        return nameEl.textContent.trim();
-      }
-    }
-    
-    // 如果还是没找到，使用链接文本或title属性
-    return linkElement.textContent.trim() || 
-           linkElement.getAttribute('title') || 
-           linkElement.hostname || 
-           '未知网站';
   }
 
   async fetchLinkStatus() {
@@ -690,46 +609,36 @@ class LinkStatusChecker {
         statusMap[link.name] = link;
       });
       
+      // 更新每个链接的状态
       const statusElements = document.querySelectorAll('.site-card-status');
-      let updatedCount = 0;
-      
       statusElements.forEach(el => {
         const linkName = el.getAttribute('data-name');
         if (statusMap[linkName]) {
           const status = statusMap[linkName];
-          this.updateStatusElement(el, status);
-          updatedCount++;
-        } else {
-          this.updateStatusElement(el, { success: false, latency: -1 });
+          let statusClass = '';
+          let statusText = '';
+          
+          if (!status.success || status.latency === -1) {
+            statusClass = 'status-error';
+            const errorCount = status.error_count || 0;
+            statusText = "异常[" + errorCount + "]";
+          } else {
+            const latency = status.latency;
+            if (latency <= 3) {
+              statusClass = 'status-normal';
+            } else {
+              statusClass = 'status-slow';
+            }
+            statusText = latency + 's';
+          }
+          
+          el.className = 'site-card-status ' + statusClass;
+          el.textContent = statusText;
         }
       });
-      
-      console.log(`已更新 ${updatedCount} 个友链状态`);
     } else {
       throw new Error('无效的状态数据');
     }
-  }
-
-  updateStatusElement(element, status) {
-    let statusClass = '';
-    let statusText = '';
-    
-    if (!status.success || status.latency === -1) {
-      statusClass = 'status-error';
-      const errorCount = status.error_count || 0;
-      statusText = "异常[" + errorCount + "]";
-    } else {
-      const latency = status.latency;
-      if (latency <= 3) {
-        statusClass = 'status-normal';
-      } else {
-        statusClass = 'status-slow';
-      }
-      statusText = latency + 's';
-    }
-    
-    element.className = 'site-card-status ' + statusClass;
-    element.textContent = statusText;
   }
 
   handleError() {
@@ -738,6 +647,7 @@ class LinkStatusChecker {
       console.log(`状态检测失败，第${this.retryCount}次重试...`);
       setTimeout(() => this.fetchAndUpdateStatus(), 2000 * this.retryCount);
     } else {
+      // 将所有状态设为错误
       document.querySelectorAll('.site-card-status.status-loading').forEach(el => {
         el.className = 'site-card-status status-error';
         el.textContent = '获取失败';
@@ -756,100 +666,79 @@ class LinkStatusChecker {
   }
 }
 
-// 添加你提供的CSS样式
+// 添加CSS样式
 const addLinkStatusStyles = () => {
-  // 检查是否已经添加了样式
-  if (document.querySelector('#link-status-styles')) {
-    return;
-  }
-
   const css = `
-.site-card {
-	position: relative
+.site-card-status {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
 }
 
 .flink-list-item {
-	position: relative
+  position: relative;
 }
 
-.site-card-status {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 10;
-	padding: 3px 8px;
-	border-radius: 8px 0 8px 0;
-	font-size: 12px;
-	font-weight: 500;
-	color: #fff;
-	background-color: rgba(0, 0, 0, 0.6);
-	backdrop-filter: blur(4px);
-	transition: all 0.3s ease
+.status-loading {
+  background: #f0f0f0;
+  color: #666;
+  animation: pulse 1.5s infinite;
 }
 
-.site-card-status.status-loading {
-	background-color: rgba(100, 100, 100, 0.8);
-	animation: pulse 1.5s infinite
+.status-normal {
+  background: #e8f5e8;
+  color: #2e7d32;
+  border: 1px solid #4caf50;
 }
 
-.site-card-status.status-normal {
-	background-color: rgba(82, 196, 26, 0.9)
+.status-slow {
+  background: #fff3e0;
+  color: #ef6c00;
+  border: 1px solid #ff9800;
 }
 
-.site-card-status.status-slow {
-	background-color: rgba(250, 173, 20, 0.9)
-}
-
-.site-card-status.status-error {
-	background-color: rgba(255, 77, 79, 0.9)
+.status-error {
+  background: #ffebee;
+  color: #c62828;
+  border: 1px solid #f44336;
 }
 
 @keyframes pulse {
-	0%, 100% {
-		opacity: 1
-	}
-	50% {
-		opacity: 0.5
-	}
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
 }
 
-[data-theme="dark"] .site-card-status {
-	background-color: rgba(255, 255, 255, 0.1);
-	color: #fff
-}
-
-[data-theme="dark"] .site-card-status.status-loading {
-	background-color: rgba(100, 100, 100, 0.8)
-}
-
-[data-theme="dark"] .site-card-status.status-normal {
-	background-color: rgba(82, 196, 26, 0.8)
-}
-
-[data-theme="dark"] .site-card-status.status-slow {
-	background-color: rgba(250, 173, 20, 0.8)
-}
-
-[data-theme="dark"] .site-card-status.status-error {
-	background-color: rgba(255, 77, 79, 0.8)
+/* 适配Butterfly主题的响应式 */
+@media (max-width: 768px) {
+  .site-card-status {
+    font-size: 10px;
+    padding: 1px 4px;
+    top: 4px;
+    right: 4px;
+  }
 }
 `;
   
   const style = document.createElement('style');
-  style.id = 'link-status-styles';
   style.textContent = css;
   document.head.appendChild(style);
 };
 
 // 初始化
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('初始化友链状态检测...');
   addLinkStatusStyles();
   new LinkStatusChecker();
 });
 
 // 支持PJAX重新加载
 document.addEventListener('pjax:complete', () => {
-  console.log('PJAX完成，重新初始化友链状态检测...');
   new LinkStatusChecker();
 });
