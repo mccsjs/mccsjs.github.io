@@ -550,143 +550,129 @@ document.addEventListener('pjax:complete', function() {
     }
 });
 
-// Butterfly主题友链状态检测脚本 - 仅对Volantis样式的友链显示状态
+// Butterfly主题友链状态检测脚本 - 适配提供的CSS样式
 class LinkStatusChecker {
   constructor() {
     this.retryCount = 0;
     this.MAX_RETRIES = 3;
     this.STATUS_URL = 'https://flink.seln.cn/status.json';
+    this.VOLANTIS_KEYWORDS = ['volantis', 'Volantis']; // 用于识别Volantis分类的关键词
     this.init();
   }
 
   init() {
-    // 等待Butterfly主题的友链卡片加载完成
     if (this.hasLinkCards()) {
+      this.markVolantisCategories();
       this.injectStatusIndicators();
       this.fetchAndUpdateStatus();
     } else {
-      // 如果友链容器还没加载，等待一下
       setTimeout(() => this.init(), 100);
     }
   }
 
   hasLinkCards() {
-    return document.querySelector('.flink-list') || 
-           document.querySelector('.site-card') ||
-           document.querySelector('.flink-list-item');
+    return document.querySelector('.flink-list');
   }
 
-  // 为Volantis样式的友链卡片注入状态指示器
-  injectStatusIndicators() {
-    // 查找所有友链卡片
-    const linkSelectors = [
-      '.flink-list .flink-list-item',
-      '.flink-list-item', 
-      '.site-card',
-      '.friend-link-item'
-    ];
-
-    let linkCards = [];
+  // 标记Volantis分类
+  markVolantisCategories() {
+    console.log('正在标记Volantis分类...');
     
-    for (const selector of linkSelectors) {
-      const cards = document.querySelectorAll(selector);
-      if (cards.length > 0) {
-        linkCards = cards;
-        break;
-      }
-    }
-
-    linkCards.forEach(card => {
-      // 检查是否已经添加了状态指示器
-      if (card.querySelector('.site-card-status')) {
-        return;
-      }
-
-      // 检查这个卡片是否在Volantis样式的分类中
-      if (!this.isVolantisStyleCard(card)) {
-        return; // 不是Volantis样式，跳过
-      }
-
-      const linkElement = card.querySelector('a');
-      if (!linkElement) return;
+    // 查找所有分类标题
+    const categoryTitles = document.querySelectorAll('h1, h2, h3, h4, .flink-title');
+    
+    categoryTitles.forEach(title => {
+      const titleText = title.textContent.toLowerCase();
       
-      // 获取链接名称
-      let linkName = '';
-      const nameSelectors = [
-        '.flink-item-name',
-        '.site-name',
-        '.friend-name',
-        'h2', 'h3', 'h4',
-        '.card-title',
-        'span'
-      ];
-      
-      for (const selector of nameSelectors) {
-        const nameEl = card.querySelector(selector);
-        if (nameEl && nameEl.textContent.trim()) {
-          linkName = nameEl.textContent.trim();
-          break;
+      // 检查标题是否包含Volantis关键词
+      if (this.VOLANTIS_KEYWORDS.some(keyword => titleText.includes(keyword.toLowerCase()))) {
+        console.log('找到Volantis分类:', title.textContent);
+        
+        // 找到对应的友链列表容器
+        let nextElement = title.nextElementSibling;
+        while (nextElement) {
+          if (nextElement.classList.contains('flink-list')) {
+            // 标记这个分类为Volantis
+            nextElement.classList.add('volantis-category');
+            console.log('已标记Volantis分类容器');
+            break;
+          }
+          nextElement = nextElement.nextElementSibling;
         }
-      }
-      
-      // 如果还是没找到，使用链接文本
-      if (!linkName) {
-        linkName = linkElement.textContent.trim() || 
-                   linkElement.getAttribute('title') || 
-                   '未知网站';
-      }
-      
-      const linkUrl = linkElement.href;
-
-      // 创建状态指示器
-      const statusEl = document.createElement('div');
-      statusEl.className = 'site-card-status status-loading';
-      statusEl.setAttribute('data-name', linkName);
-      statusEl.setAttribute('data-url', linkUrl);
-      statusEl.textContent = '检测中...';
-      
-      // 添加到卡片中
-      card.appendChild(statusEl);
-      
-      // 确保卡片有相对定位
-      if (getComputedStyle(card).position === 'static') {
-        card.style.position = 'relative';
       }
     });
   }
 
-  // 判断卡片是否属于Volantis样式的分类
-  isVolantisStyleCard(card) {
-    // 方法1: 查找包含flink_style属性的父元素
-    let parent = card;
-    while (parent && parent !== document.body) {
-      if (parent.getAttribute('data-flink-style') === 'volantis' ||
-          parent.classList.contains('volantis-style') ||
-          parent.id.includes('volantis')) {
-        return true;
+  // 为Volantis分类的友链卡片注入状态指示器
+  injectStatusIndicators() {
+    const volantisContainers = document.querySelectorAll('.volantis-category');
+    
+    if (volantisContainers.length === 0) {
+      console.log('未找到Volantis分类容器');
+      return;
+    }
+
+    console.log(`找到 ${volantisContainers.length} 个Volantis分类`);
+
+    volantisContainers.forEach(container => {
+      const linkCards = container.querySelectorAll('.flink-list-item');
+      
+      linkCards.forEach(card => {
+        // 检查是否已经添加了状态指示器
+        if (card.querySelector('.site-card-status')) {
+          return;
+        }
+
+        const linkElement = card.querySelector('a');
+        if (!linkElement) return;
+        
+        let linkName = this.getLinkName(card, linkElement);
+        const linkUrl = linkElement.href;
+
+        console.log('为Volantis友链添加状态指示器:', linkName);
+
+        // 创建状态指示器
+        const statusEl = document.createElement('div');
+        statusEl.className = 'site-card-status status-loading';
+        statusEl.setAttribute('data-name', linkName);
+        statusEl.setAttribute('data-url', linkUrl);
+        statusEl.textContent = '检测中...';
+        
+        // 添加到卡片中
+        card.appendChild(statusEl);
+        
+        // 确保卡片有相对定位
+        if (getComputedStyle(card).position === 'static') {
+          card.style.position = 'relative';
+        }
+      });
+    });
+  }
+
+  // 获取链接名称
+  getLinkName(card, linkElement) {
+    const nameSelectors = [
+      '.flink-item-name',
+      '.site-name', 
+      '.friend-name',
+      'h2', 'h3', 'h4',
+      '.card-title',
+      'strong',
+      'b'
+    ];
+    
+    for (const selector of nameSelectors) {
+      const nameEl = card.querySelector(selector);
+      if (nameEl && nameEl.textContent && nameEl.textContent.trim()) {
+        return nameEl.textContent.trim();
       }
-      parent = parent.parentElement;
     }
-
-    // 方法2: 通过分类标题或容器类名判断
-    const categoryContainer = card.closest('.flink-list');
-    if (categoryContainer) {
-      const categoryTitle = categoryContainer.previousElementSibling;
-      if (categoryTitle && 
-          (categoryTitle.textContent.includes('Volantis') || 
-           categoryTitle.classList.contains('volantis'))) {
-        return true;
-      }
-    }
-
-    // 方法3: 如果是Butterfly主题，可能通过特殊类名标记
-    if (card.closest('.volantis-links') || 
-        document.querySelector('.flink-class#Volantis') ||
-        document.querySelector('[flink_style="volantis"]')) {
-      return true;
-    }
-
-    return false;
+    
+    // 如果还是没找到，使用链接文本或title属性
+    return linkElement.textContent.trim() || 
+           linkElement.getAttribute('title') || 
+           linkElement.hostname || 
+           '未知网站';
   }
 
   async fetchLinkStatus() {
@@ -704,18 +690,21 @@ class LinkStatusChecker {
         statusMap[link.name] = link;
       });
       
-      // 更新每个链接的状态
       const statusElements = document.querySelectorAll('.site-card-status');
+      let updatedCount = 0;
+      
       statusElements.forEach(el => {
         const linkName = el.getAttribute('data-name');
         if (statusMap[linkName]) {
           const status = statusMap[linkName];
           this.updateStatusElement(el, status);
+          updatedCount++;
         } else {
-          // 如果没有找到对应的状态数据，标记为错误
           this.updateStatusElement(el, { success: false, latency: -1 });
         }
       });
+      
+      console.log(`已更新 ${updatedCount} 个友链状态`);
     } else {
       throw new Error('无效的状态数据');
     }
@@ -749,7 +738,6 @@ class LinkStatusChecker {
       console.log(`状态检测失败，第${this.retryCount}次重试...`);
       setTimeout(() => this.fetchAndUpdateStatus(), 2000 * this.retryCount);
     } else {
-      // 将所有状态设为错误
       document.querySelectorAll('.site-card-status.status-loading').forEach(el => {
         el.className = 'site-card-status status-error';
         el.textContent = '获取失败';
@@ -817,12 +805,9 @@ const addLinkStatusStyles = () => {
 }
 
 @keyframes pulse {
-
-	0%,
-	100% {
+	0%, 100% {
 		opacity: 1
 	}
-
 	50% {
 		opacity: 0.5
 	}
@@ -848,73 +833,6 @@ const addLinkStatusStyles = () => {
 [data-theme="dark"] .site-card-status.status-error {
 	background-color: rgba(255, 77, 79, 0.8)
 }
-
-.flink-templates {
-	margin-top: 2rem;
-	padding: 1.5rem;
-	background: var(--efu-card-bg);
-	border-radius: 12px;
-	border: var(--style-border-always);
-	box-shadow: var(--efu-shadow-border)
-}
-
-.flink-templates h3 {
-	margin-bottom: 1rem;
-	font-size: 1.2rem;
-	font-weight: 600;
-	color: var(--efu-fontcolor)
-}
-
-.template-buttons {
-	display: flex;
-	gap: 1rem;
-	flex-wrap: wrap
-}
-
-.template-btn {
-	display: flex;
-	align-items: center;
-	gap: 0.5rem;
-	padding: 0.75rem 1.5rem;
-	border: none;
-	border-radius: 8px;
-	font-size: 14px;
-	font-weight: 500;
-	cursor: pointer;
-	transition: all 0.3s ease;
-	background: var(--efu-theme);
-	color: #fff
-}
-
-.template-btn:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
-}
-
-.template-btn i {
-	font-size: 16px
-}
-
-.template-btn.markdown-btn {
-	background: #10b981
-}
-
-.template-btn.markdown-btn:hover {
-	background: #059669
-}
-
-[data-theme="dark"] .flink-templates {
-	background: var(--efu-card-bg);
-	border-color: var(--efu-border)
-}
-
-[data-theme="dark"] .template-btn {
-	background: var(--efu-theme)
-}
-
-[data-theme="dark"] .template-btn.markdown-btn {
-	background: #10b981
-}
 `;
   
   const style = document.createElement('style');
@@ -925,33 +843,13 @@ const addLinkStatusStyles = () => {
 
 // 初始化
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('初始化友链状态检测...');
   addLinkStatusStyles();
   new LinkStatusChecker();
 });
 
 // 支持PJAX重新加载
 document.addEventListener('pjax:complete', () => {
-  new LinkStatusChecker();
-});
-// 在Butterfly主题的友链页面模板中添加数据属性
-// 或者通过这个脚本动态添加
-function markVolantisCategories() {
-  // 查找所有分类容器
-  const categoryContainers = document.querySelectorAll('.flink-class, .flink-list');
-  
-  categoryContainers.forEach(container => {
-    // 这里需要根据你的实际HTML结构来判断哪个是Volantis分类
-    // 例如：通过分类标题、ID或类名
-    const categoryTitle = container.previousElementSibling;
-    if (categoryTitle && categoryTitle.textContent.includes('你想要的分类名称')) {
-      container.setAttribute('data-flink-style', 'volantis');
-    }
-  });
-}
-
-// 然后在初始化时调用
-document.addEventListener('DOMContentLoaded', () => {
-  addLinkStatusStyles();
-  markVolantisCategories();
+  console.log('PJAX完成，重新初始化友链状态检测...');
   new LinkStatusChecker();
 });
