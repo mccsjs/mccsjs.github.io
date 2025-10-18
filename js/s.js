@@ -550,7 +550,7 @@ document.addEventListener('pjax:complete', function() {
     }
 });
 
-// Butterfly主题友链状态检测脚本 - 适配提供的CSS样式
+// 友链状态检测脚本 - 只对volantis样式生效，状态显示在左上角
 class LinkStatusChecker {
   constructor() {
     this.retryCount = 0;
@@ -560,41 +560,25 @@ class LinkStatusChecker {
   }
 
   init() {
-    // 等待Butterfly主题的友链卡片加载完成
-    if (this.hasLinkCards()) {
+    // 只等待volantis样式的友链卡片加载完成
+    if (this.hasVolantisLinkCards()) {
       this.injectStatusIndicators();
       this.fetchAndUpdateStatus();
     } else {
-      // 如果友链容器还没加载，等待一下
+      // 如果volantis友链容器还没加载，等待一下
       setTimeout(() => this.init(), 100);
     }
   }
 
-  hasLinkCards() {
-    return document.querySelector('.flink-list') || 
-           document.querySelector('.site-card') ||
-           document.querySelector('.flink-list-item');
+  hasVolantisLinkCards() {
+    // 只检测volantis样式的友链容器
+    return document.querySelector('.volantis-flink-list');
   }
 
-  // 为每个友链卡片注入状态指示器
+  // 为volantis样式的友链卡片注入状态指示器
   injectStatusIndicators() {
-    // 尝试多种选择器以适应不同版本的Butterfly主题
-    const linkSelectors = [
-      '.flink-list .flink-list-item',
-      '.flink-list-item', 
-      '.site-card',
-      '.friend-link-item'
-    ];
-
-    let linkCards = [];
-    
-    for (const selector of linkSelectors) {
-      const cards = document.querySelectorAll(selector);
-      if (cards.length > 0) {
-        linkCards = cards;
-        break;
-      }
-    }
+    // 只选择volantis样式容器内的卡片
+    const linkCards = document.querySelectorAll('.volantis-flink-list .site-card');
 
     linkCards.forEach(card => {
       // 检查是否已经添加了状态指示器
@@ -602,43 +586,31 @@ class LinkStatusChecker {
         return;
       }
 
-      const linkElement = card.querySelector('a');
+      const linkElement = card;
       if (!linkElement) return;
       
-      // 获取链接名称 - 适配Butterfly主题的不同结构
+      // 获取链接名称 - 适配volantis样式的结构
       let linkName = '';
-      const nameSelectors = [
-        '.flink-item-name',
-        '.site-name',
-        '.friend-name',
-        'h2', 'h3', 'h4',
-        '.card-title',
-        'span'
-      ];
-      
-      for (const selector of nameSelectors) {
-        const nameEl = card.querySelector(selector);
-        if (nameEl && nameEl.textContent.trim()) {
-          linkName = nameEl.textContent.trim();
-          break;
-        }
+      const nameEl = card.querySelector('.info .title');
+      if (nameEl && nameEl.textContent.trim()) {
+        linkName = nameEl.textContent.trim();
       }
       
-      // 如果还是没找到，使用链接文本
+      // 如果还是没找到，使用备用方法
       if (!linkName) {
-        linkName = linkElement.textContent.trim() || 
-                   linkElement.getAttribute('title') || 
+        linkName = card.querySelector('.title')?.textContent.trim() || 
+                   card.getAttribute('title') || 
                    '未知网站';
       }
       
-      const linkUrl = linkElement.href;
+      const linkUrl = card.href;
 
-      // 创建状态指示器 - 使用你提供的CSS类名
+      // 创建状态指示器 - 缩小版本
       const statusEl = document.createElement('div');
       statusEl.className = 'site-card-status status-loading';
       statusEl.setAttribute('data-name', linkName);
       statusEl.setAttribute('data-url', linkUrl);
-      statusEl.textContent = '检测中...';
+      statusEl.textContent = '...';
       
       // 添加到卡片中
       card.appendChild(statusEl);
@@ -689,7 +661,7 @@ class LinkStatusChecker {
     if (!status.success || status.latency === -1) {
       statusClass = 'status-error';
       const errorCount = status.error_count || 0;
-      statusText = "异常[" + errorCount + "]";
+      statusText = errorCount > 0 ? errorCount + '!' : '!';
     } else {
       const latency = status.latency;
       if (latency <= 3) {
@@ -713,7 +685,7 @@ class LinkStatusChecker {
       // 将所有状态设为错误
       document.querySelectorAll('.site-card-status.status-loading').forEach(el => {
         el.className = 'site-card-status status-error';
-        el.textContent = '获取失败';
+        el.textContent = '!';
       });
     }
   }
@@ -729,7 +701,7 @@ class LinkStatusChecker {
   }
 }
 
-// 添加你提供的CSS样式
+// 添加CSS样式 - 只针对volantis样式，状态显示在左上角
 const addLinkStatusStyles = () => {
   // 检查是否已经添加了样式
   if (document.querySelector('#link-status-styles')) {
@@ -737,144 +709,75 @@ const addLinkStatusStyles = () => {
   }
 
   const css = `
-.site-card {
-	position: relative
+/* 只对volantis样式的友链生效，状态显示在左上角 - 缩小版本 */
+.volantis-flink-list .site-card {
+  position: relative;
 }
 
-.flink-list-item {
-	position: relative
+.volantis-flink-list .site-card-status {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: 10;
+  padding: 2px 6px;
+  border-radius: 12px; /* 稍微减小圆角 */
+  font-size: 10px; /* 缩小字体 */
+  font-weight: 600;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+  min-width: 24px; /* 确保最小宽度 */
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.2;
 }
 
-.site-card-status {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 10;
-	padding: 3px 8px;
-	border-radius: 8px 0 8px 0;
-	font-size: 12px;
-	font-weight: 500;
-	color: #fff;
-	background-color: rgba(0, 0, 0, 0.6);
-	backdrop-filter: blur(4px);
-	transition: all 0.3s ease
+.volantis-flink-list .site-card-status.status-loading {
+  background-color: rgba(100, 100, 100, 0.8);
+  animation: pulse 1.5s infinite;
 }
 
-.site-card-status.status-loading {
-	background-color: rgba(100, 100, 100, 0.8);
-	animation: pulse 1.5s infinite
+.volantis-flink-list .site-card-status.status-normal {
+  background-color: rgba(82, 196, 26, 0.9);
 }
 
-.site-card-status.status-normal {
-	background-color: rgba(82, 196, 26, 0.9)
+.volantis-flink-list .site-card-status.status-slow {
+  background-color: rgba(250, 173, 20, 0.9);
 }
 
-.site-card-status.status-slow {
-	background-color: rgba(250, 173, 20, 0.9)
-}
-
-.site-card-status.status-error {
-	background-color: rgba(255, 77, 79, 0.9)
+.volantis-flink-list .site-card-status.status-error {
+  background-color: rgba(255, 77, 79, 0.9);
 }
 
 @keyframes pulse {
-
-	0%,
-	100% {
-		opacity: 1
-	}
-
-	50% {
-		opacity: 0.5
-	}
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
 
-[data-theme="dark"] .site-card-status {
-	background-color: rgba(255, 255, 255, 0.1);
-	color: #fff
+[data-theme="dark"] .volantis-flink-list .site-card-status {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
 }
 
-[data-theme="dark"] .site-card-status.status-loading {
-	background-color: rgba(100, 100, 100, 0.8)
+[data-theme="dark"] .volantis-flink-list .site-card-status.status-loading {
+  background-color: rgba(100, 100, 100, 0.8);
 }
 
-[data-theme="dark"] .site-card-status.status-normal {
-	background-color: rgba(82, 196, 26, 0.8)
+[data-theme="dark"] .volantis-flink-list .site-card-status.status-normal {
+  background-color: rgba(82, 196, 26, 0.8);
 }
 
-[data-theme="dark"] .site-card-status.status-slow {
-	background-color: rgba(250, 173, 20, 0.8)
+[data-theme="dark"] .volantis-flink-list .site-card-status.status-slow {
+  background-color: rgba(250, 173, 20, 0.8);
 }
 
-[data-theme="dark"] .site-card-status.status-error {
-	background-color: rgba(255, 77, 79, 0.8)
-}
-
-.flink-templates {
-	margin-top: 2rem;
-	padding: 1.5rem;
-	background: var(--efu-card-bg);
-	border-radius: 12px;
-	border: var(--style-border-always);
-	box-shadow: var(--efu-shadow-border)
-}
-
-.flink-templates h3 {
-	margin-bottom: 1rem;
-	font-size: 1.2rem;
-	font-weight: 600;
-	color: var(--efu-fontcolor)
-}
-
-.template-buttons {
-	display: flex;
-	gap: 1rem;
-	flex-wrap: wrap
-}
-
-.template-btn {
-	display: flex;
-	align-items: center;
-	gap: 0.5rem;
-	padding: 0.75rem 1.5rem;
-	border: none;
-	border-radius: 8px;
-	font-size: 14px;
-	font-weight: 500;
-	cursor: pointer;
-	transition: all 0.3s ease;
-	background: var(--efu-theme);
-	color: #fff
-}
-
-.template-btn:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
-}
-
-.template-btn i {
-	font-size: 16px
-}
-
-.template-btn.markdown-btn {
-	background: #10b981
-}
-
-.template-btn.markdown-btn:hover {
-	background: #059669
-}
-
-[data-theme="dark"] .flink-templates {
-	background: var(--efu-card-bg);
-	border-color: var(--efu-border)
-}
-
-[data-theme="dark"] .template-btn {
-	background: var(--efu-theme)
-}
-
-[data-theme="dark"] .template-btn.markdown-btn {
-	background: #10b981
+[data-theme="dark"] .volantis-flink-list .site-card-status.status-error {
+  background-color: rgba(255, 77, 79, 0.8);
 }
 `;
   
@@ -895,8 +798,7 @@ document.addEventListener('pjax:complete', () => {
   new LinkStatusChecker();
 });
 
-// 监听主题切换事件（如果Butterfly主题支持动态主题切换）
+// 监听主题切换事件
 document.addEventListener('themechange', () => {
-  // 重新应用样式以确保深色主题正确
   addLinkStatusStyles();
 });
