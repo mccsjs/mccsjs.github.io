@@ -933,3 +933,25 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('pjax:complete', () => {
   new LinkStatusChecker();
 });
+// 在Butterfly主题的友链页面模板中添加数据属性
+// 或者通过这个脚本动态添加
+function markVolantisCategories() {
+  // 查找所有分类容器
+  const categoryContainers = document.querySelectorAll('.flink-class, .flink-list');
+  
+  categoryContainers.forEach(container => {
+    // 这里需要根据你的实际HTML结构来判断哪个是Volantis分类
+    // 例如：通过分类标题、ID或类名
+    const categoryTitle = container.previousElementSibling;
+    if (categoryTitle && categoryTitle.textContent.includes('你想要的分类名称')) {
+      container.setAttribute('data-flink-style', 'volantis');
+    }
+  });
+}
+
+// 然后在初始化时调用
+document.addEventListener('DOMContentLoaded', () => {
+  addLinkStatusStyles();
+  markVolantisCategories();
+  new LinkStatusChecker();
+});
