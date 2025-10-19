@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mccsjs.eu.org/friend.json</loc>
+    <loc>https://seln.cn/posts/97eebedd/</loc>
     
     <lastmod>2025-10-19</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/link/index.html</loc>
+    <loc>https://seln.cn/friend.json</loc>
+    
+    <lastmod>2025-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/link/index.html</loc>
     
     <lastmod>2025-10-18</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/646e63e3/</loc>
+    <loc>https://seln.cn/posts/646e63e3/</loc>
     
     <lastmod>2025-10-18</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/fc/index.html</loc>
+    <loc>https://seln.cn/fc/index.html</loc>
     
     <lastmod>2025-10-17</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/d1f73f4b/</loc>
+    <loc>https://seln.cn/posts/d1f73f4b/</loc>
     
     <lastmod>2025-10-17</lastmod>
     
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/27de4062/</loc>
+    <loc>https://seln.cn/posts/27de4062/</loc>
     
     <lastmod>2025-10-17</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/5eff52f7/</loc>
+    <loc>https://seln.cn/posts/5eff52f7/</loc>
     
     <lastmod>2025-10-16</lastmod>
     
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/f38acf51/</loc>
+    <loc>https://seln.cn/posts/f38acf51/</loc>
     
     <lastmod>2025-10-16</lastmod>
     
@@ -74,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/ccc7adfa/</loc>
+    <loc>https://seln.cn/posts/ccc7adfa/</loc>
     
     <lastmod>2025-10-13</lastmod>
     
@@ -83,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/c40add2d/</loc>
+    <loc>https://seln.cn/posts/c40add2d/</loc>
     
     <lastmod>2025-10-13</lastmod>
     
@@ -92,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/38be6655/</loc>
+    <loc>https://seln.cn/posts/38be6655/</loc>
     
     <lastmod>2025-10-13</lastmod>
     
@@ -101,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/eb757e99/</loc>
+    <loc>https://seln.cn/posts/eb757e99/</loc>
     
     <lastmod>2025-10-13</lastmod>
     
@@ -110,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/3f3e8ae2/</loc>
+    <loc>https://seln.cn/posts/3f3e8ae2/</loc>
     
     <lastmod>2025-10-13</lastmod>
     
@@ -119,16 +128,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/97eebedd/</loc>
-    
-    <lastmod>2025-10-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mccsjs.eu.org/about/index.html</loc>
+    <loc>https://seln.cn/about/index.html</loc>
     
     <lastmod>2025-10-11</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/e7f6bd97/</loc>
+    <loc>https://seln.cn/posts/e7f6bd97/</loc>
     
     <lastmod>2025-10-11</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/9cdd57e6/</loc>
+    <loc>https://seln.cn/posts/9cdd57e6/</loc>
     
     <lastmod>2025-10-11</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/d6908146/</loc>
+    <loc>https://seln.cn/posts/d6908146/</loc>
     
     <lastmod>2025-10-06</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/ef75bf0/</loc>
+    <loc>https://seln.cn/posts/ef75bf0/</loc>
     
     <lastmod>2025-10-03</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/cn/</loc>
+    <loc>https://seln.cn/posts/cn/</loc>
     
     <lastmod>2025-10-03</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/posts/9f65fc2f/</loc>
+    <loc>https://seln.cn/posts/9f65fc2f/</loc>
     
     <lastmod>2025-10-02</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/Gallery/df/index.html</loc>
+    <loc>https://seln.cn/Gallery/df/index.html</loc>
     
     <lastmod>2025-09-28</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/Gallery/index.html</loc>
+    <loc>https://seln.cn/Gallery/index.html</loc>
     
     <lastmod>2025-09-28</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/Gallery/bt/index.html</loc>
+    <loc>https://seln.cn/Gallery/bt/index.html</loc>
     
     <lastmod>2025-09-28</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/comments/index.html</loc>
+    <loc>https://seln.cn/comments/index.html</loc>
     
     <lastmod>2025-09-28</lastmod>
     
@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/categories/index.html</loc>
+    <loc>https://seln.cn/categories/index.html</loc>
     
     <lastmod>2025-09-24</lastmod>
     
@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/tags/index.html</loc>
+    <loc>https://seln.cn/tags/index.html</loc>
     
     <lastmod>2025-09-24</lastmod>
     
@@ -246,7 +246,7 @@
   
 
   <url>
-    <loc>https://mccsjs.eu.org/</loc>
+    <loc>https://seln.cn/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -254,21 +254,21 @@
 
   
   <url>
-    <loc>https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://seln.cn/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
+    <loc>https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://seln.cn/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -277,21 +277,21 @@
 
   
   <url>
-    <loc>https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://seln.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
+    <loc>https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://seln.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

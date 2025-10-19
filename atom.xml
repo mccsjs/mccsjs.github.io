@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>mccsjs🍋の小家</title>
-  <icon>https://mccsjs.eu.org/img/head.jpg</icon>
+  <icon>https://seln.cn/img/head.jpg</icon>
   
-  <link href="https://mccsjs.eu.org/atom.xml" rel="self"/>
+  <link href="https://seln.cn/atom.xml" rel="self"/>
   
-  <link href="https://mccsjs.eu.org/"/>
+  <link href="https://seln.cn/"/>
   <updated>2025-10-18T06:37:29.078Z</updated>
-  <id>https://mccsjs.eu.org/</id>
+  <id>https://seln.cn/</id>
   
   <author>
     <name>mccsjs</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>不蒜子out，拥抱Vercount</title>
-    <link href="https://mccsjs.eu.org/posts/646e63e3/"/>
-    <id>https://mccsjs.eu.org/posts/646e63e3/</id>
+    <link href="https://seln.cn/posts/646e63e3/"/>
+    <id>https://seln.cn/posts/646e63e3/</id>
     <published>2025-10-18T06:29:19.000Z</published>
     <updated>2025-10-18T06:37:29.078Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>hexo不蒜子统计的问题</title>
-    <link href="https://mccsjs.eu.org/posts/d1f73f4b/"/>
-    <id>https://mccsjs.eu.org/posts/d1f73f4b/</id>
+    <link href="https://seln.cn/posts/d1f73f4b/"/>
+    <id>https://seln.cn/posts/d1f73f4b/</id>
     <published>2025-10-17T13:33:50.000Z</published>
     <updated>2025-10-17T13:36:22.028Z</updated>
     
@@ -60,17 +60,17 @@
     
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>记录博客第一次回档</title>
-    <link href="https://mccsjs.eu.org/posts/27de4062/"/>
-    <id>https://mccsjs.eu.org/posts/27de4062/</id>
+    <link href="https://seln.cn/posts/27de4062/"/>
+    <id>https://seln.cn/posts/27de4062/</id>
     <published>2025-10-17T00:03:52.000Z</published>
     <updated>2025-10-17T13:31:56.677Z</updated>
     
@@ -86,17 +86,17 @@
     
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>hexo博客添加弹窗公告</title>
-    <link href="https://mccsjs.eu.org/posts/5eff52f7/"/>
-    <id>https://mccsjs.eu.org/posts/5eff52f7/</id>
+    <link href="https://seln.cn/posts/5eff52f7/"/>
+    <id>https://seln.cn/posts/5eff52f7/</id>
     <published>2025-10-15T11:46:55.000Z</published>
     <updated>2025-10-16T23:56:38.725Z</updated>
     
@@ -113,17 +113,17 @@
     
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   
   <entry>
     <title>引入阿里iconfont自定义图标</title>
-    <link href="https://mccsjs.eu.org/posts/c40add2d/"/>
-    <id>https://mccsjs.eu.org/posts/c40add2d/</id>
+    <link href="https://seln.cn/posts/c40add2d/"/>
+    <id>https://seln.cn/posts/c40add2d/</id>
     <published>2025-10-13T08:40:16.000Z</published>
     <updated>2025-10-13T13:10:26.304Z</updated>
     
@@ -132,17 +132,17 @@
     
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   
   <entry>
     <title>友链一行显示多个</title>
-    <link href="https://mccsjs.eu.org/posts/ccc7adfa/"/>
-    <id>https://mccsjs.eu.org/posts/ccc7adfa/</id>
+    <link href="https://seln.cn/posts/ccc7adfa/"/>
+    <id>https://seln.cn/posts/ccc7adfa/</id>
     <published>2025-10-12T09:35:33.000Z</published>
     <updated>2025-10-13T13:10:41.019Z</updated>
     
@@ -151,17 +151,17 @@
     
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   
   <entry>
     <title>顶部加载条</title>
-    <link href="https://mccsjs.eu.org/posts/38be6655/"/>
-    <id>https://mccsjs.eu.org/posts/38be6655/</id>
+    <link href="https://seln.cn/posts/38be6655/"/>
+    <id>https://seln.cn/posts/38be6655/</id>
     <published>2025-10-11T12:03:16.000Z</published>
     <updated>2025-10-13T13:10:05.359Z</updated>
     
@@ -170,36 +170,36 @@
     
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   
   <entry>
     <title>友链样式魔改</title>
-    <link href="https://mccsjs.eu.org/posts/97eebedd/"/>
-    <id>https://mccsjs.eu.org/posts/97eebedd/</id>
+    <link href="https://seln.cn/posts/97eebedd/"/>
+    <id>https://seln.cn/posts/97eebedd/</id>
     <published>2025-10-11T07:23:28.000Z</published>
-    <updated>2025-10-12T10:03:38.138Z</updated>
+    <updated>2025-10-19T13:59:21.711Z</updated>
     
     
     <summary type="html">更改友链样式，如本站</summary>
     
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   
   <entry>
     <title>教程更新方式更改</title>
-    <link href="https://mccsjs.eu.org/posts/9cdd57e6/"/>
-    <id>https://mccsjs.eu.org/posts/9cdd57e6/</id>
+    <link href="https://seln.cn/posts/9cdd57e6/"/>
+    <id>https://seln.cn/posts/9cdd57e6/</id>
     <published>2025-10-10T12:51:41.000Z</published>
     <updated>2025-10-11T11:01:35.186Z</updated>
     
@@ -208,15 +208,15 @@
     
     
     
-    <category term="教程碎片" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
     
   </entry>
   
   <entry>
     <title>中秋 · 月华如练，思念如诗</title>
-    <link href="https://mccsjs.eu.org/posts/d6908146/"/>
-    <id>https://mccsjs.eu.org/posts/d6908146/</id>
+    <link href="https://seln.cn/posts/d6908146/"/>
+    <id>https://seln.cn/posts/d6908146/</id>
     <published>2025-10-06T14:03:52.000Z</published>
     <updated>2025-10-06T14:23:54.792Z</updated>
     
@@ -231,17 +231,17 @@
     
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>【预告】无服务器搭建属于自己的ai对话网站</title>
-    <link href="https://mccsjs.eu.org/posts/ef75bf0/"/>
-    <id>https://mccsjs.eu.org/posts/ef75bf0/</id>
+    <link href="https://seln.cn/posts/ef75bf0/"/>
+    <id>https://seln.cn/posts/ef75bf0/</id>
     <published>2025-10-02T16:16:02.000Z</published>
     <updated>2025-10-03T09:53:38.254Z</updated>
     
@@ -258,14 +258,14 @@
     
     
     
-    <category term="教程" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>共赴国庆盛典，同襄时代华章</title>
-    <link href="https://mccsjs.eu.org/posts/cn/"/>
-    <id>https://mccsjs.eu.org/posts/cn/</id>
+    <link href="https://seln.cn/posts/cn/"/>
+    <id>https://seln.cn/posts/cn/</id>
     <published>2025-09-30T16:01:30.000Z</published>
     <updated>2025-10-03T07:44:18.717Z</updated>
     
@@ -281,17 +281,17 @@
     
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="随笔" scheme="https://mccsjs.eu.org/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>博客魔改教程2</title>
-    <link href="https://mccsjs.eu.org/posts/f38acf51/"/>
-    <id>https://mccsjs.eu.org/posts/f38acf51/</id>
+    <link href="https://seln.cn/posts/f38acf51/"/>
+    <id>https://seln.cn/posts/f38acf51/</id>
     <published>2025-09-29T01:37:59.000Z</published>
     <updated>2025-10-16T23:56:26.055Z</updated>
     
@@ -300,15 +300,15 @@
     
     
     
-    <category term="教程" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>我常用的Markdown语法</title>
-    <link href="https://mccsjs.eu.org/posts/9f65fc2f/"/>
-    <id>https://mccsjs.eu.org/posts/9f65fc2f/</id>
+    <link href="https://seln.cn/posts/9f65fc2f/"/>
+    <id>https://seln.cn/posts/9f65fc2f/</id>
     <published>2023-02-16T12:02:08.000Z</published>
     <updated>2025-10-02T01:26:58.229Z</updated>
     
@@ -323,17 +323,17 @@
     
     
     
-    <category term="教程" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://mccsjs.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>博客魔改教程一</title>
-    <link href="https://mccsjs.eu.org/posts/e7f6bd97/"/>
-    <id>https://mccsjs.eu.org/posts/e7f6bd97/</id>
+    <link href="https://seln.cn/posts/e7f6bd97/"/>
+    <id>https://seln.cn/posts/e7f6bd97/</id>
     <published>2023-02-16T11:31:19.000Z</published>
     <updated>2025-10-11T11:19:13.527Z</updated>
     
@@ -342,7 +342,7 @@
     
     
     
-    <category term="教程" scheme="https://mccsjs.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
   </entry>
