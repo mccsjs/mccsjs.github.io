@@ -1,3 +1,4 @@
+https://seln.cn/about/index.html
 https://seln.cn/posts/97eebedd/
 https://seln.cn/friend.json
 https://seln.cn/link/index.html
@@ -12,7 +13,6 @@ https://seln.cn/posts/c40add2d/
 https://seln.cn/posts/38be6655/
 https://seln.cn/posts/eb757e99/
 https://seln.cn/posts/3f3e8ae2/
-https://seln.cn/about/index.html
 https://seln.cn/posts/e7f6bd97/
 https://seln.cn/posts/9cdd57e6/
 https://seln.cn/posts/d6908146/
