@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seln.cn/posts/7dc9a0a2/</loc>
+    
+    <lastmod>2025-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seln.cn/about/index.html</loc>
     
     <lastmod>2025-10-20</lastmod>

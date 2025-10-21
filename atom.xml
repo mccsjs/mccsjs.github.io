@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-10-18T06:37:29.078Z</updated>
+  <updated>2025-10-21T07:56:53.503Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>添加朋友圈</title>
+    <link href="https://seln.cn/posts/7dc9a0a2/"/>
+    <id>https://seln.cn/posts/7dc9a0a2/</id>
+    <published>2025-10-21T07:00:54.000Z</published>
+    <updated>2025-10-21T07:56:53.503Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;详情可见：&quot;&gt;&lt;a href=&quot;#详情可见：&quot; class=&quot;headerlink&quot; title=&quot;详情可见：&quot;&gt;&lt;/a&gt;详情可见：&lt;/h4&gt;&lt;div class=&quot;hide-block&quot;&gt;&lt;button type=&quot;button&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>不蒜子out，拥抱Vercount</title>
@@ -327,23 +352,6 @@
     
     
     <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客魔改教程一</title>
-    <link href="https://seln.cn/posts/e7f6bd97/"/>
-    <id>https://seln.cn/posts/e7f6bd97/</id>
-    <published>2023-02-16T11:31:19.000Z</published>
-    <updated>2025-10-11T11:19:13.527Z</updated>
-    
-    
-    <summary type="html">博客魔改教程其一</summary>
-    
-    
-    
-    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
     
   </entry>
   
