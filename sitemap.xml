@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seln.cn/line/index.html</loc>
+    
+    <lastmod>2025-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/posts/7dc9a0a2/</loc>
+    
+    <lastmod>2025-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seln.cn/Gallery/index.html</loc>
     
     <lastmod>2025-10-24</lastmod>
@@ -39,24 +57,6 @@
   
   <url>
     <loc>https://seln.cn/about/index.html</loc>
-    
-    <lastmod>2025-10-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seln.cn/line/index.html</loc>
-    
-    <lastmod>2025-10-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seln.cn/posts/7dc9a0a2/</loc>
     
     <lastmod>2025-10-22</lastmod>
     
