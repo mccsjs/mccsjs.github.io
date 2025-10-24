@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="/config/feed/atom.xsl" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>mccsjs🍋の小家</title>
-  <icon>https://seln.cn/img/head.jpg</icon>
+  
   
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
@@ -26,10 +26,7 @@
     
       
       
-        
-        
-    <summary type="html">&lt;h4 id=&quot;详情可见：&quot;&gt;&lt;a href=&quot;#详情可见：&quot; class=&quot;headerlink&quot; title=&quot;详情可见：&quot;&gt;&lt;/a&gt;详情可见：&lt;/h4&gt;&lt;div class=&quot;hide-block&quot;&gt;&lt;button type=&quot;button&quot;</summary>
-        
+    <summary type="html">&lt;h4 id=&quot;详情可见：&quot;&gt;&lt;a href=&quot;#详情可见：&quot; class=&quot;h</summary>
       
     
     
@@ -51,10 +48,7 @@
     
       
       
-        
-        
-    <summary type="html">&lt;p&gt;昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无了&lt;br&gt;由于butterfly主题自带的就是不蒜子，我就去搜有没有平替，还真找到了&lt;br&gt;&lt;a</summary>
-        
+    <summary type="html">&lt;p&gt;昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无</summary>
       
     
     
@@ -76,11 +70,7 @@
     
       
       
-        
-        
-    <summary type="html">&lt;p&gt;今天发现博客页面底部的访客统计不蒜子失效了，就去查什么情况了。是因为不蒜子统计的域名过期了，之前也多次出现这种情况&lt;/p&gt;
-&lt;p&gt;在恢复之前，将不蒜子取消，等恢复吧，在主题配置文件中修改以下部分&lt;br&gt;&lt;figure class=&quot;highlight</summary>
-        
+    <summary type="html">&lt;p&gt;今天发现博客页面底部的访客统计不蒜子失效了，就去查什么情况了。是因为不蒜子</summary>
       
     
     
@@ -102,11 +92,7 @@
     
       
       
-        
-        
-    <summary type="html">&lt;p&gt;&lt;code&gt;魔改有风险，上传需谨慎&lt;/code&gt;&lt;br&gt;因魔改代码导致加载时长从2秒加载涨到了十几秒，迫不得已回档到2025/10/15的版本&lt;br&gt;魔改一定要多备份&lt;/p&gt;
-</summary>
-        
+    <summary type="html">&lt;p&gt;&lt;code&gt;魔改有风险，上传需谨慎&lt;/code&gt;&lt;br&gt;因魔改代码导致加载</summary>
       
     
     
@@ -128,12 +114,8 @@
     
       
       
-        
-        
     <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;新建&lt;code&gt;/css/gg.css&lt;/code&gt;，在css中引入以下代码：（只推荐新建，不推荐粘贴到已有的CSS中）&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
+&lt;li&gt;&lt;p&gt;新建&lt;code&gt;/css/gg.css&lt;/code&gt;，在</summary>
       
     
     
@@ -248,10 +230,7 @@
     
       
       
-        
-        
-    <summary type="html">&lt;h1 id=&quot;🎋-中秋-·-月华如练，思念如诗&quot;&gt;&lt;a href=&quot;#🎋-中秋-·-月华如练，思念如诗&quot; class=&quot;headerlink&quot; title=&quot;🎋 中秋 · 月华如练，思念如诗&quot;&gt;&lt;/a&gt;🎋 中秋 ·</summary>
-        
+    <summary type="html">&lt;h1 id=&quot;🎋-中秋-·-月华如练，思念如诗&quot;&gt;&lt;a href=&quot;#🎋-</summary>
       
     
     
@@ -273,11 +252,8 @@
     
       
       
-        
-        
     <summary type="html">&lt;p&gt;本次还是使用github+vercel形式部署&lt;/p&gt;
-&lt;h2 id=&quot;将项目fork到自己仓库&quot;&gt;&lt;a href=&quot;#将项目fork到自己仓库&quot; class=&quot;headerlink&quot;</summary>
-        
+&lt;h2 id=&quot;将</summary>
       
     
     
@@ -297,11 +273,7 @@
     
       
       
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://csjs.eu.org/img/cn.jpg&quot; alt=&quot;国庆盛典&quot;&gt;&lt;br&gt;&lt;em&gt;七十六载铸辉煌，盛世华章谱新篇——庆祝中华人民共和国成立76周年&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&quot;共赴国庆盛典，同襄时代华章&quot;&gt;&lt;a</summary>
-        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://csjs.eu.org/img/cn.</summary>
       
     
     
@@ -340,11 +312,63 @@
     
       
       
-        
-        
-    <summary type="html">&lt;h1 id=&quot;基础语法&quot;&gt;&lt;a href=&quot;#基础语法&quot; class=&quot;headerlink&quot; title=&quot;基础语法&quot;&gt;&lt;/a&gt;基础语法&lt;/h1&gt;&lt;h3 id=&quot;1-1-字体设置斜体、粗体、删除线&quot;&gt;&lt;a href=&quot;#1-1-字体设置斜体、粗体、删除线&quot;</summary>
-        
+    <summary type="html">&lt;h1 id=&quot;基础语法&quot;&gt;&lt;a href=&quot;#基础语法&quot; class=&quot;hea</summary>
       
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客魔改教程一</title>
+    <link href="https://seln.cn/posts/e7f6bd97/"/>
+    <id>https://seln.cn/posts/e7f6bd97/</id>
+    <published>2023-02-16T11:31:19.000Z</published>
+    <updated>2025-10-11T11:19:13.527Z</updated>
+    
+    
+    <summary type="html">博客魔改教程其一</summary>
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>文章永久链接</title>
+    <link href="https://seln.cn/posts/eb757e99/"/>
+    <id>https://seln.cn/posts/eb757e99/</id>
+    <published>2023-02-13T02:48:26.000Z</published>
+    <updated>2025-10-13T13:09:48.953Z</updated>
+    
+    
+    <summary type="html">butterfly主题魔改</summary>
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客迁移到新电脑</title>
+    <link href="https://seln.cn/posts/3f3e8ae2/"/>
+    <id>https://seln.cn/posts/3f3e8ae2/</id>
+    <published>2023-02-13T00:55:57.000Z</published>
+    <updated>2025-10-13T13:09:12.652Z</updated>
+    
+    
+    <summary type="html">博客使用新电脑或新环境重新部署</summary>
     
     
     

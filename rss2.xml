@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="/config/feed/rss2.xsl" ?>
 <rss version="2.0"
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
@@ -6,13 +6,7 @@
     <title>mccsjs🍋の小家</title>
     <link>https://seln.cn/</link>
     
-    <image>
-      <url>https://seln.cn/img/head.jpg</url>
-      <title>mccsjs🍋の小家</title>
-      <link>https://seln.cn/</link>
-    </image>
-    
-    <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://seln.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
     <pubDate>Wed, 22 Oct 2025 01:33:14 GMT</pubDate>
@@ -26,10 +20,7 @@
       
         
         
-          
-          
-      <description>&lt;h4 id=&quot;详情可见：&quot;&gt;&lt;a href=&quot;#详情可见：&quot; class=&quot;headerlink&quot; title=&quot;详情可见：&quot;&gt;&lt;/a&gt;详情可见：&lt;/h4&gt;&lt;div class=&quot;hide-block&quot;&gt;&lt;button type=&quot;button&quot;</description>
-          
+      <description>&lt;h4 id=&quot;详情可见：&quot;&gt;&lt;a href=&quot;#详情可见：&quot; class=&quot;h</description>
         
       
       
@@ -53,10 +44,7 @@
       
         
         
-          
-          
-      <description>&lt;p&gt;昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无了&lt;br&gt;由于butterfly主题自带的就是不蒜子，我就去搜有没有平替，还真找到了&lt;br&gt;&lt;a</description>
-          
+      <description>&lt;p&gt;昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无</description>
         
       
       
@@ -80,11 +68,7 @@
       
         
         
-          
-          
-      <description>&lt;p&gt;今天发现博客页面底部的访客统计不蒜子失效了，就去查什么情况了。是因为不蒜子统计的域名过期了，之前也多次出现这种情况&lt;/p&gt;
-&lt;p&gt;在恢复之前，将不蒜子取消，等恢复吧，在主题配置文件中修改以下部分&lt;br&gt;&lt;figure class=&quot;highlight</description>
-          
+      <description>&lt;p&gt;今天发现博客页面底部的访客统计不蒜子失效了，就去查什么情况了。是因为不蒜子</description>
         
       
       
@@ -108,11 +92,7 @@
       
         
         
-          
-          
-      <description>&lt;p&gt;&lt;code&gt;魔改有风险，上传需谨慎&lt;/code&gt;&lt;br&gt;因魔改代码导致加载时长从2秒加载涨到了十几秒，迫不得已回档到2025/10/15的版本&lt;br&gt;魔改一定要多备份&lt;/p&gt;
-</description>
-          
+      <description>&lt;p&gt;&lt;code&gt;魔改有风险，上传需谨慎&lt;/code&gt;&lt;br&gt;因魔改代码导致加载</description>
         
       
       
@@ -136,12 +116,8 @@
       
         
         
-          
-          
       <description>&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;新建&lt;code&gt;/css/gg.css&lt;/code&gt;，在css中引入以下代码：（只推荐新建，不推荐粘贴到已有的CSS中）&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
-          
+&lt;li&gt;&lt;p&gt;新建&lt;code&gt;/css/gg.css&lt;/code&gt;，在</description>
         
       
       
@@ -268,10 +244,7 @@
       
         
         
-          
-          
-      <description>&lt;h1 id=&quot;🎋-中秋-·-月华如练，思念如诗&quot;&gt;&lt;a href=&quot;#🎋-中秋-·-月华如练，思念如诗&quot; class=&quot;headerlink&quot; title=&quot;🎋 中秋 · 月华如练，思念如诗&quot;&gt;&lt;/a&gt;🎋 中秋 ·</description>
-          
+      <description>&lt;h1 id=&quot;🎋-中秋-·-月华如练，思念如诗&quot;&gt;&lt;a href=&quot;#🎋-</description>
         
       
       
@@ -295,11 +268,8 @@
       
         
         
-          
-          
       <description>&lt;p&gt;本次还是使用github+vercel形式部署&lt;/p&gt;
-&lt;h2 id=&quot;将项目fork到自己仓库&quot;&gt;&lt;a href=&quot;#将项目fork到自己仓库&quot; class=&quot;headerlink&quot;</description>
-          
+&lt;h2 id=&quot;将</description>
         
       
       
@@ -321,11 +291,7 @@
       
         
         
-          
-          
-      <description>&lt;p&gt;&lt;img src=&quot;https://csjs.eu.org/img/cn.jpg&quot; alt=&quot;国庆盛典&quot;&gt;&lt;br&gt;&lt;em&gt;七十六载铸辉煌，盛世华章谱新篇——庆祝中华人民共和国成立76周年&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&quot;共赴国庆盛典，同襄时代华章&quot;&gt;&lt;a</description>
-          
+      <description>&lt;p&gt;&lt;img src=&quot;https://csjs.eu.org/img/cn.</description>
         
       
       
@@ -368,10 +334,7 @@
       
         
         
-          
-          
-      <description>&lt;h1 id=&quot;基础语法&quot;&gt;&lt;a href=&quot;#基础语法&quot; class=&quot;headerlink&quot; title=&quot;基础语法&quot;&gt;&lt;/a&gt;基础语法&lt;/h1&gt;&lt;h3 id=&quot;1-1-字体设置斜体、粗体、删除线&quot;&gt;&lt;a href=&quot;#1-1-字体设置斜体、粗体、删除线&quot;</description>
-          
+      <description>&lt;h1 id=&quot;基础语法&quot;&gt;&lt;a href=&quot;#基础语法&quot; class=&quot;hea</description>
         
       
       
@@ -384,6 +347,67 @@
       
       
       <comments>https://seln.cn/posts/9f65fc2f/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>博客魔改教程一</title>
+      <link>https://seln.cn/posts/e7f6bd97/</link>
+      <guid>https://seln.cn/posts/e7f6bd97/</guid>
+      <pubDate>Thu, 16 Feb 2023 11:31:19 GMT</pubDate>
+      
+      <description>博客魔改教程其一</description>
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      
+      <comments>https://seln.cn/posts/e7f6bd97/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>文章永久链接</title>
+      <link>https://seln.cn/posts/eb757e99/</link>
+      <guid>https://seln.cn/posts/eb757e99/</guid>
+      <pubDate>Mon, 13 Feb 2023 02:48:26 GMT</pubDate>
+      
+      <description>butterfly主题魔改</description>
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/eb757e99/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>博客迁移到新电脑</title>
+      <link>https://seln.cn/posts/3f3e8ae2/</link>
+      <guid>https://seln.cn/posts/3f3e8ae2/</guid>
+      <pubDate>Mon, 13 Feb 2023 00:55:57 GMT</pubDate>
+      
+      <description>博客使用新电脑或新环境重新部署</description>
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/3f3e8ae2/#disqus_thread</comments>
       
     </item>
     
