@@ -45,9 +45,7 @@
 #page:has(#essay_page) .page-title {
   display: none;
 }
-#web_bg ~ .page:has(#essay_page) {
-  background: var(--blogessay-background);
-}
+/* 已删除背景蒙版设置 */
 #bber .bber-container-img {
   display: flex;
   align-items: center;
