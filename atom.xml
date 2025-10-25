@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-10-24T14:17:53.796Z</updated>
+  <updated>2025-10-25T06:09:25.592Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在butterfly主题中加入说说</title>
+    <link href="https://seln.cn/posts/37a42b6d/"/>
+    <id>https://seln.cn/posts/37a42b6d/</id>
+    <published>2025-10-25T05:22:04.000Z</published>
+    <updated>2025-10-25T06:09:25.592Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;1、有自己的域名&lt;br&gt;2、如果使用 &lt;a href=&quot;https://www.leancloud.cn/&quot;&gt;LeanCloud&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>添加友链朋友圈</title>
@@ -327,31 +352,6 @@
     
     <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>我常用的Markdown语法</title>
-    <link href="https://seln.cn/posts/9f65fc2f/"/>
-    <id>https://seln.cn/posts/9f65fc2f/</id>
-    <published>2023-02-16T12:02:08.000Z</published>
-    <updated>2025-10-02T01:26:58.229Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;基础语法&quot;&gt;&lt;a href=&quot;#基础语法&quot; class=&quot;headerlink&quot; title=&quot;基础语法&quot;&gt;&lt;/a&gt;基础语法&lt;/h1&gt;&lt;h3 id=&quot;1-1-字体设置斜体、粗体、删除线&quot;&gt;&lt;a href=&quot;#1-1-字体设置斜体、粗体、删除线&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   

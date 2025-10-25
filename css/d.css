@@ -1,0 +1,20 @@
+/*artitalk说说暗黑模式背景色和字体色*/
+/*配置项https://artitalk.js.org/settings.html*/
+[data-theme="dark"] #artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+    background: #2c2c2c;
+}
+[data-theme="dark"] #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel {
+    background: #2c2c2c;
+}
+[data-theme="dark"] #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel {
+    color: rgba(255, 255, 255, 0.9);
+}
+#operare_artitalk .at_button, #artitalk_main .at_button {
+    background-color: var(--btn-bg) !important;
+    color: var(--btn-color) !important;
+    border-radius: 0.5em !important;
+}
+#operare_artitalk .at_button, #artitalk_main .at_button:hover {
+    background-color: var(--btn-hover-color) !important;
+}
+/*artitalk说说暗黑模式背景色和字体色 end*/

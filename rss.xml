@@ -15,8 +15,35 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 24 Oct 2025 14:17:53 GMT</pubDate>
+    <pubDate>Sat, 25 Oct 2025 06:09:25 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>在butterfly主题中加入说说</title>
+      <link>https://seln.cn/posts/37a42b6d/</link>
+      <guid>https://seln.cn/posts/37a42b6d/</guid>
+      <pubDate>Sat, 25 Oct 2025 05:22:04 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;1、有自己的域名&lt;br&gt;2、如果使用 &lt;a href=&quot;https://www.leancloud.cn/&quot;&gt;LeanCloud&lt;/a&gt;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <comments>https://seln.cn/posts/37a42b6d/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>添加友链朋友圈</title>
@@ -357,33 +384,6 @@
       
       
       <comments>https://seln.cn/posts/f38acf51/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>我常用的Markdown语法</title>
-      <link>https://seln.cn/posts/9f65fc2f/</link>
-      <guid>https://seln.cn/posts/9f65fc2f/</guid>
-      <pubDate>Thu, 16 Feb 2023 12:02:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;基础语法&quot;&gt;&lt;a href=&quot;#基础语法&quot; class=&quot;headerlink&quot; title=&quot;基础语法&quot;&gt;&lt;/a&gt;基础语法&lt;/h1&gt;&lt;h3 id=&quot;1-1-字体设置斜体、粗体、删除线&quot;&gt;&lt;a href=&quot;#1-1-字体设置斜体、粗体、删除线&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <comments>https://seln.cn/posts/9f65fc2f/#disqus_thread</comments>
       
     </item>
     
