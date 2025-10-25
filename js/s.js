@@ -802,4 +802,3 @@ document.addEventListener('pjax:complete', () => {
 document.addEventListener('themechange', () => {
   addLinkStatusStyles();
 });
-

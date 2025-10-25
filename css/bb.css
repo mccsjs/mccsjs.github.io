@@ -19,7 +19,6 @@
   --blogessay-theme-deep: #1856fb;
   --blogessay-theme-op: #4259ef23;
   --blogessay-fontcolor: #363636;
-  --blogessay-background: #f7f9feCC;
   --blogessay-secondbg: #f1f3f8;
   --blogessay-card-bg: #ffffff;
   --blogessay-card-border: #e3e8f7;
@@ -45,7 +44,9 @@
 #page:has(#essay_page) .page-title {
   display: none;
 }
-/* 已删除背景蒙版设置 */
+#web_bg ~ .page:has(#essay_page) {
+  background: var(--blogessay-background);
+}
 #bber .bber-container-img {
   display: flex;
   align-items: center;

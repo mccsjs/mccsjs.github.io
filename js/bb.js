@@ -39,10 +39,11 @@ var blogessay = {
     const month = day * 30;
 
     let result;
-    const monthCount = dateDiff / month;
-    const dayCount = dateDiff / day;
-    const hourCount = dateDiff / hour;
-    const minuteCount = dateDiff / minute;
+    // Check if the suffix object and required properties exist
+    const suffix = GLOBAL_CONFIG.date_suffix || {};
+    const daySuffix = suffix.day || '天前';
+    const hourSuffix = suffix.hour || '小时前';
+    const minSuffix = suffix.hour || '分钟前';
     
     if (more) {
       const monthCount = dateDiff / month;
@@ -99,8 +100,6 @@ var blogessay = {
 
 blogessay.changeTimeInEssay();
 blogessay.reflashEssayWaterFall();
-
-
 function waterfall(a) {
   function b(a, b) {
     var c = window.getComputedStyle(b);
