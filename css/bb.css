@@ -1,89 +1,293 @@
-/* maintop */
+/* 配色部分，参考 anzhiyu */
+:root {
+  --blogessay-theme-op: #4259ef23;
+  --blogessay-gray-op: #9999992b;
+  --blogessay-theme-top: var(--blogessay-theme);
+  --blogessay-white: #fff;
+  --blogessay-white-op: rgba(255, 255, 255, 0.2);
+  --blogessay-gray: #999999;
+  --blogessay-main: var(--blogessay-theme);
+  --blogessay-main-op: var(--blogessay-theme-op);
+  --blogessay-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --blogessay-style-border: 1px solid var(--blogessay-card-border);
+  --blogessay-style-border-hover: 1px solid var(--blogessay-main);
+  --blogessay-style-border-avatar: 4px solid var(--blogessay-background);
+}
 
-div#main_top {
-    z-index: 1;
-    max-width: 1200px;
-    margin: 20px auto -15px;
+[data-theme="light"] {
+  --blogessay-theme: #3b70fc;
+  --blogessay-theme-deep: #1856fb;
+  --blogessay-theme-op: #4259ef23;
+  --blogessay-fontcolor: #363636;
+  --blogessay-background: #f7f9feCC;
+  --blogessay-secondbg: #f1f3f8;
+  --blogessay-card-bg: #ffffff;
+  --blogessay-card-border: #e3e8f7;
+}
+
+[data-theme="dark"] {
+  --blogessay-theme: #0084ff;
+  --blogessay-theme-deep: #0076e5;
+  --blogessay-theme-op: #0084ff23;
+  --blogessay-fontcolor: #f7f7fa;
+  --blogessay-background: #18171d00;
+  --blogessay-secondbg: #30343f;
+  --blogessay-card-bg: #000000;
+  --blogessay-card-border: #42444a;
+}
+
+#page:has(#essay_page) {
+  border: 0;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+#page:has(#essay_page) .page-title {
+  display: none;
+}
+#web_bg ~ .page:has(#essay_page) {
+  background: var(--blogessay-background);
+}
+#bber .bber-container-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+}
+#bber .bber-container-img .bber-content-noimg {
+  width: calc(100% / 4 - 5px);
+}
+
+#bber .bber-content-img img {
+  object-fit: cover;
+  max-height: 100%;
+  border-radius: 12px;
+}
+
+#bber .bber-content-img {
+  height: 100px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  width: calc(100% / 4 - 5px);
+  margin-bottom: 10px;
+}
+
+#bber .bber-content .datacont {
+  order: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--blogessay-fontcolor);
+  width: 100%;
+  line-height: 1.38;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+#bber p {
+  margin: 0px;
+}
+#bber div.bber-content {
+  display: flex;
+  flex-flow: wrap;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+#bber .timeline ul li.bber-item {
+  position: relative;
+  width: 32%;
+  border: var(--blogessay-style-border-always);
+  border-radius: 12px;
+  padding: 1rem 1rem 0.5rem;
+  transition: all 0.3s ease 0s;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: var(--blogessay-card-bg);
+  box-shadow: var(--blogessay-shadow-border);
+  margin-right: 2%;
+}
+#bber .timeline #waterfall.show {
+  opacity: 1;
+}
+#bber .timeline #waterfall {
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+#bber ul.list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#bber {
+  margin-top: 1rem;
+  width: 100%;
+}
+#bber > section > ul > li.bber-item {
+  margin-bottom: 1rem;
+}
+
+#bber-tips {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#bber .timeline ul li.bber-item hr {
+  display: flex;
+  position: relative;
+  margin: 8px 0px;
+  border: 1px dashed var(--blogessay-theme-op);
+  width: 100%;
+}
+
+#bber .bber-info {
+  display: flex;
+  align-items: center;
+}
+
+#bber > section > ul > li > div .bber-info-time,
+#bber > section > ul > li > div .bber-info-from {
+  color: var(--blogessay-fontcolor);
+  font-size: 0.7rem;
+  background-color: var(--blogessay-gray-op);
+  padding: 0px 8px;
+  border-radius: 20px;
+  cursor: default;
+  display: flex;
+  align-items: center;
+}
+
+#bber .bber-info .far.fa-clock {
+  margin-right: 4px;
+}
+#bber > section > ul > li > div .bber-info-from span,
+#bber > section > ul > li > div .bber-info-from {
+  margin-left: 4px;
+}
+
+#bber .bber-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#bber .bber-bottom .bber-reply {
+  cursor: pointer;
+}
+
+#bber .timeline ul li.bber-item:hover {
+  border: var(--blogessay-style-border-hover);
+}
+
+#bber .bber-content-link {
+  display: flex;
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+  align-items: center;
+  background-color: rgba(245, 108, 108, 0.13);
+  color: rgb(245, 108, 108);
+  padding: 0px 8px;
+  border-radius: 20px;
+}
+#bber .bber-content-link i {
+  margin-right: 3px;
+}
+#bber .bber-content-link:hover {
+  background-color: var(--blogessay-main);
+  color: var(--blogessay-white);
+}
+#bber .bber-music {
+  width: 100%;
+  height: 90px;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: var(--blogessay-style-border-always);
+  background: var(--blogessay-secondbg);
+}
+#bber .aplayer {
+  margin: 0;
+}
+
+#bber .aplayer.aplayer-withlrc .aplayer-pic {
+  height: 82px;
+  width: 82px;
+  margin: 4px;
+  border-radius: 4px;
+}
+.bber-music .aplayer.aplayer-withlrc .aplayer-info {
+  padding: 5px 7px 0;
+}
+#bber .aplayer .aplayer-info .aplayer-music {
+  height: 23px;
+}
+#bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--blogessay-fontcolor);
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller {
+  align-items: center;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
+  padding: 0;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+  position: initial;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
+  background: var(--blogessay-gray);
+  height: 8px;
+  border-radius: 12px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+  height: 100%;
+  border-radius: 12px;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+  height: 100%;
+  border-radius: 12px;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
+  display: none;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+  position: initial;
+}
+
+/* 响应式 */
+@media screen and (max-width: 1300px) {
+  #bber .timeline ul li.bber-item {
+    width: 49%;
+    margin-right: 1%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #bber .timeline ul li.bber-item {
     width: 100%;
-    padding: 0 15px;
+    margin-right: 0px;
+  }
 }
-
-@media screen and (min-width: 2000px) {
-    div#main_top {
-        max-width: 1500px;
-    }
+[data-theme="dark"] #bber .bber-music .aplayer,
+[data-theme="dark"] #bber .aplayer .aplayer-lrc:before,
+[data-theme="dark"] #bber .aplayer .aplayer-lrc:after {
+  background: var(--blogessay-card-bg);
+  color: var(--blogessay-fontcolor);
 }
-
-#bber-talk {
-    border-radius: 12px;
-    box-shadow: none;
-    border: 1px solid #e0e3ed;
-    box-sizing: border-box;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    width: 100%;
-    min-height: 50px;
-    background: var(--card-bg);
-    padding: .5rem 1rem;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    font-weight: 700;
-}
-
-#bber-talk:hover {
-    border-color: #49b1f5;
-    box-shadow: none;
-}
-
-#bber-talk,
-#bber-talk a {
-    color: var(--font-color);
-}
-
-#bber-talk svg.icon {
-    width: 1em;
-    height: 1em;
-    vertical-align: -.15em;
-    fill: currentColor;
-    overflow: hidden;
-    font-size: 20px;
-}
-
-#bber-talk .item i {
-    margin-left: 5px;
-}
-
-#bber-talk>i {
-    font-size: 1.1rem;
-}
-
-#bber-talk .talk-list {
-    flex: 1;
-    max-height: 32px;
-    font-size: 16px;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-}
-
-#bber-talk .talk-list :hover {
-    color: #49b1f5 !important;
-    transition: all .2s ease-in-out;
-}
-
-#bber-talk .talk-list li {
-    list-style: none;
-    width: 100%;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    margin-left: 10px;
-}
-
-@media screen and (min-width: 768px) {
-    #bber-talk .talk-list {
-        text-align: center;
-        margin-right: 20px;
-    }
+#bber .aplayer .aplayer-lrc p {
+  color: var(--blogessay-fontcolor);
 }
