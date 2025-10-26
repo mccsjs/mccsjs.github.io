@@ -299,166 +299,263 @@ function owoBig() {
     });
 }
 
-// IP地理位置和欢迎信息
-class WelcomeMessage {
-    constructor() {
-        this.ipLocation = null;
-        this.init();
+// 恢复原代码的欢迎信息部分
+let ipLoacation;
+
+// get请求获取IP信息
+$.ajax({
+    type: 'get',
+    url: 'https://apis.map.qq.com/ws/location/v1/ip',
+    data: {
+        key: 'MDKBZ-U7H6J-FBJFY-KD2ON-BDRI5-LIB5L',
+        output: 'jsonp',
+    },
+    dataType: 'jsonp',
+    success: function(res) {
+        ipLoacation = res;
+        // 获取到IP信息后立即显示欢迎信息
+        showWelcome();
+    }
+})
+
+// 计算两点间距离
+function getDistance(e1, n1, e2, n2) {
+    const R = 6371
+    const { sin, cos, asin, PI, hypot } = Math
+    let getPoint = (e, n) => {
+        e *= PI / 180
+        n *= PI / 180
+        return { x: cos(n) * cos(e), y: cos(n) * sin(e), z: sin(n) }
     }
 
-    async init() {
-        await this.fetchIPLocation();
-        this.showWelcome();
-        this.setupEventListeners();
+    let a = getPoint(e1, n1)
+    let b = getPoint(e2, n2)
+    let c = hypot(a.x - b.x, a.y - b.y, a.z - b.z)
+    let r = asin(c / 2) * 2 * R
+    return Math.round(r);
+}
+
+// 显示欢迎信息
+function showWelcome() {
+    // 如果IP信息还未获取到，直接返回
+    if (!ipLoacation || !ipLoacation.result) {
+        return;
+    }
+    
+    let dist = getDistance(118.59232127, 32.78868157, ipLoacation.result.location.lng, ipLoacation.result.location.lat); // 这里换成自己的经纬度
+    let pos = ipLoacation.result.ad_info.nation;
+    let ip;
+    let posdesc;
+
+    // 根据国家、省份、城市信息自定义欢迎语
+    switch (ipLoacation.result.ad_info.nation) {
+        case "日本":
+            posdesc = "よろしく，一起去看樱花吗";
+            break;
+        case "美国":
+            posdesc = "Let us live in peace!";
+            break;
+        case "英国":
+            posdesc = "想同你一起夜乘伦敦眼";
+            break;
+        case "俄罗斯":
+            posdesc = "干了这瓶伏特加！";
+            break;
+        case "法国":
+            posdesc = "C'est La Vie";
+            break;
+        case "德国":
+            posdesc = "Die Zeit verging im Fluge.";
+            break;
+        case "澳大利亚":
+            posdesc = "一起去大堡礁吧！";
+            break;
+        case "加拿大":
+            posdesc = "拾起一片枫叶赠予你";
+            break;
+        case "中国":
+            pos = ipLoacation.result.ad_info.province + " " + ipLoacation.result.ad_info.city + " " + ipLoacation.result.ad_info.district;
+            ip = ipLoacation.result.ip;
+            switch (ipLoacation.result.ad_info.province) {
+                case "北京市":
+                    posdesc = "北——京——欢迎你~~~";
+                    break;
+                case "天津市":
+                    posdesc = "讲段相声吧。";
+                    break;
+                case "河北省":
+                    posdesc = "山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。";
+                    break;
+                case "山西省":
+                    posdesc = "展开坐具长三尺，已占山河五百余。";
+                    break;
+                case "内蒙古自治区":
+                    posdesc = "天苍苍，野茫茫，风吹草低见牛羊。";
+                    break;
+                case "辽宁省":
+                    posdesc = "我想吃烤鸡架！";
+                    break;
+                case "吉林省":
+                    posdesc = "状元阁就是东北烧烤之王。";
+                    break;
+                case "黑龙江省":
+                    posdesc = "很喜欢哈尔滨大剧院。";
+                    break;
+                case "上海市":
+                    posdesc = "众所周知，中国只有两个城市。";
+                    break;
+                case "江苏省":
+                    switch (ipLoacation.result.ad_info.city) {
+                        case "南京市":
+                            posdesc = "这是我挺想去的城市啦。";
+                            break;
+                        case "苏州市":
+                            posdesc = "上有天堂，下有苏杭。";
+                            break;
+                        default:
+                            posdesc = "散装是必须要散装的。";
+                            break;
+                    }
+                    break;
+                case "浙江省":
+                    posdesc = "东风渐绿西湖柳，雁已还人未南归。";
+                    break;
+                case "河南省":
+                    switch (ipLoacation.result.ad_info.city) {
+                        case "郑州市":
+                            posdesc = "豫州之域，天地之中。";
+                            break;
+                        case "南阳市":
+                            posdesc = "臣本布衣，躬耕于南阳。此南阳非彼南阳！";
+                            break;
+                        case "驻马店市":
+                            posdesc = "峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！";
+                            break;
+                        case "开封市":
+                            posdesc = "刚正不包青天。";
+                            break;
+                        case "洛阳市":
+                            posdesc = "洛阳牡丹甲天下。";
+                            break;
+                        default:
+                            posdesc = "可否带我品尝河南烩面啦？";
+                            break;
+                    }
+                    break;
+                case "安徽省":
+                    posdesc = "蚌埠住了，芜湖起飞。";
+                    break;
+                case "福建省":
+                    posdesc = "井邑白云间，岩城远带山。";
+                    break;
+                case "江西省":
+                    posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";
+                    break;
+                case "山东省":
+                    posdesc = "遥望齐州九点烟，一泓海水杯中泻。";
+                    break;
+                case "湖北省":
+                    posdesc = "来碗热干面！";
+                    break;
+                case "湖南省":
+                    posdesc = "74751，长沙斯塔克。";
+                    break;
+                case "广东省":
+                    posdesc = "老板来两斤福建人。";
+                    break;
+                case "广西壮族自治区":
+                    posdesc = "桂林山水甲天下。";
+                    break;
+                case "海南省":
+                    posdesc = "朝观日出逐白浪，夕看云起收霞光。";
+                    break;
+                case "四川省":
+                    posdesc = "康康川妹子。";
+                    break;
+                case "贵州省":
+                    posdesc = "茅台，学生，再塞200。";
+                    break;
+                case "云南省":
+                    posdesc = "玉龙飞舞云缠绕，万仞冰川直耸天。";
+                    break;
+                case "西藏自治区":
+                    posdesc = "躺在茫茫草原上，仰望蓝天。";
+                    break;
+                case "陕西省":
+                    posdesc = "来份臊子面加馍。";
+                    break;
+                case "甘肃省":
+                    posdesc = "羌笛何须怨杨柳，春风不度玉门关。";
+                    break;
+                case "青海省":
+                    posdesc = "牛肉干和老酸奶都好好吃。";
+                    break;
+                case "宁夏回族自治区":
+                    posdesc = "大漠孤烟直，长河落日圆。";
+                    break;
+                case "新疆维吾尔自治区":
+                    posdesc = "驼铃古道丝绸路，胡马犹闻唐汉风。";
+                    break;
+                case "台湾省":
+                    posdesc = "我在这头，大陆在那头。";
+                    break;
+                case "香港特别行政区":
+                    posdesc = "永定贼有残留地鬼嚎，迎击光非岁玉。";
+                    break;
+                case "澳门特别行政区":
+                    posdesc = "性感荷官，在线发牌。";
+                    break;
+                default:
+                    posdesc = "带我去你的城市逛逛吧！";
+                    break;
+            }
+            break;
+        default:
+            posdesc = "带我去你的国家逛逛吧。";
+            break;
     }
 
-    async fetchIPLocation() {
-        try {
-            const response = await $.ajax({
-                type: 'get',
-                url: 'https://apis.map.qq.com/ws/location/v1/ip',
-                data: {
-                    key: 'MDKBZ-U7H6J-FBJFY-KD2ON-BDRI5-LIB5L',
-                    output: 'jsonp',
-                },
-                dataType: 'jsonp'
-            });
-            this.ipLocation = response;
-        } catch (error) {
-            console.error('获取IP位置失败:', error);
-        }
-    }
+    // 根据本地时间切换欢迎语
+    let timeChange;
+    let date = new Date();
+    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，一日之计在于晨！";
+    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，该摸鱼吃午饭了。";
+    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>，懒懒地睡个午觉吧！";
+    else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>三点几啦</span>，一起饮茶呀！";
+    else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>夕阳无限好！</span>";
+    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好</span>，夜生活嗨起来！";
+    else timeChange = "夜深了，早点休息，少熬夜。";
 
-    getDistance(e1, n1, e2, n2) {
-        const R = 6371;
-        const { sin, cos, asin, PI, hypot } = Math;
-        
-        const getPoint = (e, n) => {
-            e *= PI / 180;
-            n *= PI / 180;
-            return { x: cos(n) * cos(e), y: cos(n) * sin(e), z: sin(n) };
-        };
-
-        const a = getPoint(e1, n1);
-        const b = getPoint(e2, n2);
-        const c = hypot(a.x - b.x, a.y - b.y, a.z - b.z);
-        return Math.round(asin(c / 2) * 2 * R);
-    }
-
-    getLocationDescription() {
-        if (!this.ipLocation?.result) return { pos: '未知', desc: '欢迎来访！' };
-
-        const { nation, province, city, district } = this.ipLocation.result.ad_info;
-        let pos = nation;
-        let desc = '带我去你的国家逛逛吧。';
-
-        const locationDescriptions = {
-            '日本': 'よろしく，一起去看樱花吗',
-            '美国': 'Let us live in peace!',
-            '英国': '想同你一起夜乘伦敦眼',
-            '俄罗斯': '干了这瓶伏特加！',
-            '法国': 'C\'est La Vie',
-            '德国': 'Die Zeit verging im Fluge.',
-            '澳大利亚': '一起去大堡礁吧！',
-            '加拿大': '拾起一片枫叶赠予你',
-            '中国': this.getChinaDescription(province, city)
-        };
-
-        if (nation === '中国') {
-            pos = `${province} ${city} ${district}`;
-            desc = locationDescriptions.中国;
-        } else if (locationDescriptions[nation]) {
-            desc = locationDescriptions[nation];
-        }
-
-        return { pos, desc };
-    }
-
-    getChinaDescription(province, city) {
-        const descriptions = {
-            '北京市': '北——京——欢迎你~~~',
-            '天津市': '讲段相声吧。',
-            '河北省': '山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。',
-            '山西省': '展开坐具长三尺，已占山河五百余。',
-            '内蒙古自治区': '天苍苍，野茫茫，风吹草低见牛羊。',
-            '辽宁省': '我想吃烤鸡架！',
-            '吉林省': '状元阁就是东北烧烤之王。',
-            '黑龙江省': '很喜欢哈尔滨大剧院。',
-            '上海市': '众所周知，中国只有两个城市。',
-            '江苏省': this.getJiangsuDescription(city),
-            '浙江省': '东风渐绿西湖柳，雁已还人未南归。',
-            '安徽省': '蚌埠住了，芜湖起飞。',
-            '福建省': '井邑白云间，岩城远带山。',
-            '江西省': '落霞与孤鹜齐飞，秋水共长天一色。',
-            '山东省': '遥望齐州九点烟，一泓海水杯中泻。',
-            '湖北省': '来碗热干面！',
-            '湖南省': '74751，长沙斯塔克。',
-            '广东省': '老板来两斤福建人。',
-            '广西壮族自治区': '桂林山水甲天下。',
-            '海南省': '朝观日出逐白浪，夕看云起收霞光。',
-            '四川省': '康康川妹子。',
-            '贵州省': '茅台，学生，再塞200。',
-            '云南省': '玉龙飞舞云缠绕，万仞冰川直耸天。',
-            '西藏自治区': '躺在茫茫草原上，仰望蓝天。',
-            '陕西省': '来份臊子面加馍。',
-            '甘肃省': '羌笛何须怨杨柳，春风不度玉门关。',
-            '青海省': '牛肉干和老酸奶都好好吃。',
-            '宁夏回族自治区': '大漠孤烟直，长河落日圆。',
-            '新疆维吾尔自治区': '驼铃古道丝绸路，胡马犹闻唐汉风。',
-            '台湾省': '我在这头，大陆在那头。',
-            '香港特别行政区': '永定贼有残留地鬼嚎，迎击光非岁玉。',
-            '澳门特别行政区': '性感荷官，在线发牌。'
-        };
-
-        return descriptions[province] || '带我去你的城市逛逛吧！';
-    }
-
-    getJiangsuDescription(city) {
-        const cityDescriptions = {
-            '南京市': '这是我挺想去的城市啦。',
-            '苏州市': '上有天堂，下有苏杭。'
-        };
-        return cityDescriptions[city] || '散装是必须要散装的。';
-    }
-
-    getTimeGreeting() {
-        const hour = new Date().getHours();
-        if (hour >= 5 && hour < 11) return "<span>上午好</span>，一日之计在于晨！";
-        if (hour >= 11 && hour < 13) return "<span>中午好</span>，该摸鱼吃午饭了。";
-        if (hour >= 13 && hour < 15) return "<span>下午好</span>，懒懒地睡个午觉吧！";
-        if (hour >= 15 && hour < 16) return "<span>三点几啦</span>，一起饮茶呀！";
-        if (hour >= 16 && hour < 19) return "<span>夕阳无限好！</span>";
-        if (hour >= 19 && hour < 24) return "<span>晚上好</span>，夜生活嗨起来！";
-        return "夜深了，早点休息，少熬夜。";
-    }
-
-    showWelcome() {
-        if (!this.ipLocation?.result) return;
-
-        const { pos, desc } = this.getLocationDescription();
-        const dist = this.getDistance(118.59232127, 32.78868157, 
-            this.ipLocation.result.location.lng, this.ipLocation.result.location.lat);
-        const timeChange = this.getTimeGreeting();
-        const ip = this.ipLocation.result.ip;
-
-        try {
-            document.getElementById("welcome-info").innerHTML = 
-                `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${desc}</b>`;
-        } catch (err) {
-            // Pjax兼容处理
-        }
-    }
-
-    setupEventListeners() {
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => this.showWelcome());
-        } else {
-            this.showWelcome();
-        }
-        
-        document.addEventListener('pjax:complete', () => this.showWelcome());
+    try {
+        // 自定义文本和需要放的位置
+        document.getElementById("welcome-info").innerHTML =
+            `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
+    } catch (err) {
+        // Pjax无法获取#welcome-info元素时的错误处理
     }
 }
+
+// 页面加载完成后显示欢迎信息
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+        // 如果IP信息已经获取到，直接显示欢迎信息
+        if (ipLoacation && ipLoacation.result) {
+            showWelcome();
+        }
+    });
+} else {
+    // 如果IP信息已经获取到，直接显示欢迎信息
+    if (ipLoacation && ipLoacation.result) {
+        showWelcome();
+    }
+}
+
+// 如果使用了pjax，在页面切换时重新显示欢迎信息
+document.addEventListener('pjax:complete', function() {
+    if (ipLoacation && ipLoacation.result) {
+        showWelcome();
+    }
+});
 
 // 友链状态检测
 class LinkStatusChecker {
