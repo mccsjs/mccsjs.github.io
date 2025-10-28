@@ -15,8 +15,36 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 25 Oct 2025 08:47:27 GMT</pubDate>
+    <pubDate>Tue, 28 Oct 2025 08:05:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>添加安全跳转页面</title>
+      <link>https://seln.cn/posts/dff715bb/</link>
+      <guid>https://seln.cn/posts/dff715bb/</guid>
+      <pubDate>Tue, 28 Oct 2025 07:56:44 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;安装插件&quot;&gt;&lt;a href=&quot;#安装插件&quot; class=&quot;headerlink&quot; title=&quot;安装插件&quot;&gt;&lt;/a&gt;安装插件&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;安装依赖</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <comments>https://seln.cn/posts/dff715bb/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>在butterfly主题中加入说说</title>
@@ -365,25 +393,6 @@
       
       
       <comments>https://seln.cn/posts/cn/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>博客魔改教程2</title>
-      <link>https://seln.cn/posts/f38acf51/</link>
-      <guid>https://seln.cn/posts/f38acf51/</guid>
-      <pubDate>Mon, 29 Sep 2025 01:37:59 GMT</pubDate>
-      
-      <description>butterfly主题魔改</description>
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      
-      <comments>https://seln.cn/posts/f38acf51/#disqus_thread</comments>
       
     </item>
     

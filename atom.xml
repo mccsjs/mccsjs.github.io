@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-10-25T08:47:27.061Z</updated>
+  <updated>2025-10-28T08:05:28.591Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>添加安全跳转页面</title>
+    <link href="https://seln.cn/posts/dff715bb/"/>
+    <id>https://seln.cn/posts/dff715bb/</id>
+    <published>2025-10-28T07:56:44.000Z</published>
+    <updated>2025-10-28T08:05:28.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装插件&quot;&gt;&lt;a href=&quot;#安装插件&quot; class=&quot;headerlink&quot; title=&quot;安装插件&quot;&gt;&lt;/a&gt;安装插件&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;安装依赖</summary>
+        
+      
+    
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>在butterfly主题中加入说说</title>
@@ -335,23 +361,6 @@
     
     
     <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客魔改教程2</title>
-    <link href="https://seln.cn/posts/f38acf51/"/>
-    <id>https://seln.cn/posts/f38acf51/</id>
-    <published>2025-09-29T01:37:59.000Z</published>
-    <updated>2025-10-16T23:56:26.055Z</updated>
-    
-    
-    <summary type="html">butterfly主题魔改</summary>
-    
-    
-    
-    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
     
   </entry>
   
