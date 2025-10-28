@@ -330,4 +330,8 @@
   }
 }
 
-
+.icon-home:before,
+.icon-huabankaobei:before,
+.icon-milk:before {
+    content: none !important;
+}
