@@ -332,7 +332,8 @@
 /* 图标显示缺字的修补 */
 .icon-home:before,
 .icon-huabankaobei:before,
-.icon-milk:before {
+.icon-milk:before,
+.icon-subway__easyiconnet:before {
     content: none !important;
 }
 /* 多级菜单隐藏 */
