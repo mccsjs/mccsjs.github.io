@@ -329,9 +329,13 @@
     margin-right: 0px;
   }
 }
-
+/* 图标显示缺字的修补 */
 .icon-home:before,
 .icon-huabankaobei:before,
 .icon-milk:before {
     content: none !important;
+}
+/* 多级菜单隐藏 */
+.fa-chevron-down {
+    display: none !important;
 }
