@@ -176,6 +176,11 @@
       "https://blog.storical.fun/images/icon.png"
     ],
     [
+      "安知鱼",
+      "https://blog.anheyu.com/",
+      "https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg"
+    ],
+    [
       "YouYou",
       "https://vpnnew.net/blog/",
       "https://vpnnew.net/youyou.png"
@@ -196,7 +201,7 @@
       "https://zoc.asia/logo.png"
     ]
   ],
-  "count": 39,
-  "generated": "2025-10-29T12:08:56.665Z",
+  "count": 40,
+  "generated": "2025-10-30T05:56:10.986Z",
   "format": "volantis"
 }
