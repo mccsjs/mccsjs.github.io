@@ -9961,7 +9961,7 @@ blockquote.pullquote.right {
     overflow: hidden;
   }
   #about-page .about-statistic::after {
-    box-shadow: 0 -159px 173px 71px #0c1c2c inset;
+    box-shadow: 0 -159px 173px 71px #80a7ce inset;
     position: absolute;
     content: "";
     width: 100%;
@@ -11037,8 +11037,9 @@ blockquote.pullquote.right {
 .author-content-item .author-content-item-tips,
 .author-content-item .banner-button-group .banner-button i,
 .author-content-item .banner-button-group .banner-button-text {
-    color: #ffffff;
+    color: #ccc2c2;
 }
+
 .search-dialog {
   position: fixed;
   top: 10%;
