@@ -9961,7 +9961,7 @@ blockquote.pullquote.right {
     overflow: hidden;
   }
   #about-page .about-statistic::after {
-    box-shadow: 0 -159px 173px 71px #80a7ce inset;
+    box-shadow: 0 -159px 173px 71px #393f46cb inset;
     position: absolute;
     content: "";
     width: 100%;
