@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-10-28T08:11:34.383Z</updated>
+  <updated>2025-10-31T06:21:23.335Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-butterfly实现友链状态检测</title>
+    <link href="https://seln.cn/posts/1caa5786/"/>
+    <id>https://seln.cn/posts/1caa5786/</id>
+    <published>2025-10-31T06:20:44.000Z</published>
+    <updated>2025-10-31T06:21:23.335Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;编写中…&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>添加安全跳转页面</title>
@@ -334,32 +360,6 @@
     
     
     <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>共赴国庆盛典，同襄时代华章</title>
-    <link href="https://seln.cn/posts/cn/"/>
-    <id>https://seln.cn/posts/cn/</id>
-    <published>2025-09-30T16:01:30.000Z</published>
-    <updated>2025-10-03T07:44:18.717Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://csjs.eu.org/img/cn.jpg&quot; alt=&quot;国庆盛典&quot;&gt;&lt;br&gt;&lt;em&gt;七十六载铸辉煌，盛世华章谱新篇——庆祝中华人民共和国成立76周年&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&quot;共赴国庆盛典，同襄时代华章&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   

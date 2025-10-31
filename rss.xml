@@ -15,8 +15,36 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 28 Oct 2025 08:11:34 GMT</pubDate>
+    <pubDate>Fri, 31 Oct 2025 06:21:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>hexo-butterfly实现友链状态检测</title>
+      <link>https://seln.cn/posts/1caa5786/</link>
+      <guid>https://seln.cn/posts/1caa5786/</guid>
+      <pubDate>Fri, 31 Oct 2025 06:20:44 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;编写中…&lt;/p&gt;
+</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <comments>https://seln.cn/posts/1caa5786/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>添加安全跳转页面</title>
@@ -364,34 +392,6 @@
       
       
       <comments>https://seln.cn/posts/ef75bf0/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>共赴国庆盛典，同襄时代华章</title>
-      <link>https://seln.cn/posts/cn/</link>
-      <guid>https://seln.cn/posts/cn/</guid>
-      <pubDate>Tue, 30 Sep 2025 16:01:30 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;img src=&quot;https://csjs.eu.org/img/cn.jpg&quot; alt=&quot;国庆盛典&quot;&gt;&lt;br&gt;&lt;em&gt;七十六载铸辉煌，盛世华章谱新篇——庆祝中华人民共和国成立76周年&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&quot;共赴国庆盛典，同襄时代华章&quot;&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <comments>https://seln.cn/posts/cn/#disqus_thread</comments>
       
     </item>
     
