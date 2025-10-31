@@ -1,0 +1,5 @@
+User-agent: *
+Allow: / 
+
+Sitemap: https://seln.cn/sitemap.xml
+Sitemap: https://seln.cn/rss.xml
