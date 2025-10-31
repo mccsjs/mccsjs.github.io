@@ -1,5 +1,4 @@
 https://seln.cn/posts/1caa5786/
-https://seln.cn/posts/1caa5786/
 https://seln.cn/about/index.html
 https://seln.cn/posts/f38acf51/
 https://seln.cn/friend.json
@@ -33,9 +32,9 @@ https://seln.cn/Gallery/bt/index.html
 https://seln.cn/categories/index.html
 https://seln.cn/tags/index.html
 https://seln.cn/
-https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/
 https://seln.cn/tags/%E6%95%99%E7%A8%8B/
 https://seln.cn/tags/%E9%9A%8F%E7%AC%94/
-https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/
+https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/
 https://seln.cn/categories/%E6%95%99%E7%A8%8B/
+https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/
 https://seln.cn/categories/%E9%9A%8F%E7%AC%94/

@@ -15,7 +15,7 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 31 Oct 2025 10:26:21 GMT</pubDate>
+    <pubDate>Fri, 31 Oct 2025 10:28:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -29,34 +29,6 @@
           
           
       <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本项目是根据&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/1caa5786/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo-butterfly实现友链状态检测</title>
-      <link>https://seln.cn/posts/1caa5786/</link>
-      <guid>https://seln.cn/posts/1caa5786/</guid>
-      <pubDate>Fri, 31 Oct 2025 10:10:44 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;编写中…&lt;/p&gt;
-</description>
           
         
       
@@ -393,6 +365,32 @@
       
       
       <comments>https://seln.cn/posts/d6908146/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>【预告】无服务器搭建属于自己的ai对话网站</title>
+      <link>https://seln.cn/posts/ef75bf0/</link>
+      <guid>https://seln.cn/posts/ef75bf0/</guid>
+      <pubDate>Thu, 02 Oct 2025 16:16:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;本次还是使用github+vercel形式部署&lt;/p&gt;
+&lt;h2 id=&quot;将项目fork到自己仓库&quot;&gt;&lt;a href=&quot;#将项目fork到自己仓库&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/ef75bf0/#disqus_thread</comments>
       
     </item>
     
