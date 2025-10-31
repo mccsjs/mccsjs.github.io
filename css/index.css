@@ -9857,7 +9857,7 @@ blockquote.pullquote.right {
     flex-direction: column;
     justify-content: center;
     color: var(--anzhiyu-white);
-    background: linear-gradient(120deg, #5b27ff 0, #00d4ff 100%);
+    background: linear-gradient(120deg, #7ecedeef 0, #00d4ff 100%);
     background-size: 200%;
     animation: gradient 15s ease infinite;
     width: 59%;
