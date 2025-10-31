@@ -15,21 +15,20 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 31 Oct 2025 06:21:23 GMT</pubDate>
+    <pubDate>Fri, 31 Oct 2025 10:00:27 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>hexo-butterfly实现友链状态检测</title>
       <link>https://seln.cn/posts/1caa5786/</link>
       <guid>https://seln.cn/posts/1caa5786/</guid>
-      <pubDate>Fri, 31 Oct 2025 06:20:44 GMT</pubDate>
+      <pubDate>Fri, 31 Oct 2025 10:20:44 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;p&gt;编写中…&lt;/p&gt;
-</description>
+      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本项目是根据&lt;a</description>
           
         
       
