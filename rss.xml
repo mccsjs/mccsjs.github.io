@@ -15,13 +15,13 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 31 Oct 2025 10:20:31 GMT</pubDate>
+    <pubDate>Fri, 31 Oct 2025 10:22:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>hexo-butterfly实现友链状态检测</title>
-      <link>https://seln.cn/posts/1caa5786/</link>
-      <guid>https://seln.cn/posts/1caa5786/</guid>
+      <link>https://seln.cn/posts/link/</link>
+      <guid>https://seln.cn/posts/link/</guid>
       <pubDate>Fri, 31 Oct 2025 10:20:05 GMT</pubDate>
       
         
@@ -41,7 +41,7 @@
       <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
       
       
-      <comments>https://seln.cn/posts/1caa5786/#disqus_thread</comments>
+      <comments>https://seln.cn/posts/link/#disqus_thread</comments>
       
     </item>
     
