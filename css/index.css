@@ -11032,15 +11032,9 @@ blockquote.pullquote.right {
     opacity: 1;
   }
 
-.author-content-item .tips {
-    color: #fffbfb;
-}
-.author-content-item .author-content-item-title {
-    color: #ffffff;
-}
-.author-content-item .author-content-item-tips {
-    color: #ffffff;
-}
+.author-content-item .tips,
+.author-content-item .author-content-item-title,
+.author-content-item .author-content-item-tips,
 .author-content-item .banner-button-group .banner-button i,
 .author-content-item .banner-button-group .banner-button-text {
     color: #ffffff;
