@@ -10117,7 +10117,6 @@ blockquote.pullquote.right {
   line-height: 1.1;
 }
 
-
 .author-content-item.single {
   width: 100%;
 }
@@ -10413,71 +10412,149 @@ blockquote.pullquote.right {
   transform: rotate(30deg);
   transition: 2s ease-in-out;
 }
+/* 在原神卡片样式后面添加星穹铁道卡片样式 */
+.author-content-item.game-starrail {
+  background: url(https://youke1.picui.cn/s1/2025/09/27/68d8000b6120e.jpg) no-repeat top;
+  background-size: cover;
+  min-height: 300px;
+  max-height: 400px; /* 添加最大高度控制 */
+  height: 300px; /* 固定高度 */
+  overflow: hidden;
+  color: var(--anzhiyu-white);
+  width: 45%;
+}
+
+.author-content-item.game-starrail::after {
+  box-shadow: 0 -69px 203px 11px #2a1a5e inset;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* 修改原神卡片宽度，添加高度控制 */
 .author-content-item.game-yuanshen {
   background: url(https://img02.anheyu.com/adminuploads/1/2022/12/19/63a079ca63c8a.webp) no-repeat top;
   background-size: cover;
   min-height: 300px;
+  max-height: 400px; /* 添加最大高度控制 */
+  height: 300px; /* 固定高度 */
   overflow: hidden;
   color: var(--anzhiyu-white);
-  width: 59%;
+  width: 45%;
 }
 
-.author-content-item .content-bottom {
-  margin-top: auto;
+/* 为两个游戏卡片添加容器样式 */
+.games-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.author-content-item .content-bottom .icon-group {
-  display: flex;
-  position: relative;
-}
-.author-content-item .content-bottom .icon-group i {
-  display: inline-block;
-  width: 143px;
-  height: 18px;
-  margin-right: 0.5rem;
-}
-.icon-pos-mid {
-  background: url(https://img02.anheyu.com/adminuploads/1/2022/09/25/632fb9cecfc8c.png);
-}
-.author-content-item.game-yuanshen::after {
-  box-shadow: 0 -69px 203px 11px #575d8b inset;
-  position: absolute;
-  content: "";
+  gap: 1rem;
   width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+  margin-bottom: 1rem;
 }
 
-.author-content-item.comic-content {
-  width: 39%;
-  background: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/violet.jpg) no-repeat top;
-  background-size: cover;
-  min-height: 300px;
-  overflow: hidden;
-  color: violet;
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+  .games-container {
+    flex-direction: column;
+  }
+  
+  .author-content-item.game-yuanshen,
+  .author-content-item.game-starrail {
+    width: 100% !important;
+    height: 250px; /* 移动端调整高度 */
+    min-height: 250px;
+  }
+  
+  .author-content-item.game-yuanshen .content-bottom,
+  .author-content-item.game-starrail .content-bottom {
+    padding-bottom: 10px;
+  }
+  
+  .author-content-item.game-yuanshen .game-yuanshen-uid,
+  .author-content-item.game-starrail .game-starrail-uid {
+    display: none;
+  }
 }
-.author-content-item.comic-content::after {
-  box-shadow: 0 -48px 203px 11px #fbe9b8 inset;
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
+
+  .author-content-item.comic-content {
+    width: 100%; /* 将宽度设置为100% */
+    min-height: 300px;
+    overflow: hidden;
+  }
+  
+  .author-content-item.comic-content .comic-box {
+    display: flex;
+    width: 99.9%; /* 将宽度设置为100% */
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+  
+  .author-content-item.comic-content .author-content-item-tips, .author-content-item.comic-content .author-content-item-title {
+    z-index: 2;
+    color: var(--anzhiyu-white);
+    pointer-events: none;
+  }
+  
+  .author-content-item.comic-content .comic-item {
+    height: 100%;
+    color: white;
+    width: 20%;
+    transform: skew(-10deg, 0deg);
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .author-content-item.comic-content .comic-item:hover {
+    width: 46%;
+  }
+  
+  .author-content-item.comic-content .comic-item:hover .comic-item-cover {
+    left: 16%;
+    transform: skew(10deg, 0deg) scale(1.6);
+  }
+  
+  .author-content-item.comic-content .comic-item .comic-item-cover {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    height: 100%;
+    transform: skew(10deg, 0deg);
+    object-fit: cover;
+    transition: scale 0.2s, all 0.8s;
+  }
+  
+  .author-content-item.comic-content .comic-item .comic-item-cover img {
+    height: 100%;
+    transition: 0.8s;
+    max-width: none;
+    border-radius: 0px;
+  }
+  
+  .author-content-item.comic-content::after {
+    box-shadow: 0 -48px 203px 11px #ffffff52 inset;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
 
 .author-content-item.like-technology {
-  background: url(https://img02.anheyu.com/adminuploads/1/2022/09/24/632f0dd8f33c6.webp) no-repeat;
+  background: url(https://blog.ayeez.cn/imgs/bg/p11.jpg) no-repeat;
   background-size: cover;
   min-height: 230px;
   color: var(--anzhiyu-white);
 }
 
 .author-content-item.like-music {
-  background: url(https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg) no-repeat top;
+  background: url(https://blog.ayeez.cn/imgs/bg/p15.jpg) no-repeat top;
   background-size: cover;
   min-height: 400px;
   color: var(--anzhiyu-white);
