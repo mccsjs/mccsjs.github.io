@@ -8840,24 +8840,30 @@ blockquote.pullquote.right {
 
 /* 移动端适配 */
 @media screen and (max-width: 768px) {
+  #about-page .author-box {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  /* 在移动端隐藏两侧标签 */
+  .author-tag-left,
+  .author-tag-right {
+    display: none; /* 隐藏两侧标签 */
+  }
+  
+  /* 确保头像在移动端居中显示 */
+  #about-page .author-box .author-img {
+    order: 1; /* 调整顺序，让头像在移动端显示在最上面 */
+    margin: 0 auto; /* 居中显示 */
+  }
+  
   /* 移动端调整 dot 位置 */
   #about-page .author-box .image-dot {
-    top: calc(50% + 60px); /* 相应增加移动端的偏移量 */
-    left: calc(50% + 75px);
-    width: 35px;
-    height: 35px;
+    top: calc(50% + 45px);
+    left: calc(50% + 45px);
+    width: 25px;
+    height: 25px;
     border: 3px solid var(--anzhiyu-background);
-  }
-}
-
-/* 小屏幕适配 */
-@media screen and (max-width: 480px) {
-  #about-page .author-box .image-dot {
-    top: calc(50% + 40px);
-    left: calc(50% + 40px);
-    width: 20px;
-    height: 20px;
-    border: 2px solid var(--anzhiyu-background);
   }
 }
 
