@@ -772,11 +772,11 @@ code, pre {
 }
 /* 友链一行显示更多 */
 .site-card {
-  width: calc(100% / 5 - 16px) !important;
+  width: calc(100% / 10 - 16px) !important;
   border-radius: 18px !important;
 }
 .site-card .img {
-  height: 165px !important;
+  height: 120px !important;
   border-radius: 18px !important;
 }
 /* 适应宽度不同的设备 */
