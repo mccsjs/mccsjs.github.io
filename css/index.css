@@ -7804,31 +7804,45 @@ blockquote.pullquote.right {
 
 #about-page .author-box {
   position: relative;
-}
-#about-page .author-box .author-img {
-  margin: auto;
-  border-radius: 50%;
-  overflow: hidden;
-  width: 180px;
-  height: 180px;
-}
-#about-page .author-box .author-img img {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 180px;
-  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  width: 100%;
 }
 
+/* 头像样式调整 */
+#about-page .author-box .author-img {
+  margin: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  order: 2; /* 头像在中间 */
+  position: relative;
+}
+
+#about-page .author-box .author-img img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 修复 image-dot 定位 - 现在它是 author-box 的直接子元素 */
 #about-page .author-box .image-dot {
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
   background: #6bdf8f;
   position: absolute;
   border-radius: 50%;
-  border: 6px solid var(--anzhiyu-background);
-  top: 50%;
-  left: 50%;
-  transform: translate(35px, 45px);
+  border: 4px solid var(--anzhiyu-background);
+  top: calc(50% + 45px); /* 向下偏移头像半径的一半 */
+  left: calc(50% + 45px); /* 向右偏移头像半径的一半 */
+  z-index: 10;
+  transform: translate(-50%, -50%); /* 居中定位 */
 }
 
 .author-content {
@@ -8704,6 +8718,147 @@ blockquote.pullquote.right {
   font-size: 12px;
   color: var(--anzhiyu-secondtext);
   white-space: nowrap;
+}
+/* 修改头像容器为flex布局，添加标签环绕 */
+#about-page .author-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* 头像样式调整 */
+#about-page .author-box .author-img {
+  margin: 0;
+  border-radius: 50%;
+  overflow: visible; /* 改为 visible 允许子元素溢出 */
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  order: 2; /* 头像在中间 */
+  position: relative;
+}
+
+#about-page .author-box .author-img img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1; /* 确保图片在 dot 下面 */
+}
+
+/* 修改 image-dot 的定位 - 现在它在头像内部 */
+#about-page .author-box .image-dot {
+  width: 30px;
+  height: 30px;
+  background: #6bdf8f;
+  position: absolute;
+  border-radius: 50%;
+  border: 7px solid var(--anzhiyu-background);
+  top: calc(50% + 69px); /* 增加偏移量，使其更靠近右下角 */
+  left: calc(50% + 60px); /* 增加偏移量，使其更靠近右下角 */
+  z-index: 10;
+  transform: translate(-50%, -50%); /* 居中定位 */
+}
+
+/* 标签容器样式 */
+.author-tag-left,
+.author-tag-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex: 1;
+  min-width: 0; /* 防止flex项目溢出 */
+}
+
+.author-tag-left {
+  order: 1;
+  align-items: flex-end;
+}
+
+.author-tag-right {
+  order: 3;
+  align-items: flex-start;
+}
+
+.author-tag {
+  background: #ffffff;
+  color: #333333;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1e1e1;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  max-width: 180px;
+  display: inline-block;
+}
+
+.author-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 为不同标签添加不同的边框颜色 */
+.author-tag-left .author-tag:nth-child(1) {
+  border-color: #ff6b6b;
+}
+
+.author-tag-left .author-tag:nth-child(2) {
+  border-color: #48cae4;
+}
+
+.author-tag-left .author-tag:nth-child(3) {
+  border-color: #51cf66;
+}
+
+.author-tag-left .author-tag:nth-child(4) {
+  border-color: #ffd43b;
+}
+
+.author-tag-right .author-tag:nth-child(1) {
+  border-color: #da77f2;
+}
+
+.author-tag-right .author-tag:nth-child(2) {
+  border-color: #74c0fc;
+}
+
+.author-tag-right .author-tag:nth-child(3) {
+  border-color: #ffa94d;
+}
+
+.author-tag-right .author-tag:nth-child(4) {
+  border-color: #8ce99a;
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+  /* 移动端调整 dot 位置 */
+  #about-page .author-box .image-dot {
+    top: calc(50% + 60px); /* 相应增加移动端的偏移量 */
+    left: calc(50% + 75px);
+    width: 35px;
+    height: 35px;
+    border: 3px solid var(--anzhiyu-background);
+  }
+}
+
+/* 小屏幕适配 */
+@media screen and (max-width: 480px) {
+  #about-page .author-box .image-dot {
+    top: calc(50% + 40px);
+    left: calc(50% + 40px);
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--anzhiyu-background);
+  }
 }
 .author-content-item.careers {
   min-height: 400px;
