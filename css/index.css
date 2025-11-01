@@ -8860,6 +8860,81 @@ blockquote.pullquote.right {
     border: 2px solid var(--anzhiyu-background);
   }
 }
+
+/* 添加标签漂浮动画效果 */
+.author-tag {
+  background: #ffffff;
+  color: #333333;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1e1e1;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  max-width: 180px;
+  display: inline-block;
+  animation: float 3s ease-in-out infinite; /* 添加漂浮动画 */
+}
+
+/* 为不同标签设置不同的动画延迟，形成错落有致的效果 */
+.author-tag-left .author-tag:nth-child(1) {
+  border-color: #ff6b6b;
+  animation-delay: 0s;
+}
+
+.author-tag-left .author-tag:nth-child(2) {
+  border-color: #48cae4;
+  animation-delay: 0.5s;
+}
+
+.author-tag-left .author-tag:nth-child(3) {
+  border-color: #51cf66;
+  animation-delay: 1s;
+}
+
+.author-tag-left .author-tag:nth-child(4) {
+  border-color: #ffd43b;
+  animation-delay: 1.5s;
+}
+
+.author-tag-right .author-tag:nth-child(1) {
+  border-color: #da77f2;
+  animation-delay: 0.2s;
+}
+
+.author-tag-right .author-tag:nth-child(2) {
+  border-color: #74c0fc;
+  animation-delay: 0.7s;
+}
+
+.author-tag-right .author-tag:nth-child(3) {
+  border-color: #ffa94d;
+  animation-delay: 1.2s;
+}
+
+.author-tag-right .author-tag:nth-child(4) {
+  border-color: #8ce99a;
+  animation-delay: 1.7s;
+}
+
+/* 定义漂浮动画 */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px); /* 向上漂浮4像素 */
+  }
+}
+
+/* 悬停时暂停动画并放大 */
+.author-tag:hover {
+  animation-play-state: paused; /* 悬停时暂停动画 */
+  transform: translateY(-1px) scale(1.05); /* 悬停时上浮并轻微放大 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 .author-content-item.careers {
   min-height: 400px;
 }
