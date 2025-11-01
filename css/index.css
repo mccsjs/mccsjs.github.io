@@ -9472,6 +9472,66 @@ blockquote.pullquote.right {
     color: #ccc2c2;
 }
 
+/* UID显示在右下角 - 可点击按钮版本 */
+.author-content-item.game-yuanshen .game-yuanshen-uid,
+.author-content-item.game-starrail .game-starrail-uid {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background: transparent;
+  color: #ffffff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  z-index: 3;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: none; /* 去掉下划线 */
+  cursor: pointer; /* 鼠标指针变为手型 */
+  display: inline-block; /* 确保链接可以正确应用padding */
+}
+
+/* 悬停效果 */
+.author-content-item.game-yuanshen .game-yuanshen-uid:hover,
+.author-content-item.game-starrail .game-starrail-uid:hover {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.15); /* 悬停时背景更明显 */
+  transform: translateY(-1px);
+  color: #ffffff; /* 确保悬停时文字颜色不变 */
+  text-decoration: none; /* 确保悬停时没有下划线 */
+}
+
+/* 点击效果 */
+.author-content-item.game-yuanshen .game-yuanshen-uid:active,
+.author-content-item.game-starrail .game-starrail-uid:active {
+  transform: translateY(0); /* 点击时回到原位 */
+  background: rgba(255, 255, 255, 0.25); /* 点击时背景更深 */
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+  .author-content-item.game-yuanshen .game-yuanshen-uid,
+  .author-content-item.game-starrail .game-starrail-uid {
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+  }
+}
+/* 所有游戏卡片标题改为白色 */
+.author-content-item.game-yuanshen .author-content-item-title,
+.author-content-item.game-starrail .author-content-item-title,
+.author-content-item.game-yuanshen .author-content-item-tips,
+.author-content-item.game-starrail .author-content-item-tips {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.author-content-item.comic-content .author-content-item-title {
+  color: #ffffff !important;
+}
 .search-dialog {
   position: fixed;
   top: 10%;
