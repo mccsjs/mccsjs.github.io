@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-10-31T10:43:56.569Z</updated>
+  <updated>2025-11-01T06:12:14.970Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-butterfly魔改about页面</title>
+    <link href="https://seln.cn/posts/51143f32/"/>
+    <id>https://seln.cn/posts/51143f32/</id>
+    <published>2025-11-01T06:18:46.000Z</published>
+    <updated>2025-11-01T06:12:14.970Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;魔改前请备份，要不然出错了又不知道怎么改就完啦！！！&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;魔改关于页面&quot;&gt;&lt;a href=&quot;#魔改关于页面&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo-butterfly实现友链状态检测</title>
@@ -335,30 +362,6 @@
     
     
     <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【预告】无服务器搭建属于自己的ai对话网站</title>
-    <link href="https://seln.cn/posts/ef75bf0/"/>
-    <id>https://seln.cn/posts/ef75bf0/</id>
-    <published>2025-10-02T16:16:02.000Z</published>
-    <updated>2025-10-03T09:53:38.254Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本次还是使用github+vercel形式部署&lt;/p&gt;
-&lt;h2 id=&quot;将项目fork到自己仓库&quot;&gt;&lt;a href=&quot;#将项目fork到自己仓库&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
