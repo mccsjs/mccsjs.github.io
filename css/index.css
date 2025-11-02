@@ -9464,14 +9464,6 @@ blockquote.pullquote.right {
 .author-content-item.skills:hover .skills-style-group .skills-list {
   opacity: 1;
 }
-.author-content-item .tips,
-.author-content-item .author-content-item-title,
-.author-content-item .author-content-item-tips,
-.author-content-item .banner-button-group .banner-button i,
-.author-content-item .banner-button-group .banner-button-text {
-    color: #ccc2c2;
-}
-
 /* UID显示在右下角 - 可点击按钮版本 */
 .author-content-item.game-yuanshen .game-yuanshen-uid,
 .author-content-item.game-starrail .game-starrail-uid {
@@ -9531,6 +9523,28 @@ blockquote.pullquote.right {
 }
 .author-content-item.comic-content .author-content-item-title {
   color: #ffffff !important;
+}
+.author-content-item .tips,
+.author-content-item .author-content-item-title,
+.author-content-item .author-content-item-tips,
+.author-content-item .banner-button-group .banner-button i,
+.author-content-item .banner-button-group .banner-button-text {
+    color: #ccc2c2;
+}
+
+.post-tips {
+    color: #ccc2c2;
+}
+
+.post-tips a {
+    color: rgba(159, 158, 158, 0.911);
+    text-decoration: underline; /* 可选：添加下划线让链接更明显 */
+}
+
+/* 如果希望链接在悬停时有不同效果 */
+.post-tips a:hover {
+    color: #cac8c8; /* 稍微变暗的白色 */
+    text-decoration: none; /* 可选：悬停时取消下划线 */
 }
 .search-dialog {
   position: fixed;
