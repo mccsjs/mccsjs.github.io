@@ -8422,7 +8422,7 @@ blockquote.pullquote.right {
   height: 300px; /* 固定高度 */
   overflow: hidden;
   color: var(--anzhiyu-white);
-  width: 45%;
+  width: 48%;
 }
 
 .author-content-item.game-starrail::after {
@@ -8444,7 +8444,7 @@ blockquote.pullquote.right {
   height: 300px; /* 固定高度 */
   overflow: hidden;
   color: var(--anzhiyu-white);
-  width: 45%;
+  width: 48%;
 }
 
 /* 为两个游戏卡片添加容器样式 */
