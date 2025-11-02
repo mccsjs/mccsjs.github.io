@@ -8422,11 +8422,11 @@ blockquote.pullquote.right {
   height: 300px; /* 固定高度 */
   overflow: hidden;
   color: var(--anzhiyu-white);
-  width: 48%;
+  width: 49%;
 }
 
 .author-content-item.game-starrail::after {
-  box-shadow: 0 -69px 203px 11px #2a1a5e inset;
+  box-shadow: 0 -69px 203px 11px #2a1a5edc inset;
   position: absolute;
   content: "";
   width: 100%;
@@ -8444,7 +8444,7 @@ blockquote.pullquote.right {
   height: 300px; /* 固定高度 */
   overflow: hidden;
   color: var(--anzhiyu-white);
-  width: 48%;
+  width: 49%;
 }
 
 /* 为两个游戏卡片添加容器样式 */
@@ -8452,7 +8452,7 @@ blockquote.pullquote.right {
   display: flex;
   gap: 1rem;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 /* 移动端适配 */
@@ -8483,6 +8483,7 @@ blockquote.pullquote.right {
     width: 100%; /* 将宽度设置为100% */
     min-height: 300px;
     overflow: hidden;
+    margin-top: 1rem;
   }
   
   .author-content-item.comic-content .comic-box {
