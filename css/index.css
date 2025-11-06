@@ -8981,6 +8981,15 @@ blockquote.pullquote.right {
   width: 100%;
   transition: 0.6s;
 }
+@media (max-width: 768px) {
+  #web_bg {
+    background-image: url('/img/sj.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+}
 :root {
   --loadingbar-background-color: #2c2b30;
   --loadingbar-prospect-color: #ece5d8;

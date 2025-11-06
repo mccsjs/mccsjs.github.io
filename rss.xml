@@ -15,8 +15,37 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 02 Nov 2025 01:54:10 GMT</pubDate>
+    <pubDate>Thu, 06 Nov 2025 10:35:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>给手机版单独设置背景[hexo-butterfly]</title>
+      <link>https://seln.cn/posts/e6af388/</link>
+      <guid>https://seln.cn/posts/e6af388/</guid>
+      <pubDate>Thu, 06 Nov 2025 10:07:04 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本来想看看有没有什么成熟的方案，结果发现全都失效了&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;实现的方式很简单，在自定义css中添加以下内容&lt;br&gt;&lt;figure class=&quot;highlight</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      <comments>https://seln.cn/posts/e6af388/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>hexo-butterfly魔改about页面</title>
@@ -365,33 +394,6 @@
       
       
       <comments>https://seln.cn/posts/9cdd57e6/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>中秋 · 月华如练，思念如诗</title>
-      <link>https://seln.cn/posts/d6908146/</link>
-      <guid>https://seln.cn/posts/d6908146/</guid>
-      <pubDate>Mon, 06 Oct 2025 14:03:52 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;🎋-中秋-·-月华如练，思念如诗&quot;&gt;&lt;a href=&quot;#🎋-中秋-·-月华如练，思念如诗&quot; class=&quot;headerlink&quot; title=&quot;🎋 中秋 · 月华如练，思念如诗&quot;&gt;&lt;/a&gt;🎋 中秋 ·</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <comments>https://seln.cn/posts/d6908146/#disqus_thread</comments>
       
     </item>
     
