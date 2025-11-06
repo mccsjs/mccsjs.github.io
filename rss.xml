@@ -15,22 +15,22 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 06 Nov 2025 10:35:12 GMT</pubDate>
+    <pubDate>Thu, 06 Nov 2025 10:43:50 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>给手机版单独设置背景[hexo-butterfly]</title>
       <link>https://seln.cn/posts/e6af388/</link>
       <guid>https://seln.cn/posts/e6af388/</guid>
-      <pubDate>Thu, 06 Nov 2025 10:07:04 GMT</pubDate>
+      <pubDate>Thu, 06 Nov 2025 10:42:04 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本来想看看有没有什么成熟的方案，结果发现全都失效了&lt;/p&gt;
+      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本来想看看有没有什么成熟的方案，结果发现全都失效了，于是自己搞了个css&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;实现的方式很简单，在自定义css中添加以下内容&lt;br&gt;&lt;figure class=&quot;highlight</description>
+&lt;p&gt;实现的方式很简单，在自定义css中添加以下内容&lt;br&gt;&lt;figure</description>
           
         
       

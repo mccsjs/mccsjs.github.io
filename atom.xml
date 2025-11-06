@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-11-06T10:35:12.890Z</updated>
+  <updated>2025-11-06T10:43:50.114Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -20,17 +20,17 @@
     <title>给手机版单独设置背景[hexo-butterfly]</title>
     <link href="https://seln.cn/posts/e6af388/"/>
     <id>https://seln.cn/posts/e6af388/</id>
-    <published>2025-11-06T10:07:04.000Z</published>
-    <updated>2025-11-06T10:35:12.890Z</updated>
+    <published>2025-11-06T10:42:04.000Z</published>
+    <updated>2025-11-06T10:43:50.114Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本来想看看有没有什么成熟的方案，结果发现全都失效了&lt;/p&gt;
+    <summary type="html">&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本来想看看有没有什么成熟的方案，结果发现全都失效了，于是自己搞了个css&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;实现的方式很简单，在自定义css中添加以下内容&lt;br&gt;&lt;figure class=&quot;highlight</summary>
+&lt;p&gt;实现的方式很简单，在自定义css中添加以下内容&lt;br&gt;&lt;figure</summary>
         
       
     
