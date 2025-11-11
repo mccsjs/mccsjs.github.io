@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seln.cn/posts/16a4396d/</loc>
+    
+    <lastmod>2025-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seln.cn/link/index.html</loc>
     
     <lastmod>2025-11-10</lastmod>
@@ -75,15 +84,6 @@
   
   <url>
     <loc>https://seln.cn/posts/1caa5786/</loc>
-    
-    <lastmod>2025-10-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seln.cn/a/owo.json</loc>
     
     <lastmod>2025-10-31</lastmod>
     
@@ -317,14 +317,14 @@
 
   
   <url>
-    <loc>https://seln.cn/tags/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
+    <loc>https://seln.cn/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -340,14 +340,14 @@
 
   
   <url>
-    <loc>https://seln.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/</loc>
+    <loc>https://seln.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

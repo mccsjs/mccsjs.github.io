@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-11-06T10:43:50.114Z</updated>
+  <updated>2025-11-11T14:49:11.817Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于静态博客优化的几个方法</title>
+    <link href="https://seln.cn/posts/16a4396d/"/>
+    <id>https://seln.cn/posts/16a4396d/</id>
+    <published>2025-11-11T06:20:02.000Z</published>
+    <updated>2025-11-11T14:49:11.817Z</updated>
+    
+    
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>给手机版单独设置背景[hexo-butterfly]</title>
@@ -345,23 +362,6 @@
     
     
     <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>教程更新方式更改</title>
-    <link href="https://seln.cn/posts/9cdd57e6/"/>
-    <id>https://seln.cn/posts/9cdd57e6/</id>
-    <published>2025-10-10T12:51:41.000Z</published>
-    <updated>2025-10-11T11:01:35.186Z</updated>
-    
-    
-    <summary type="html">教程会一个魔改一篇文章更新</summary>
-    
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
     
   </entry>
   
