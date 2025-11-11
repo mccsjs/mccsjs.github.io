@@ -15,27 +15,8 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 11 Nov 2025 14:49:11 GMT</pubDate>
+    <pubDate>Thu, 06 Nov 2025 10:43:50 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>关于静态博客优化的几个方法</title>
-      <link>https://seln.cn/posts/16a4396d/</link>
-      <guid>https://seln.cn/posts/16a4396d/</guid>
-      <pubDate>Tue, 11 Nov 2025 06:20:02 GMT</pubDate>
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/16a4396d/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>给手机版单独设置背景[hexo-butterfly]</title>
@@ -394,6 +375,25 @@
       
       
       <comments>https://seln.cn/posts/97eebedd/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>教程更新方式更改</title>
+      <link>https://seln.cn/posts/9cdd57e6/</link>
+      <guid>https://seln.cn/posts/9cdd57e6/</guid>
+      <pubDate>Fri, 10 Oct 2025 12:51:41 GMT</pubDate>
+      
+      <description>教程会一个魔改一篇文章更新</description>
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
+      
+      
+      
+      <comments>https://seln.cn/posts/9cdd57e6/#disqus_thread</comments>
       
     </item>
     
