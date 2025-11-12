@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Cloudflare的r2存储桶使用</title>
+      <link href="/posts/1f8d2eb1/"/>
+      <url>/posts/1f8d2eb1/</url>
+      
+        <content type="html"><![CDATA[<p>上期说了接入cdn可以让图片更快，国内cdn付费的多，而且我原来的github图床仓库出问题了，所以我使用了r2<code>**注意，需要visa或者万事达卡**</code><br>r2​不怕被刷流量，下载请求1000万次/月免费，10g的存储空间</p><h2 id="登录Cloudflare"><a href="#登录Cloudflare" class="headerlink" title="登录Cloudflare"></a>登录Cloudflare</h2><p>登录<a href="https://dash.cloudflare.com/">Cloudflare</a>,点击左侧<code>存储和数据库</code>➡️<code>R2对象存储</code>➡️<code>概述</code><br><img src="https://youke1.picui.cn/s1/2025/11/12/6914478d78280.png" alt="1" style="zoom:28%;" /></p><ul><li>右侧如实填写，其中cvc码是银行卡背面，签名部分数字的后三位<br><img src="https://youke1.picui.cn/s1/2025/11/12/691449575139f.jpg" alt="cvc" style="zoom:35%;" /></li></ul><h2 id="新建存储桶"><a href="#新建存储桶" class="headerlink" title="新建存储桶"></a>新建存储桶</h2><p><img src="https://youke1.picui.cn/s1/2025/11/12/69144a8c054f2.jpg" alt="存储桶" style="zoom:35%;" /></p><p>随笔取一个名字，点击位置，推荐选择<code>亚太地区（APAC）</code>，其他不动<br>点击设置➡️自定义域➡️绑定一个域名作为接口<br>最后就可以上传图片或者新建文件夹后上传文件了</p><ul><li>图片测试<div class="tabs"><div class="nav-tabs no-default"><button type="button" class="tab">前端显示</button><button type="button" class="tab">链接直接跳转</button></div><div class="tab-contents"><div class="tab-item-content"><p><img src="https://asycn.eu.org/jc/1.jpeg" alt="1" style="zoom:40%;" /></p></div><div class="tab-item-content"><p><a href="https://asycn.eu.org/jc/1.jpeg">点击图片跳转</a></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></li></ul><p>r2存储桶速度只能说够用，至少可以分流别的cdn压力</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于hexo静态博客优化的几个小技巧</title>
       <link href="/posts/99ee8c74/"/>
       <url>/posts/99ee8c74/</url>

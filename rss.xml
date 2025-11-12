@@ -15,8 +15,36 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 12 Nov 2025 02:08:05 GMT</pubDate>
+    <pubDate>Wed, 12 Nov 2025 09:11:51 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Cloudflare的r2存储桶使用</title>
+      <link>https://seln.cn/posts/1f8d2eb1/</link>
+      <guid>https://seln.cn/posts/1f8d2eb1/</guid>
+      <pubDate>Wed, 12 Nov 2025 09:10:50 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;上期说了接入cdn可以让图片更快，国内cdn付费的多，而且我原来的github图床仓库出问题了，所以我使用了r2&lt;code&gt;**注意，需要visa或者万事达卡**&lt;/code&gt;&lt;br&gt;r2​不怕被刷流量，下载请求1000万次/月免费，10g的存储空间&lt;/p&gt;
+&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <comments>https://seln.cn/posts/1f8d2eb1/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>关于hexo静态博客优化的几个小技巧</title>
@@ -381,27 +409,6 @@
       
       
       <comments>https://seln.cn/posts/38be6655/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>友链样式魔改</title>
-      <link>https://seln.cn/posts/97eebedd/</link>
-      <guid>https://seln.cn/posts/97eebedd/</guid>
-      <pubDate>Sat, 11 Oct 2025 07:23:28 GMT</pubDate>
-      
-      <description>更改友链样式，如本站</description>
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/97eebedd/#disqus_thread</comments>
       
     </item>
     
