@@ -15,8 +15,35 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 06 Nov 2025 10:43:50 GMT</pubDate>
+    <pubDate>Wed, 12 Nov 2025 02:08:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>关于hexo静态博客优化的几个小技巧</title>
+      <link>https://seln.cn/posts/99ee8c74/</link>
+      <guid>https://seln.cn/posts/99ee8c74/</guid>
+      <pubDate>Wed, 12 Nov 2025 02:06:47 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;使用lazyload懒加载&quot;&gt;&lt;a href=&quot;#使用lazyload懒加载&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/99ee8c74/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>给手机版单独设置背景[hexo-butterfly]</title>
@@ -375,25 +402,6 @@
       
       
       <comments>https://seln.cn/posts/97eebedd/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>教程更新方式更改</title>
-      <link>https://seln.cn/posts/9cdd57e6/</link>
-      <guid>https://seln.cn/posts/9cdd57e6/</guid>
-      <pubDate>Fri, 10 Oct 2025 12:51:41 GMT</pubDate>
-      
-      <description>教程会一个魔改一篇文章更新</description>
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      
-      <comments>https://seln.cn/posts/9cdd57e6/#disqus_thread</comments>
       
     </item>
     
