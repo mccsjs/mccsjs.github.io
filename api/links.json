@@ -146,6 +146,11 @@
       "https://bu.dusays.com/2024/10/25/671b2438203a6.gif"
     ],
     [
+      "YouYou",
+      "https://vpnnew.net/blog/",
+      "https://vpnnew.net/youyou.png"
+    ],
+    [
       "阿叶Ayeez",
       "https://blog.ayeez.cn",
       "https://blog.ayeez.cn/imgs/photo.jpg"
@@ -191,9 +196,19 @@
       "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0"
     ],
     [
-      "YouYou",
-      "https://vpnnew.net/blog/",
-      "https://vpnnew.net/youyou.png"
+      "萌备",
+      "https://icp.gov.moe/",
+      "https://icp.gov.moe/images/ico64.png"
+    ],
+    [
+      "茶备",
+      "https://icp.redcha.cn/",
+      "https://icp.redcha.cn/favicon.ico"
+    ],
+    [
+      "开往",
+      "https://www.travellings.cn/",
+      "https://www.travellings.cn/assets/dark.png"
     ],
     [
       "Heithon's blog",
@@ -211,7 +226,7 @@
       "https://zoc.asia/logo.png"
     ]
   ],
-  "count": 42,
-  "generated": "2025-11-12T02:08:30.160Z",
+  "count": 45,
+  "generated": "2025-11-12T05:57:27.941Z",
   "format": "volantis"
 }
