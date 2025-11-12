@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://seln.cn/posts/99ee8c74/</loc>
+    <loc>https://seln.cn/friend.json</loc>
+    
+    <lastmod>2025-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/posts/ccc7adfa/</loc>
     
     <lastmod>2025-11-12</lastmod>
     
@@ -13,16 +22,43 @@
   <url>
     <loc>https://seln.cn/link/index.html</loc>
     
-    <lastmod>2025-11-10</lastmod>
+    <lastmod>2025-11-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://seln.cn/friend.json</loc>
+    <loc>https://seln.cn/posts/7dc9a0a2/</loc>
     
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/posts/38be6655/</loc>
+    
+    <lastmod>2025-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/posts/dff715bb/</loc>
+    
+    <lastmod>2025-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/posts/99ee8c74/</loc>
+    
+    <lastmod>2025-11-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -110,27 +146,9 @@
   </url>
   
   <url>
-    <loc>https://seln.cn/posts/dff715bb/</loc>
-    
-    <lastmod>2025-10-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://seln.cn/comments/index.html</loc>
     
     <lastmod>2025-10-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seln.cn/posts/7dc9a0a2/</loc>
-    
-    <lastmod>2025-10-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -191,25 +209,7 @@
   </url>
   
   <url>
-    <loc>https://seln.cn/posts/ccc7adfa/</loc>
-    
-    <lastmod>2025-10-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://seln.cn/posts/c40add2d/</loc>
-    
-    <lastmod>2025-10-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seln.cn/posts/38be6655/</loc>
     
     <lastmod>2025-10-13</lastmod>
     

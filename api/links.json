@@ -196,21 +196,6 @@
       "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0"
     ],
     [
-      "萌备",
-      "https://icp.gov.moe/",
-      "https://icp.gov.moe/images/ico64.png"
-    ],
-    [
-      "茶备",
-      "https://icp.redcha.cn/",
-      "https://icp.redcha.cn/favicon.ico"
-    ],
-    [
-      "开往",
-      "https://www.travellings.cn/",
-      "https://www.travellings.cn/assets/dark.png"
-    ],
-    [
       "Heithon's blog",
       "http://heithon",
       "https://csjs.eu.org/img/404.jpg"
@@ -226,7 +211,7 @@
       "https://zoc.asia/logo.png"
     ]
   ],
-  "count": 45,
-  "generated": "2025-11-12T05:57:27.941Z",
+  "count": 42,
+  "generated": "2025-11-12T06:33:36.639Z",
   "format": "volantis"
 }
