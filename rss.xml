@@ -15,8 +15,35 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 12 Nov 2025 09:11:51 GMT</pubDate>
+    <pubDate>Thu, 20 Nov 2025 07:53:29 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>记录博客第二次回档</title>
+      <link>https://seln.cn/posts/658e192d/</link>
+      <guid>https://seln.cn/posts/658e192d/</guid>
+      <pubDate>Thu, 20 Nov 2025 07:49:47 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;自从Cloudflare坠机之后，本博客因莫名其妙的原因失效了一些组件，无从修复，遂回档试试，结果发现还真有用。&lt;br&gt;我最后的存档日期是2025-11-13,在此之后在没修改过东西，回档能修复真的神奇&lt;br&gt;最后:&lt;br&gt;&lt;div class=&quot;note info</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <comments>https://seln.cn/posts/658e192d/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Cloudflare的r2存储桶使用</title>
@@ -388,27 +415,6 @@
       
       
       <comments>https://seln.cn/posts/ccc7adfa/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo博客添加顶部加载条</title>
-      <link>https://seln.cn/posts/38be6655/</link>
-      <guid>https://seln.cn/posts/38be6655/</guid>
-      <pubDate>Sat, 11 Oct 2025 12:03:16 GMT</pubDate>
-      
-      <description>butterfly主题魔改</description>
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/38be6655/#disqus_thread</comments>
       
     </item>
     

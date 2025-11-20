@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>记录博客第二次回档</title>
+      <link href="/posts/658e192d/"/>
+      <url>/posts/658e192d/</url>
+      
+        <content type="html"><![CDATA[<p>自从Cloudflare坠机之后，本博客因莫名其妙的原因失效了一些组件，无从修复，遂回档试试，结果发现还真有用。<br>我最后的存档日期是2025-11-13,在此之后在没修改过东西，回档能修复真的神奇<br>最后:<br><div class="note info no-icon flat"><p>请多多备份，要不然出错了又不知道怎么改就完啦！！！</p></div></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Cloudflare的r2存储桶使用</title>
       <link href="/posts/1f8d2eb1/"/>
       <url>/posts/1f8d2eb1/</url>

@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-11-12T09:11:51.000Z</updated>
+  <updated>2025-11-20T07:53:29.510Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录博客第二次回档</title>
+    <link href="https://seln.cn/posts/658e192d/"/>
+    <id>https://seln.cn/posts/658e192d/</id>
+    <published>2025-11-20T07:49:47.000Z</published>
+    <updated>2025-11-20T07:53:29.510Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;自从Cloudflare坠机之后，本博客因莫名其妙的原因失效了一些组件，无从修复，遂回档试试，结果发现还真有用。&lt;br&gt;我最后的存档日期是2025-11-13,在此之后在没修改过东西，回档能修复真的神奇&lt;br&gt;最后:&lt;br&gt;&lt;div class=&quot;note info</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Cloudflare的r2存储桶使用</title>
@@ -351,25 +376,6 @@
     
     
     <summary type="html">butterfly主题友链魔改</summary>
-    
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo博客添加顶部加载条</title>
-    <link href="https://seln.cn/posts/38be6655/"/>
-    <id>https://seln.cn/posts/38be6655/</id>
-    <published>2025-10-11T12:03:16.000Z</published>
-    <updated>2025-11-12T06:13:36.000Z</updated>
-    
-    
-    <summary type="html">butterfly主题魔改</summary>
     
     
     
