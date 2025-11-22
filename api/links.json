@@ -191,6 +191,11 @@
       "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0"
     ],
     [
+      "JustPureH2O",
+      "https://justpureh2o.cn/",
+      "https://img.justpureh2o.cn/image/667f85b1d9c307b7e9ef9f2c.jpg"
+    ],
+    [
       "Heithon's blog",
       "http://heithon",
       "https://csjs.eu.org/img/404.jpg"
@@ -206,7 +211,7 @@
       "https://zoc.asia/logo.png"
     ]
   ],
-  "count": 41,
-  "generated": "2025-11-22T14:01:36.843Z",
+  "count": 42,
+  "generated": "2025-11-22T14:24:56.022Z",
   "format": "volantis"
 }
