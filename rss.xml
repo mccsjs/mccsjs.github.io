@@ -15,8 +15,63 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 20 Nov 2025 07:53:50 GMT</pubDate>
+    <pubDate>Sun, 23 Nov 2025 08:02:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>QEXO的注意事项</title>
+      <link>https://seln.cn/posts/qexo/</link>
+      <guid>https://seln.cn/posts/qexo/</guid>
+      <pubDate>Sun, 23 Nov 2025 08:00:23 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;早上我发布了一篇&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <comments>https://seln.cn/posts/qexo/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>给静态博客添加一个优雅的在线后端【hexo-qexo】</title>
+      <link>https://seln.cn/posts/fd555bb4/</link>
+      <guid>https://seln.cn/posts/fd555bb4/</guid>
+      <pubDate>Sun, 23 Nov 2025 07:00:12 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;项目部署&quot;&gt;&lt;a href=&quot;#项目部署&quot; class=&quot;headerlink&quot; title=&quot;项目部署&quot;&gt;&lt;/a&gt;项目部署&lt;/h2&gt;&lt;p&gt;点击下面的按钮部署到 Vercel：&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/fd555bb4/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>记录博客第二次回档</title>
@@ -373,48 +428,6 @@
       
       
       <comments>https://seln.cn/posts/5eff52f7/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>引入阿里iconfont自定义图标</title>
-      <link>https://seln.cn/posts/c40add2d/</link>
-      <guid>https://seln.cn/posts/c40add2d/</guid>
-      <pubDate>Mon, 13 Oct 2025 08:40:16 GMT</pubDate>
-      
-      <description>butterfly引入自定义图标</description>
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/c40add2d/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>友链一行显示多个</title>
-      <link>https://seln.cn/posts/ccc7adfa/</link>
-      <guid>https://seln.cn/posts/ccc7adfa/</guid>
-      <pubDate>Sun, 12 Oct 2025 09:35:33 GMT</pubDate>
-      
-      <description>butterfly主题友链魔改</description>
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/ccc7adfa/#disqus_thread</comments>
       
     </item>
     
