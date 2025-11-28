@@ -42,7 +42,7 @@
         opacity: 1;
     }
 } */
-
+ 
 /* ========================twikoo美化====================== */
 /* 隐藏评论者头像 */
 #twikoo .tk-comments .tk-submit .tk-avatar.tk-has-avatar {
@@ -240,9 +240,4 @@
     .tk-main .tk-extras {
         display: none;
     }
-}
-
-/* 评论区按钮样式 */
-.tk-row.actions button.el-button {
-    border-radius: 12px !important;
 }

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seln.cn/friend.json</loc>
+    
+    <lastmod>2025-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seln.cn/a/owo.json</loc>
     
     <lastmod>2025-11-28</lastmod>
@@ -32,15 +41,6 @@
     <loc>https://seln.cn/link/index.html</loc>
     
     <lastmod>2025-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seln.cn/friend.json</loc>
-    
-    <lastmod>2025-11-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
