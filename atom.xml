@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-11-23T08:02:43.173Z</updated>
+  <updated>2025-11-29T05:59:48.206Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给博客添加一个小菜单【hexo-butterfly左上角小菜单】</title>
+    <link href="https://seln.cn/posts/2ec44b4c/"/>
+    <id>https://seln.cn/posts/2ec44b4c/</id>
+    <published>2025-11-29T05:37:19.000Z</published>
+    <updated>2025-11-29T05:59:48.206Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;情况是有一天博客闲逛，逛到了&lt;a href=&quot;https://blog.liushen.fun/&quot;&gt;LiuShen’s Blog -</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>QEXO的注意事项</title>
@@ -369,33 +394,6 @@
     
     
     <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo博客添加弹窗公告</title>
-    <link href="https://seln.cn/posts/5eff52f7/"/>
-    <id>https://seln.cn/posts/5eff52f7/</id>
-    <published>2025-10-15T11:46:55.000Z</published>
-    <updated>2025-10-16T23:56:38.725Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;新建&lt;code&gt;/css/gg.css&lt;/code&gt;，在css中引入以下代码：（只推荐新建，不推荐粘贴到已有的CSS中）&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   

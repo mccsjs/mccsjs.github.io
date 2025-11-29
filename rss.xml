@@ -15,8 +15,35 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 23 Nov 2025 08:02:43 GMT</pubDate>
+    <pubDate>Sat, 29 Nov 2025 05:59:48 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>给博客添加一个小菜单【hexo-butterfly左上角小菜单】</title>
+      <link>https://seln.cn/posts/2ec44b4c/</link>
+      <guid>https://seln.cn/posts/2ec44b4c/</guid>
+      <pubDate>Sat, 29 Nov 2025 05:37:19 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;情况是有一天博客闲逛，逛到了&lt;a href=&quot;https://blog.liushen.fun/&quot;&gt;LiuShen’s Blog -</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/2ec44b4c/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>QEXO的注意事项</title>
@@ -399,35 +426,6 @@
       
       
       <comments>https://seln.cn/posts/27de4062/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo博客添加弹窗公告</title>
-      <link>https://seln.cn/posts/5eff52f7/</link>
-      <guid>https://seln.cn/posts/5eff52f7/</guid>
-      <pubDate>Wed, 15 Oct 2025 11:46:55 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;新建&lt;code&gt;/css/gg.css&lt;/code&gt;，在css中引入以下代码：（只推荐新建，不推荐粘贴到已有的CSS中）&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/5eff52f7/#disqus_thread</comments>
       
     </item>
     
