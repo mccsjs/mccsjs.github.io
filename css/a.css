@@ -241,3 +241,43 @@
         display: none;
     }
 }
+#menus {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#search-button {
+  margin-left: auto;
+}
+
+/* 隐藏原有图标 */
+.back-home-button i.anzhiyufont.anzhiyu-icon-grip-vertical {
+  display: none;
+}
+
+/* 在按钮上添加背景图标并调整大小和边距 */
+.back-home-button {
+  position: relative;
+  padding-left: 28px; /* 左侧留出图标空间 + 边距 */
+  padding-right: 8px; /* 右侧边距 */
+  padding-top: 1px; /* 上边距 */
+  padding-bottom: 6px; /* 下边距 */
+  display: flex;
+  align-items: center;
+  min-height: 32px; /* 最小高度确保按钮有足够空间 */
+}
+
+.back-home-button::before {
+  content: "";
+  position: absolute;
+  left: 1px; /* 图标左侧边距 */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px; /* 图标宽度 */
+  height: 25px; /* 图标高度 */
+  background-image: url('/img/lemon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
