@@ -281,3 +281,31 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+#nav-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px; /* 根据需要调整内边距 */
+}
+
+#blog_name {
+  display: flex;
+  align-items: center;
+}
+
+#blog-info {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav-site-title {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
