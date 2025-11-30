@@ -314,3 +314,20 @@
     position: relative;
     left: -28px; /* 向左移动30像素，可根据需要调整数值 */
 }
+.back-home-button {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.back-home-button:hover {
+  background-color: rgba(0, 0, 0, 0.171);
+  transform: translateY(-1px);
+}
+
+.back-home-button:active {
+  background-color: rgba(0, 0, 0, 0.201);
+  transform: translateY(0);
+}
