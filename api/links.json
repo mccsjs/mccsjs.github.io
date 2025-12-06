@@ -206,6 +206,11 @@
       "https://blog.zoc.asia/logo.png"
     ],
     [
+      "Nebula Blog",
+      "https://www.996icu.eu.org/",
+      "https://img.scdn.io/i/692d847f79589_1764590719.webp"
+    ],
+    [
       "Heithon's blog",
       "http://heithon",
       "https://csjs.eu.org/img/404.jpg"
@@ -216,7 +221,7 @@
       "https://gcore.jsdelivr.net/gh/kebuAAA/Picloud@main/img/avatar.webp"
     ]
   ],
-  "count": 43,
-  "generated": "2025-12-03T12:42:41.218Z",
+  "count": 44,
+  "generated": "2025-12-06T22:53:45.497Z",
   "format": "volantis"
 }
