@@ -531,31 +531,6 @@ h6::before {
     background: #212121
 }
 
-@font-face {
-    font-family: 'MyCustomFont';
-    src: url('/font/b.woff2') format('opentype');
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'MyCodeFont';
-    src: url('/font/neko.woff2') format('truetype');
-    font-weight: normal;
-    font-style: normal
-}
-
-body {
-    font-family: 'MyCustomFont', "Georgia", "Arial", sans-serif;
-    font-size: 16px
-}
-
-code,
-pre {
-    font-family: 'MyCodeFont', "Fira Code", "Courier", monospace;
-    font-size: 16px
-}
-
 #ft {
     max-width: 1200px;
     margin: 0 auto 12px;
@@ -857,44 +832,6 @@ pre {
     opacity: 0;
     transition: .3s;
     top: -8px
-}
-
-:root {
-  --blogessay-theme-op: #4259ef23;
-  --blogessay-gray-op: #9999992b;
-  --blogessay-theme-top: var(--blogessay-theme);
-  --blogessay-white: #fff;
-  --blogessay-white-op: rgba(255, 255, 255, 0.2);
-  --blogessay-gray: #999999;
-  --blogessay-main: var(--blogessay-theme);
-  --blogessay-main-op: var(--blogessay-theme-op);
-  --blogessay-shadow-border: 0 8px 16px -4px #2c2d300c;
-  --blogessay-style-border: 1px solid var(--blogessay-card-border);
-  --blogessay-style-border-hover: 1px solid var(--blogessay-main);
-  --blogessay-style-border-always: 1px solid var(--blogessay-card-border);
-  --blogessay-style-border-avatar: 4px solid var(--blogessay-background);
-}
-
-[data-theme="light"] {
-  --blogessay-theme: #3b70fc;
-  --blogessay-theme-deep: #1856fb;
-  --blogessay-theme-op: #4259ef23;
-  --blogessay-fontcolor: #363636;
-  --blogessay-background: #f7f9feCC;
-  --blogessay-secondbg: #f1f3f8;
-  --blogessay-card-bg: #ffffff;
-  --blogessay-card-border: #e3e8f7;
-}
-
-[data-theme="dark"] {
-  --blogessay-theme: #0084ff;
-  --blogessay-theme-deep: #0076e5;
-  --blogessay-theme-op: #0084ff23;
-  --blogessay-fontcolor: #f7f7fa;
-  --blogessay-background: #18171d00;
-  --blogessay-secondbg: #30343f;
-  --blogessay-card-bg: #000000;
-  --blogessay-card-border: #42444a;
 }
 
 .icon-home:before,
