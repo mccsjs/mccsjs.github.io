@@ -15,8 +15,36 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 29 Nov 2025 13:26:15 GMT</pubDate>
+    <pubDate>Sat, 13 Dec 2025 13:55:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>本站已成功备案，关于备案的材料</title>
+      <link>https://seln.cn/posts/a121d29a/</link>
+      <guid>https://seln.cn/posts/a121d29a/</guid>
+      <pubDate>Sat, 13 Dec 2025 13:00:45 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;如题，本站已成功备案，，并开设主页：&lt;a href=&quot;https://www.seln.cn&quot;&gt;沐雨拾光&lt;/a&gt;&lt;br&gt;备案后使用了国内服务和cdn，加载速度快了一大截&lt;/p&gt;
+&lt;h2 id=&quot;关于备案&quot;&gt;&lt;a href=&quot;#关于备案&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <comments>https://seln.cn/posts/a121d29a/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>给博客添加一个小菜单【hexo-butterfly左上角小菜单】</title>
@@ -398,34 +426,6 @@
       
       
       <comments>https://seln.cn/posts/d1f73f4b/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>记录博客第一次回档</title>
-      <link>https://seln.cn/posts/27de4062/</link>
-      <guid>https://seln.cn/posts/27de4062/</guid>
-      <pubDate>Fri, 17 Oct 2025 00:03:52 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;code&gt;魔改有风险，上传需谨慎&lt;/code&gt;&lt;br&gt;因魔改代码导致加载时长从2秒加载涨到了十几秒，迫不得已回档到2025/10/15的版本&lt;br&gt;魔改一定要多备份&lt;/p&gt;
-</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <comments>https://seln.cn/posts/27de4062/#disqus_thread</comments>
       
     </item>
     
