@@ -15,8 +15,33 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 13 Dec 2025 13:55:17 GMT</pubDate>
+    <pubDate>Fri, 19 Dec 2025 09:49:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>本站已公安联网备案，关于备案流程</title>
+      <link>https://seln.cn/posts/74e99a86/</link>
+      <guid>https://seln.cn/posts/74e99a86/</guid>
+      <pubDate>Fri, 19 Dec 2025 09:23:58 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;如果您的网站/App已完成ICP备案需要在开通网站/App之日起的30日内提交公安联网备案申请。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;互联网信息服务备案（ICP备案）是工信部管理要求，由接入商协助代申请。而公安联网备案遵循公安部的要求，由主办</description>
+          
+        
+      
+      
+      
+      
+      
+      
+      <comments>https://seln.cn/posts/74e99a86/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>本站已成功备案，关于备案的材料</title>
@@ -398,34 +423,6 @@
       
       
       <comments>https://seln.cn/posts/646e63e3/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo不蒜子统计的问题</title>
-      <link>https://seln.cn/posts/d1f73f4b/</link>
-      <guid>https://seln.cn/posts/d1f73f4b/</guid>
-      <pubDate>Fri, 17 Oct 2025 13:33:50 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;今天发现博客页面底部的访客统计不蒜子失效了，就去查什么情况了。是因为不蒜子统计的域名过期了，之前也多次出现这种情况&lt;/p&gt;
-&lt;p&gt;在恢复之前，将不蒜子取消，等恢复吧，在主题配置文件中修改以下部分&lt;br&gt;&lt;figure class=&quot;highlight</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <comments>https://seln.cn/posts/d1f73f4b/#disqus_thread</comments>
       
     </item>
     
