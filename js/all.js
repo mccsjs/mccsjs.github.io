@@ -597,21 +597,6 @@ function waterfall(a) {
     window.addEventListener ? window.addEventListener("resize", k) : (document.body.onresize = k);
 }
 
-// 动态标题
-var OriginTitile = document.title;
-var titleTime;
-document.addEventListener('visibilitychange', function () {
-    if (document.hidden) {
-        document.title = '👀跑哪里去了~';
-        clearTimeout(titleTime);
-    } else {
-        document.title = '🐖抓到你啦～';
-        titleTime = setTimeout(function () {
-            document.title = OriginTitile;
-        }, 2000);
-    }
-});
-
 // 时间计算器
 function createTimeCounter() {
     const startTime = new Date("2023-01-22 08:00:00");

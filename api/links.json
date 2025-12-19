@@ -38,7 +38,7 @@
     [
       "Almango",
       "https://blog.almango.cn/",
-      "https://blog.almango.cn/img/favicon.png"
+      "https://blog.almango.cn/avatar.png"
     ],
     [
       "Honaisu",
@@ -222,6 +222,6 @@
     ]
   ],
   "count": 44,
-  "generated": "2025-12-19T09:50:04.600Z",
+  "generated": "2025-12-19T10:03:05.083Z",
   "format": "volantis"
 }
