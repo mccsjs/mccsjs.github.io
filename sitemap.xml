@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://seln.cn/link/index.html</loc>
+    
+    <lastmod>2025-12-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seln.cn/posts/74e99a86/</loc>
     
     <lastmod>2025-12-19</lastmod>
@@ -57,15 +66,6 @@
   
   <url>
     <loc>https://seln.cn/posts/fd555bb4/</loc>
-    
-    <lastmod>2025-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seln.cn/link/index.html</loc>
     
     <lastmod>2025-11-23</lastmod>
     
