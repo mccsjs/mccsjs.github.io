@@ -1134,7 +1134,7 @@ body {
   font-size: 16px;
 }
 
-/* 快速友链 */
+/* 快速友链
 .addBtn {
     display: flex;
     justify-content: center;
@@ -1170,4 +1170,4 @@ button {
 .addBtn button:hover {
     background: var(--theme-color);
     color: #fff;
-}
+} */
