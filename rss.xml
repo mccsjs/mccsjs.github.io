@@ -15,8 +15,35 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 21 Dec 2025 07:24:37 GMT</pubDate>
+    <pubDate>Sun, 21 Dec 2025 08:19:16 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>博客配置追番页面【hexo-butterfly】</title>
+      <link>https://seln.cn/posts/18217915/</link>
+      <guid>https://seln.cn/posts/18217915/</guid>
+      <pubDate>Sun, 21 Dec 2025 07:58:24 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;我在我废弃的博客1.0中，添加了追番页，写个教程记录一下怎么实现的&lt;a href=&quot;https://sych.eu.org/dm/&quot;&gt;我追的番 | mccsjs🍋の小家&lt;/a&gt;&lt;br&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/18217915/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>twikoo配置邮箱和即时提醒</title>
@@ -401,33 +428,6 @@
       
       
       <comments>https://seln.cn/posts/37a42b6d/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>添加友链朋友圈「hexo-butterfly」</title>
-      <link>https://seln.cn/posts/7dc9a0a2/</link>
-      <guid>https://seln.cn/posts/7dc9a0a2/</guid>
-      <pubDate>Tue, 21 Oct 2025 07:00:54 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h4 id=&quot;详情可见：&quot;&gt;&lt;a href=&quot;#详情可见：&quot; class=&quot;headerlink&quot; title=&quot;详情可见：&quot;&gt;&lt;/a&gt;详情可见：&lt;/h4&gt;&lt;div class=&quot;hide-block&quot;&gt;&lt;button type=&quot;button&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/7dc9a0a2/#disqus_thread</comments>
       
     </item>
     

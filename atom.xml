@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-12-21T07:24:37.636Z</updated>
+  <updated>2025-12-21T08:19:16.676Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客配置追番页面【hexo-butterfly】</title>
+    <link href="https://seln.cn/posts/18217915/"/>
+    <id>https://seln.cn/posts/18217915/</id>
+    <published>2025-12-21T07:58:24.000Z</published>
+    <updated>2025-12-21T08:19:16.676Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我在我废弃的博客1.0中，添加了追番页，写个教程记录一下怎么实现的&lt;a href=&quot;https://sych.eu.org/dm/&quot;&gt;我追的番 | mccsjs🍋の小家&lt;/a&gt;&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>twikoo配置邮箱和即时提醒</title>
@@ -362,31 +387,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;1、有自己的域名&lt;br&gt;2、如果使用 &lt;a href=&quot;https://www.leancloud.cn/&quot;&gt;LeanCloud&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>添加友链朋友圈「hexo-butterfly」</title>
-    <link href="https://seln.cn/posts/7dc9a0a2/"/>
-    <id>https://seln.cn/posts/7dc9a0a2/</id>
-    <published>2025-10-21T07:00:54.000Z</published>
-    <updated>2025-11-12T06:13:58.605Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;详情可见：&quot;&gt;&lt;a href=&quot;#详情可见：&quot; class=&quot;headerlink&quot; title=&quot;详情可见：&quot;&gt;&lt;/a&gt;详情可见：&lt;/h4&gt;&lt;div class=&quot;hide-block&quot;&gt;&lt;button type=&quot;button&quot;</summary>
         
       
     
