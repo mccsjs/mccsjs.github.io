@@ -15,8 +15,36 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 19 Dec 2025 09:49:47 GMT</pubDate>
+    <pubDate>Sun, 21 Dec 2025 07:24:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>twikoo配置邮箱和即时提醒</title>
+      <link>https://seln.cn/posts/86f502cb/</link>
+      <guid>https://seln.cn/posts/86f502cb/</guid>
+      <pubDate>Sun, 21 Dec 2025 06:46:44 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;twikoo评论的配置可以前往&lt;a href=&quot;https://twikoo.js.org/&quot;&gt;Twikoo | 一个简洁、安全、免费的静态网站评论系统&lt;/a&gt;进行配置，本文仅针对邮箱提醒和QQ即时提醒&lt;/p&gt;
+&lt;h2 id=&quot;QQ即时通知&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/86f502cb/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>本站已公安联网备案，关于备案流程</title>
@@ -37,6 +65,10 @@
       
       
       
+      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
       <comments>https://seln.cn/posts/74e99a86/#disqus_thread</comments>
@@ -396,33 +428,6 @@
       
       
       <comments>https://seln.cn/posts/7dc9a0a2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>不蒜子out，拥抱Vercount</title>
-      <link>https://seln.cn/posts/646e63e3/</link>
-      <guid>https://seln.cn/posts/646e63e3/</guid>
-      <pubDate>Sat, 18 Oct 2025 06:29:19 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无了&lt;br&gt;由于butterfly主题自带的就是不蒜子，我就去搜有没有平替，还真找到了&lt;br&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <comments>https://seln.cn/posts/646e63e3/#disqus_thread</comments>
       
     </item>
     

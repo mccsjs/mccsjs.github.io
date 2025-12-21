@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-12-19T09:49:47.948Z</updated>
+  <updated>2025-12-21T07:24:37.636Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>twikoo配置邮箱和即时提醒</title>
+    <link href="https://seln.cn/posts/86f502cb/"/>
+    <id>https://seln.cn/posts/86f502cb/</id>
+    <published>2025-12-21T06:46:44.000Z</published>
+    <updated>2025-12-21T07:24:37.636Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;twikoo评论的配置可以前往&lt;a href=&quot;https://twikoo.js.org/&quot;&gt;Twikoo | 一个简洁、安全、免费的静态网站评论系统&lt;/a&gt;进行配置，本文仅针对邮箱提醒和QQ即时提醒&lt;/p&gt;
+&lt;h2 id=&quot;QQ即时通知&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>本站已公安联网备案，关于备案流程</title>
     <link href="https://seln.cn/posts/74e99a86/"/>
     <id>https://seln.cn/posts/74e99a86/</id>
     <published>2025-12-19T09:23:58.000Z</published>
-    <updated>2025-12-19T09:49:47.948Z</updated>
+    <updated>2025-12-21T06:47:10.182Z</updated>
     
     
       
@@ -36,6 +62,10 @@
     
     
     
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
@@ -366,31 +396,6 @@
     
     
     <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不蒜子out，拥抱Vercount</title>
-    <link href="https://seln.cn/posts/646e63e3/"/>
-    <id>https://seln.cn/posts/646e63e3/</id>
-    <published>2025-10-18T06:29:19.000Z</published>
-    <updated>2025-10-18T06:37:29.078Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;昨天下午发现网页加载时间被拖到1分钟了，就看看啥情况，原来是不蒜子的域名无了&lt;br&gt;由于butterfly主题自带的就是不蒜子，我就去搜有没有平替，还真找到了&lt;br&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   

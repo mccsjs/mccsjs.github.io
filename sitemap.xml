@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://seln.cn/posts/2ec44b4c/</loc>
+    <loc>https://seln.cn/posts/86f502cb/</loc>
     
     <lastmod>2025-12-21</lastmod>
     
@@ -20,16 +20,25 @@
   </url>
   
   <url>
-    <loc>https://seln.cn/link/index.html</loc>
+    <loc>https://seln.cn/posts/74e99a86/</loc>
     
-    <lastmod>2025-12-19</lastmod>
+    <lastmod>2025-12-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://seln.cn/posts/74e99a86/</loc>
+    <loc>https://seln.cn/posts/2ec44b4c/</loc>
+    
+    <lastmod>2025-12-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/link/index.html</loc>
     
     <lastmod>2025-12-19</lastmod>
     
