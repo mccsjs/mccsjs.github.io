@@ -15,8 +15,36 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 21 Dec 2025 08:19:16 GMT</pubDate>
+    <pubDate>Mon, 22 Dec 2025 10:54:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>关于首页配置，文章双栏、文心一言（hexo-butterfly）</title>
+      <link>https://seln.cn/posts/406f96a5/</link>
+      <guid>https://seln.cn/posts/406f96a5/</guid>
+      <pubDate>Mon, 22 Dec 2025 10:31:15 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;本站所使用的是双栏文章布局，原先想用我的旧站&lt;a href=&quot;https://sych.eu.org/&quot;&gt;mccsjs🍋の小家&lt;/a&gt;的三栏布局的，但是发现新版butterfly已经不支持了&lt;/p&gt;
+&lt;h2 id=&quot;双栏实现方法&quot;&gt;&lt;a href=&quot;#双栏实现方法&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/406f96a5/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>博客配置追番页面【hexo-butterfly】</title>
@@ -401,33 +429,6 @@
       
       
       <comments>https://seln.cn/posts/dff715bb/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>在butterfly主题中加入说说</title>
-      <link>https://seln.cn/posts/37a42b6d/</link>
-      <guid>https://seln.cn/posts/37a42b6d/</guid>
-      <pubDate>Sat, 25 Oct 2025 08:22:04 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;1、有自己的域名&lt;br&gt;2、如果使用 &lt;a href=&quot;https://www.leancloud.cn/&quot;&gt;LeanCloud&lt;/a&gt;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/37a42b6d/#disqus_thread</comments>
       
     </item>
     

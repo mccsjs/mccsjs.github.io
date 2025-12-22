@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-12-21T08:19:16.676Z</updated>
+  <updated>2025-12-22T10:54:00.995Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于首页配置，文章双栏、文心一言（hexo-butterfly）</title>
+    <link href="https://seln.cn/posts/406f96a5/"/>
+    <id>https://seln.cn/posts/406f96a5/</id>
+    <published>2025-12-22T10:31:15.000Z</published>
+    <updated>2025-12-22T10:54:00.995Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本站所使用的是双栏文章布局，原先想用我的旧站&lt;a href=&quot;https://sych.eu.org/&quot;&gt;mccsjs🍋の小家&lt;/a&gt;的三栏布局的，但是发现新版butterfly已经不支持了&lt;/p&gt;
+&lt;h2 id=&quot;双栏实现方法&quot;&gt;&lt;a href=&quot;#双栏实现方法&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>博客配置追番页面【hexo-butterfly】</title>
@@ -362,31 +388,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;样式预览&quot;&gt;&lt;a href=&quot;#样式预览&quot; class=&quot;headerlink&quot; title=&quot;样式预览&quot;&gt;&lt;/a&gt;样式预览&lt;/h2&gt;&lt;div class=&quot;hide-block&quot;&gt;&lt;button type=&quot;button&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在butterfly主题中加入说说</title>
-    <link href="https://seln.cn/posts/37a42b6d/"/>
-    <id>https://seln.cn/posts/37a42b6d/</id>
-    <published>2025-10-25T08:22:04.000Z</published>
-    <updated>2025-11-07T05:40:43.925Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;1、有自己的域名&lt;br&gt;2、如果使用 &lt;a href=&quot;https://www.leancloud.cn/&quot;&gt;LeanCloud&lt;/a&gt;</summary>
         
       
     
