@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-12-27T01:41:24.394Z</updated>
+  <updated>2025-12-27T11:02:59.811Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给博客大部分图标更换成iconfont【hexo-butterfly】</title>
+    <link href="https://seln.cn/posts/f179c74c/"/>
+    <id>https://seln.cn/posts/f179c74c/</id>
+    <published>2025-12-27T10:44:11.000Z</published>
+    <updated>2025-12-27T11:02:59.811Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;刚刚给博客底部的fontawesome的图标更换成阿里iconfont图标，butterfly主题在&lt;code&gt;4.5&lt;/code&gt;的时候，在更改对应的图标时候会同步更改，新版把他们分开了，这期教一下怎么改&lt;/p&gt;
+&lt;div class=&quot;tabs&quot;&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>关于今天提交博客时遇到的问题</title>
@@ -303,7 +329,7 @@
     <link href="https://seln.cn/posts/99ee8c74/"/>
     <id>https://seln.cn/posts/99ee8c74/</id>
     <published>2025-11-12T02:06:47.000Z</published>
-    <updated>2025-11-15T09:27:50.996Z</updated>
+    <updated>2025-12-27T11:02:34.295Z</updated>
     
     
       
@@ -372,31 +398,6 @@
     
     
     <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo-butterfly实现友链状态检测</title>
-    <link href="https://seln.cn/posts/1caa5786/"/>
-    <id>https://seln.cn/posts/1caa5786/</id>
-    <published>2025-10-31T10:20:05.000Z</published>
-    <updated>2025-10-31T10:43:56.569Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本项目是根据&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   

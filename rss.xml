@@ -15,8 +15,36 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 27 Dec 2025 01:41:24 GMT</pubDate>
+    <pubDate>Sat, 27 Dec 2025 11:02:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>给博客大部分图标更换成iconfont【hexo-butterfly】</title>
+      <link>https://seln.cn/posts/f179c74c/</link>
+      <guid>https://seln.cn/posts/f179c74c/</guid>
+      <pubDate>Sat, 27 Dec 2025 10:44:11 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;刚刚给博客底部的fontawesome的图标更换成阿里iconfont图标，butterfly主题在&lt;code&gt;4.5&lt;/code&gt;的时候，在更改对应的图标时候会同步更改，新版把他们分开了，这期教一下怎么改&lt;/p&gt;
+&lt;div class=&quot;tabs&quot;&gt;&lt;div</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/f179c74c/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>关于今天提交博客时遇到的问题</title>
@@ -402,33 +430,6 @@
       
       
       <comments>https://seln.cn/posts/51143f32/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo-butterfly实现友链状态检测</title>
-      <link>https://seln.cn/posts/1caa5786/</link>
-      <guid>https://seln.cn/posts/1caa5786/</guid>
-      <pubDate>Fri, 31 Oct 2025 10:20:05 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本项目是根据&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/1caa5786/#disqus_thread</comments>
       
     </item>
     

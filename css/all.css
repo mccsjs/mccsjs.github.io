@@ -763,22 +763,6 @@ h6::before {
     }
 }
 
-.layout {
-    max-width: 1250px
-}
-
-.aside-content {
-    max-width: 318px;
-    min-width: 300px
-}
-
-@media screen and (max-width:900px) {
-    .aside-content {
-        max-width: none !important;
-        padding: 0 5px 0 5px
-    }
-}
-
 .pace {
     -webkit-pointer-events: none;
     pointer-events: none;
