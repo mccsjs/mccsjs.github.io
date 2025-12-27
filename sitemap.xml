@@ -11,18 +11,36 @@
   </url>
   
   <url>
-    <loc>https://seln.cn/comments/index.html</loc>
+    <loc>https://seln.cn/posts/406f96a5/</loc>
     
-    <lastmod>2025-12-24</lastmod>
+    <lastmod>2025-12-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://seln.cn/posts/406f96a5/</loc>
+    <loc>https://seln.cn/posts/202e94d4/</loc>
     
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2025-12-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/posts/9f65fc2f/</loc>
+    
+    <lastmod>2025-12-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seln.cn/comments/index.html</loc>
+    
+    <lastmod>2025-12-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -389,15 +407,6 @@
   </url>
   
   <url>
-    <loc>https://seln.cn/posts/9f65fc2f/</loc>
-    
-    <lastmod>2023-10-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://seln.cn/posts/eb757e99/</loc>
     
     <lastmod>2023-02-23</lastmod>
@@ -416,14 +425,14 @@
 
   
   <url>
-    <loc>https://seln.cn/tags/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://seln.cn/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2025-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seln.cn/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://seln.cn/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -439,14 +448,14 @@
 
   
   <url>
-    <loc>https://seln.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://seln.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2025-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seln.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://seln.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

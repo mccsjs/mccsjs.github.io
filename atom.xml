@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-12-22T10:54:00.995Z</updated>
+  <updated>2025-12-27T01:41:24.394Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>关于首页配置，文章双栏、文心一言（hexo-butterfly）</title>
+    <title>关于今天提交博客时遇到的问题</title>
+    <link href="https://seln.cn/posts/202e94d4/"/>
+    <id>https://seln.cn/posts/202e94d4/</id>
+    <published>2025-12-27T01:17:43.000Z</published>
+    <updated>2025-12-27T01:41:24.394Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天早上，我对博客进行修改后，正如往常一样提交，突然控制台出现一堆warning&lt;br&gt;&lt;img src=&quot;https://youke2.picui.cn/s1/2025/12/27/694f33eeaca47.png&quot; alt=&quot;1&quot; style=&quot;zoom:30%;&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于首页文章双栏、文心一言（hexo-butterfly）</title>
     <link href="https://seln.cn/posts/406f96a5/"/>
     <id>https://seln.cn/posts/406f96a5/</id>
     <published>2025-12-22T10:31:15.000Z</published>
-    <updated>2025-12-22T10:54:00.995Z</updated>
+    <updated>2025-12-27T01:45:18.779Z</updated>
     
     
       
@@ -363,31 +388,6 @@
         
         
     <summary type="html">&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本项目是根据&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo博客添加安全跳转页面</title>
-    <link href="https://seln.cn/posts/dff715bb/"/>
-    <id>https://seln.cn/posts/dff715bb/</id>
-    <published>2025-10-28T07:56:44.000Z</published>
-    <updated>2025-11-12T06:13:19.277Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;样式预览&quot;&gt;&lt;a href=&quot;#样式预览&quot; class=&quot;headerlink&quot; title=&quot;样式预览&quot;&gt;&lt;/a&gt;样式预览&lt;/h2&gt;&lt;div class=&quot;hide-block&quot;&gt;&lt;button type=&quot;button&quot;</summary>
         
       
     
