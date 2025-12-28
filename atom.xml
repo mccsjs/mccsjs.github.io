@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-12-27T11:02:59.811Z</updated>
+  <updated>2025-12-28T11:00:26.646Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用Cloudflare自建图床并套入cdn</title>
+    <link href="https://seln.cn/posts/cf308b7c/"/>
+    <id>https://seln.cn/posts/cf308b7c/</id>
+    <published>2025-12-28T05:03:22.000Z</published>
+    <updated>2025-12-28T11:00:26.646Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我所使用的是别人的开源项目，项目成品预览：&lt;a href=&quot;https://cfbed.1314883.xyz/&quot;&gt;CloudFlare</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>给博客大部分图标更换成iconfont【hexo-butterfly】</title>
@@ -303,7 +328,7 @@
     <link href="https://seln.cn/posts/1f8d2eb1/"/>
     <id>https://seln.cn/posts/1f8d2eb1/</id>
     <published>2025-11-12T09:10:50.000Z</published>
-    <updated>2025-11-12T09:11:51.370Z</updated>
+    <updated>2025-12-28T05:02:19.262Z</updated>
     
     
       
@@ -373,31 +398,6 @@
     
     
     <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo-butterfly魔改about页面</title>
-    <link href="https://seln.cn/posts/51143f32/"/>
-    <id>https://seln.cn/posts/51143f32/</id>
-    <published>2025-11-01T08:12:46.000Z</published>
-    <updated>2025-11-02T01:54:10.034Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;魔改前请备份，要不然出错了又不知道怎么改就完啦！！！&lt;br&gt;有些内容我没有放出来，但是大体是一致的&lt;br&gt;可以看看&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   

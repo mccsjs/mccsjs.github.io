@@ -15,8 +15,35 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 27 Dec 2025 11:02:59 GMT</pubDate>
+    <pubDate>Sun, 28 Dec 2025 11:00:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>利用Cloudflare自建图床并套入cdn</title>
+      <link>https://seln.cn/posts/cf308b7c/</link>
+      <guid>https://seln.cn/posts/cf308b7c/</guid>
+      <pubDate>Sun, 28 Dec 2025 05:03:22 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;我所使用的是别人的开源项目，项目成品预览：&lt;a href=&quot;https://cfbed.1314883.xyz/&quot;&gt;CloudFlare</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://seln.cn/posts/cf308b7c/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>给博客大部分图标更换成iconfont【hexo-butterfly】</title>
@@ -403,33 +430,6 @@
       
       
       <comments>https://seln.cn/posts/e6af388/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo-butterfly魔改about页面</title>
-      <link>https://seln.cn/posts/51143f32/</link>
-      <guid>https://seln.cn/posts/51143f32/</guid>
-      <pubDate>Sat, 01 Nov 2025 08:12:46 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;魔改前请备份，要不然出错了又不知道怎么改就完啦！！！&lt;br&gt;有些内容我没有放出来，但是大体是一致的&lt;br&gt;可以看看&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <comments>https://seln.cn/posts/51143f32/#disqus_thread</comments>
       
     </item>
     
