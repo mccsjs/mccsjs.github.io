@@ -15,8 +15,35 @@
     <atom:link href="https://seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 28 Dec 2025 11:03:06 GMT</pubDate>
+    <pubDate>Wed, 31 Dec 2025 16:13:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>2026，星河长明，步履不停</title>
+      <link>https://seln.cn/posts/1a3b11fa/</link>
+      <guid>https://seln.cn/posts/1a3b11fa/</guid>
+      <pubDate>Wed, 31 Dec 2025 16:08:57 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;辞别2025的晨曦与暮色，&lt;br&gt;我们以梦为舟，驶向2026的黎明。&lt;br&gt;愿新年的风，吹散所有疲惫；&lt;br&gt;愿每一步，都踏在希望的土壤上。&lt;br&gt;不问前路多远，只管心向远方——&lt;br&gt;&lt;strong&gt;2026，愿你我皆如星辰，微光成炬，照亮自己的山河。&lt;/strong&gt;&lt;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <comments>https://seln.cn/posts/1a3b11fa/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>利用Cloudflare自建图床并套入cdn</title>
@@ -401,35 +428,6 @@
       
       
       <comments>https://seln.cn/posts/99ee8c74/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>给手机版单独设置背景[hexo-butterfly]</title>
-      <link>https://seln.cn/posts/e6af388/</link>
-      <guid>https://seln.cn/posts/e6af388/</guid>
-      <pubDate>Thu, 06 Nov 2025 10:42:04 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本来想看看有没有什么成熟的方案，结果发现全都失效了，于是自己搞了个css&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;实现的方式很简单，在自定义css中添加以下内容&lt;br&gt;&lt;figure</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <category domain="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/">教程碎片</category>
-      
-      
-      <comments>https://seln.cn/posts/e6af388/#disqus_thread</comments>
       
     </item>
     

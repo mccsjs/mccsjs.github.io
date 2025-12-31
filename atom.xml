@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2025-12-28T11:03:06.000Z</updated>
+  <updated>2025-12-31T16:13:59.831Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2026，星河长明，步履不停</title>
+    <link href="https://seln.cn/posts/1a3b11fa/"/>
+    <id>https://seln.cn/posts/1a3b11fa/</id>
+    <published>2025-12-31T16:08:57.000Z</published>
+    <updated>2025-12-31T16:13:59.831Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;辞别2025的晨曦与暮色，&lt;br&gt;我们以梦为舟，驶向2026的黎明。&lt;br&gt;愿新年的风，吹散所有疲惫；&lt;br&gt;愿每一步，都踏在希望的土壤上。&lt;br&gt;不问前路多远，只管心向远方——&lt;br&gt;&lt;strong&gt;2026，愿你我皆如星辰，微光成炬，照亮自己的山河。&lt;/strong&gt;&lt;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://seln.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>利用Cloudflare自建图床并套入cdn</title>
@@ -371,33 +396,6 @@
     
     
     <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>给手机版单独设置背景[hexo-butterfly]</title>
-    <link href="https://seln.cn/posts/e6af388/"/>
-    <id>https://seln.cn/posts/e6af388/</id>
-    <published>2025-11-06T10:42:04.000Z</published>
-    <updated>2025-11-06T10:43:52.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;p&gt;本来想看看有没有什么成熟的方案，结果发现全都失效了，于是自己搞了个css&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;实现的方式很简单，在自定义css中添加以下内容&lt;br&gt;&lt;figure</summary>
-        
-      
-    
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="教程碎片" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   
