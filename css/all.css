@@ -1121,3 +1121,15 @@ body {
 .OwO-items.OwO-items-emoticon.OwO-items-show {
   background-color: #333;
 }
+
+@media (prefers-color-scheme: dark) {
+  /* 特定文章标题 */
+  a.article-title[href="/posts/f179c74c/"] {
+    color: #a0a0a0 !important;
+  }
+  
+  /* 或者所有文章标题 */
+  a.article-title {
+    color: #a0a0a0 !important;
+  }
+}
