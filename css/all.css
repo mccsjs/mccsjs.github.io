@@ -1118,40 +1118,6 @@ body {
   font-size: 16px;
 }
 
-/* 快速友链
-.addBtn {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.OwO-items.OwO-items-emoticon.OwO-items-show {
+  background-color: #333;
 }
-.addBtn button {
-    transition: .2s;
-    display: flex;
-    margin: 5px auto;
-    color: var(--global-bg);
-    padding: 15px;
-    border-radius: 40px;
-    background: var(--search-result-title);
-    align-items: center;
-}
-
-button {
-    padding: 0;
-    outline: 0;
-    border: none;
-    background: 0 0;
-    cursor: pointer;
-    touch-action: manipulation;
-}
-.fa-solid, .fas {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-}
-.addBtn i {
-    font-size: 1.3rem;
-    margin-right: 10px;
-}
-.addBtn button:hover {
-    background: var(--theme-color);
-    color: #fff;
-} */
