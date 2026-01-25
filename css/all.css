@@ -1122,7 +1122,16 @@ body {
   background-color: #333;
 }
 
-/* 先测试是否在任何情况下都能生效 */
-.recent-post-info {
-  background-color: #333 !important; 
+/* 尝试这些类名 */
+.dark-mode .recent-post-info,
+.dark .recent-post-info,
+[data-theme="dark"] .recent-post-info,
+.theme-dark .recent-post-info {
+  background-color: #2a2a2a !important;
+}
+
+/* 或者检查body是否有特定类名 */
+body.dark .recent-post-info,
+body.dark-mode .recent-post-info {
+  background-color: #2a2a2a !important;
 }
