@@ -1122,14 +1122,7 @@ body {
   background-color: #333;
 }
 
-@media (prefers-color-scheme: dark) {
-  /* 特定文章标题 */
-  a.article-title[href="/posts/f179c74c/"] {
-    color: #a0a0a0 !important;
-  }
-  
-  /* 或者所有文章标题 */
-  a.article-title {
-    color: #a0a0a0 !important;
-  }
+/* 先测试是否在任何情况下都能生效 */
+.recent-post-info {
+  background-color: #333 !important; 
 }
