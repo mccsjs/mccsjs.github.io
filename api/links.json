@@ -206,6 +206,11 @@
       "https://tang-blog.leleosd.top/img/avatar.jpg"
     ],
     [
+      "热衷于de博客",
+      "https://zooyoo.top/",
+      "https://zooyoo.top/img/l.png"
+    ],
+    [
       "Heithon's blog",
       "http://heithon",
       "https://csjs.eu.org/img/404.jpg"
@@ -226,7 +231,7 @@
       "https://blog.zoc.asia/logo.png"
     ]
   ],
-  "count": 45,
-  "generated": "2026-01-25T13:58:47.301Z",
+  "count": 46,
+  "generated": "2026-01-29T09:34:00.169Z",
   "format": "volantis"
 }
