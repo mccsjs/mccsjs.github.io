@@ -1119,19 +1119,5 @@ body {
 }
 
 .OwO-items.OwO-items-emoticon.OwO-items-show {
-  background-color: #333;
-}
-
-/* 尝试这些类名 */
-.dark-mode .recent-post-info,
-.dark .recent-post-info,
-[data-theme="dark"] .recent-post-info,
-.theme-dark .recent-post-info {
-  background-color: #2a2a2a !important;
-}
-
-/* 或者检查body是否有特定类名 */
-body.dark .recent-post-info,
-body.dark-mode .recent-post-info {
-  background-color: #2a2a2a !important;
+  color: #000000;
 }

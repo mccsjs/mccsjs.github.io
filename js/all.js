@@ -398,7 +398,7 @@ class LinkStatusChecker {
     constructor() {
         this.retryCount = 0;
         this.MAX_RETRIES = 3;
-        this.STATUS_URL = 'https://flink.seln.cn/status.json';
+        this.STATUS_URL = 'https://link.seln.cn/status.json';
         this.init();
     }
 
