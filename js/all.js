@@ -1050,5 +1050,5 @@ function tonav() {
     });
 
     // 初始化 page-name
-    document.getElementById("page-name").innerText = document.title.split(" | LiuShen's Blog")[0];
+    document.getElementById("page-name").innerText = document.title.split(" | ")[0];
 }
