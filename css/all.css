@@ -1276,12 +1276,3 @@ nav.show:not(.hide-menu) .menus_item_child:not(#sidebar-menus ul){
     }
 }
 
-/* 让搜索按钮和菜单按钮在手机版下调整位置 */
-@media (max-width: 870px) {
-    /* 让菜单按钮在搜索按钮右边并调整距离 */
-    #toggle-menu {
-        position: relative;
-        left: -10px; /* 与搜索按钮同步向左移动 */
-        margin-left: 380px; /* 调整与搜索按钮之间的距离，可修改数值 */
-    }
-}
