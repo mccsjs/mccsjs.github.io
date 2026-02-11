@@ -1122,30 +1122,11 @@ body {
   color: #000000;
 }
 
-/* 添加横向布局 */
-nav.show:not(.hide-menu) .menus_item_child li:not(#sidebar-menus li){
-    float: left;
-    border-radius: 13px!important;
-    -webkit-border-radius: 13px!important;
-    -moz-border-radius: 13px!important;
-    -ms-border-radius: 13px!important;
-    -o-border-radius: 13px!important;
-}
-nav.show:not(.hide-menu) .menus_item_child:not(#sidebar-menus ul){
-  /*
-    left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调
-  改为：*/
-  left:50%;
-  translate:-50%;
-}
-
-/* 添加边界和圆角 */
-#nav .menus_items .menus_item .menus_item_child {
-    padding: 7px 7px; /* 10px的左右padding */
-    border-radius: 20px; /* 添加10px的圆角 */
-}
-
-#nav #page-name {
-    position: relative;
-    padding: 10px 30px /*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
+.dark-mode .recent-post-info,
+.dark .recent-post-info,
+[data-theme="dark"] .recent-post-info,
+.theme-dark .recent-post-info,
+body.dark .recent-post-info,
+body.dark-mode .recent-post-info {
+    background-color: #2a2a2a !important
 }
