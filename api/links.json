@@ -211,6 +211,11 @@
       "https://zooyoo.top/img/l.png"
     ],
     [
+      "Serenity's Blog",
+      "https://serenity.aobp.cn/",
+      "https://serenity.aobp.cn/upload/%E5%A4%B4%E5%83%8F.png"
+    ],
+    [
       "Heithon's blog",
       "http://heithon",
       "https://csjs.eu.org/img/404.jpg"
@@ -231,7 +236,7 @@
       "https://blog.zoc.asia/logo.png"
     ]
   ],
-  "count": 46,
-  "generated": "2026-02-11T08:16:16.957Z",
+  "count": 47,
+  "generated": "2026-02-12T14:47:57.227Z",
   "format": "volantis"
 }
