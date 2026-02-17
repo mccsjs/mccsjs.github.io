@@ -6,7 +6,7 @@
   <link href="https://seln.cn/atom.xml" rel="self"/>
   
   <link href="https://seln.cn/"/>
-  <updated>2026-01-03T03:02:36.099Z</updated>
+  <updated>2026-02-17T02:12:07.024Z</updated>
   <id>https://seln.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新年快乐，马到成功</title>
+    <link href="https://seln.cn/posts/eb007bb7/"/>
+    <id>https://seln.cn/posts/eb007bb7/</id>
+    <published>2026-02-17T02:11:03.000Z</published>
+    <updated>2026-02-17T02:12:07.024Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​在过去的一年里，我们或许有收获，有挑战，但正是这些经历让我们更加坚韧和成熟。在新的一年里，愿我们都能像骏马一样，拥有昂扬的斗志，朝着目标奋力奔跑，最终马到成功，事业腾飞！</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>2026星河长明，步履不停</title>
@@ -371,31 +392,6 @@
     
     
     <category term="随笔" scheme="https://seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于hexo静态博客优化的几个小技巧</title>
-    <link href="https://seln.cn/posts/99ee8c74/"/>
-    <id>https://seln.cn/posts/99ee8c74/</id>
-    <published>2025-11-12T02:06:47.000Z</published>
-    <updated>2025-12-27T11:02:36.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;使用lazyload懒加载&quot;&gt;&lt;a href=&quot;#使用lazyload懒加载&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="教程" scheme="https://seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="教程" scheme="https://seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
