@@ -143,7 +143,7 @@
     [
       "阿叶Ayeez",
       "https://blog.ayeez.cn",
-      "https://blog.ayeez.cn/imgs/photo.jpg"
+      "https://qiniu.ayeez.cn/avatar.jpg"
     ],
     [
       "LYEy_isine",
@@ -196,14 +196,14 @@
       "https://oplog.cn/img/avatar.png"
     ],
     [
-      "Nebula",
-      "https://www.996icu.eu.org/",
-      "https://img.scdn.io/i/692d847f79589_1764590719.webp"
+      "CcoMm",
+      "https://blog.ccomm.top",
+      "https://avatars.githubusercontent.com/u/147143261"
     ],
     [
       "TangShiMei",
-      "https://tang-blog.leleosd.top/",
-      "https://tang-blog.leleosd.top/img/avatar.jpg"
+      "https://blog.224418.xyz/",
+      "https://blog.224418.xyz/img/favicon.ico"
     ],
     [
       "热衷于de博客",
@@ -242,6 +242,6 @@
     ]
   ],
   "count": 48,
-  "generated": "2026-02-28T15:24:34.320Z",
+  "generated": "2026-04-11T22:20:48.965Z",
   "format": "volantis"
 }
