@@ -1,5 +1,7 @@
 https://seln.cn/flink_count.json
 https://seln.cn/friend.json
+https://seln.cn/posts/cc95c699/
+https://seln.cn/shuoshuo/index.html
 https://seln.cn/show/index.html
 https://seln.cn/posts/eb007bb7/
 https://seln.cn/link/index.html

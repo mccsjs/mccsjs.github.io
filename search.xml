@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>近期</title>
+      <link href="/posts/cc95c699/"/>
+      <url>/posts/cc95c699/</url>
+      
+        <content type="html"><![CDATA[<p>最近一个月太忙了，都没时间管理博客，回来发现博客加载不起来了</p><h2 id="最后发现是cdn证书过期了，更换了就恢复了🤪"><a href="#最后发现是cdn证书过期了，更换了就恢复了🤪" class="headerlink" title="最后发现是cdn证书过期了，更换了就恢复了🤪"></a>最后发现是cdn证书过期了，更换了就恢复了🤪</h2><p>然后我发现butterfly利用twikoo可以自行配置说说了，可以在单条说说里面评论<br>我本来想用ech0整一个带后端的，鸽了😄</p><ul><li>说说页面配置：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page shuoshuo</span><br></pre></td></tr></table></figure></li></ul><p>在shuoshuo的index.md中修改</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">说说</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2026-04-12 06:25:20</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">shuoshuo</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>在 <code>source</code> 下新建一个 <code>_data</code> 文件夹，里面新建一个 <code>shuoshuo.yml</code>，说说就在这里写</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">date:</span> <span class="number">2026-04-12 07:00:02</span> <span class="comment"># 时间</span></span><br><span class="line">  <span class="attr">key:</span> <span class="number">5</span> <span class="comment"># 不能重复，不写不能开启评论</span></span><br><span class="line">  <span class="attr">content:</span> <span class="string">|</span> <span class="comment"># 这里用管道表示多行内容</span></span><br><span class="line">    <span class="string">才发现butterfly有这功能了&lt;img</span> <span class="string">src=&quot;https://pic.seln.cn/file/picui/XET6TgXG.png&quot;</span> <span class="string">alt=&quot;滑稽狂汗.png&quot;</span> <span class="string">width=5%</span> <span class="string">/&gt;</span></span><br></pre></td></tr></table></figure><p>不过默认样式有点烂，需要修改一下，不知道是不是我魔改太多的原因🤷‍♀️</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>新年快乐，马到成功</title>
       <link href="/posts/eb007bb7/"/>
       <url>/posts/eb007bb7/</url>
