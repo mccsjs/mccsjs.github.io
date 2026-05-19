@@ -186,11 +186,6 @@
       "https://img.justpureh2o.cn/image/667f85b1d9c307b7e9ef9f2c.jpg"
     ],
     [
-      "啊不都",
-      "https://oplog.cn",
-      "https://oplog.cn/img/avatar.png"
-    ],
-    [
       "CcoMm",
       "https://blog.ccomm.top",
       "https://avatars.githubusercontent.com/u/147143261"
@@ -214,6 +209,11 @@
       "流欺の博客",
       "https://blog.lqay.cn",
       "https://tc.lqay.cn/LightPicture/2026/03/5f64e0f0f361e19c.png"
+    ],
+    [
+      "WindskyBLOG",
+      "https://blog.windsky.top",
+      "https://api.blog.windsky.top/uploads/20260419142010_resk5udp.jpg"
     ],
     [
       "Heithon's blog",
@@ -242,6 +242,6 @@
     ]
   ],
   "count": 48,
-  "generated": "2026-05-12T14:04:44.583Z",
+  "generated": "2026-05-19T15:20:17.759Z",
   "format": "volantis"
 }
