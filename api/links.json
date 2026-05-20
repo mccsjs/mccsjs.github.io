@@ -211,9 +211,14 @@
       "https://tc.lqay.cn/LightPicture/2026/03/5f64e0f0f361e19c.png"
     ],
     [
-      "WindskyBLOG",
+      "Windsky",
       "https://blog.windsky.top",
       "https://api.blog.windsky.top/uploads/20260419142010_resk5udp.jpg"
+    ],
+    [
+      "Zenghr",
+      "https://blog.zenghr.cn/",
+      "https://blog.zenghr.cn/static/img/avatar.jpg"
     ],
     [
       "Heithon's blog",
@@ -241,7 +246,7 @@
       "https://csjs.eu.org/img/404.jpg"
     ]
   ],
-  "count": 48,
-  "generated": "2026-05-19T15:26:51.641Z",
+  "count": 49,
+  "generated": "2026-05-20T07:08:14.056Z",
   "format": "volantis"
 }
