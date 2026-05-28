@@ -206,7 +206,7 @@
       "https://pan.346247.xyz/file/HSzfUP98.png"
     ],
     [
-      "流欺の博客",
+      "流欺",
       "https://blog.lqay.cn",
       "https://tc.lqay.cn/LightPicture/2026/03/5f64e0f0f361e19c.png"
     ],
@@ -219,6 +219,11 @@
       "Zenghr",
       "https://blog.zenghr.cn/",
       "https://blog.zenghr.cn/static/img/avatar.jpg"
+    ],
+    [
+      "素心",
+      "https://haiy.space/",
+      "https://haiy.space/uploads/images/2026/05/04ea5fddc86ae2ca.jpg"
     ],
     [
       "Heithon's blog",
@@ -246,7 +251,7 @@
       "https://csjs.eu.org/img/404.jpg"
     ]
   ],
-  "count": 49,
-  "generated": "2026-05-20T07:08:14.056Z",
+  "count": 50,
+  "generated": "2026-05-28T12:20:58.792Z",
   "format": "volantis"
 }
