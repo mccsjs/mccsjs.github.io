@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow:
 
-Sitemap: https://seln.cn/sitemap.xml
+Sitemap: https://hexo.seln.cn/sitemap.xml
