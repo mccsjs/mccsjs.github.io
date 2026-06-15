@@ -1,3 +1,7 @@
+https://seln.cn/img/wuwa-sigrika-02/index.json
+https://seln.cn/img/wuwa-sigrika-01/index.json
+https://seln.cn/img/wuwa-mix-02/index.json
+https://seln.cn/img/wuwa-mix-01/index.json
 https://seln.cn/flink_count.json
 https://seln.cn/friend.json
 https://seln.cn/a/owo.json
