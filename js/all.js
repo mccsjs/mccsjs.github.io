@@ -393,6 +393,7 @@ class WelcomeMessage {
     }
 }
 
+/* 友链状态检测 - 已禁用
 // 友链状态检测
 class LinkStatusChecker {
     constructor() {
@@ -488,7 +489,9 @@ class LinkStatusChecker {
         }
     }
 }
+*/
 
+/* 友链状态检测样式 - 已禁用
 // 友链状态检测样式
 function addLinkStatusStyles() {
     if (document.querySelector('#link-status-styles')) return;
@@ -537,6 +540,7 @@ function addLinkStatusStyles() {
     style.textContent = css;
     document.head.appendChild(style);
 }
+*/
 
 // 瀑布流布局
 function waterfall(a) {
@@ -1008,11 +1012,106 @@ function initializeFeatures() {
     
     // 欢迎信息
     new WelcomeMessage();
-    
-    // 友链状态检测
-    addLinkStatusStyles();
-    new LinkStatusChecker();
-    
+
+    // 友链状态检测 - 已禁用
+    // addLinkStatusStyles();
+    // new LinkStatusChecker();
+
+    // 相册图片懒加载优化（参考 D:\\mccsjs\\my-blog 方案：IntersectionObserver + 占位图 + 渐入动画）
+    const GALLERY_PLACEHOLDER = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+
+    function optimizeGalleryImages(root = document) {
+        root.querySelectorAll?.('.gallery-container .item img').forEach(img => {
+            if (img.dataset.galleryOpt) return;
+            img.dataset.galleryOpt = '1';
+            const realSrc = img.src;
+            if (realSrc && !realSrc.startsWith('data:') && !img.dataset.src) {
+                img.dataset.src = realSrc;
+                img.src = GALLERY_PLACEHOLDER;
+            }
+            img.decoding = 'async';
+            img.classList.add('gallery-img');
+        });
+        root.querySelectorAll?.('.gallery-group-img').forEach(img => {
+            if (!img.hasAttribute('loading')) {
+                img.loading = 'lazy';
+            }
+        });
+    }
+
+    function onGalleryImageLoad(img) {
+        const item = img.closest('.item');
+        const hideSkeleton = () => {
+            item?.classList.add('gallery-img-ready');
+        };
+        if (img.complete && img.naturalWidth > 0) {
+            img.classList.add('gallery-img-loaded');
+            hideSkeleton();
+        } else {
+            img.addEventListener('load', () => {
+                img.classList.add('gallery-img-loaded');
+                hideSkeleton();
+            }, { once: true });
+            img.addEventListener('error', () => {
+                img.classList.add('gallery-img-error');
+                hideSkeleton();
+            }, { once: true });
+        }
+    }
+
+    let galleryIO = null;
+    function ensureGalleryIO() {
+        if (!galleryIO) {
+            galleryIO = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        const realSrc = img.dataset.src;
+                        if (realSrc) {
+                            img.src = realSrc;
+                            delete img.dataset.src;
+                            onGalleryImageLoad(img);
+                        }
+                        galleryIO.unobserve(img);
+                    }
+                });
+            }, { rootMargin: '200px' });
+        }
+        return galleryIO;
+    }
+
+    let galleryObserver = null;
+    function initGalleryObserver() {
+        if (galleryObserver) return;
+        galleryObserver = new MutationObserver((mutations) => {
+            for (const mutation of mutations) {
+                for (const node of mutation.addedNodes) {
+                    if (node.nodeType === 1) {
+                        optimizeGalleryImages(node);
+                        document.querySelectorAll('.gallery-container .item img.gallery-img[data-src]').forEach(img => {
+                            ensureGalleryIO().observe(img);
+                        });
+                    }
+                }
+            }
+        });
+        galleryObserver.observe(document.body, { childList: true, subtree: true });
+    }
+
+    document.addEventListener('pjax:send', () => {
+        if (galleryObserver) {
+            galleryObserver.disconnect();
+            galleryObserver = null;
+        }
+        if (galleryIO) {
+            galleryIO.disconnect();
+            galleryIO = null;
+        }
+    });
+
+    optimizeGalleryImages();
+    initGalleryObserver();
+
     // 时间计数器
     createTimeCounter();
 }
@@ -1021,8 +1120,9 @@ function initializeFeatures() {
 document.addEventListener('DOMContentLoaded', initializeFeatures);
 document.addEventListener('pjax:complete', () => {
     initializeFeatures();
+    setTimeout(optimizeGalleryImages, 300);
 });
-document.addEventListener('themechange', addLinkStatusStyles);
+// document.addEventListener('themechange', addLinkStatusStyles);
 
 // 初始执行
 initializeFeatures();

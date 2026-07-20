@@ -1122,11 +1122,92 @@ body {
   color: #000000;
 }
 
-.dark-mode .recent-post-info,
-.dark .recent-post-info,
+body.dark .recent-post-info,
 [data-theme="dark"] .recent-post-info,
 .theme-dark .recent-post-info,
 body.dark .recent-post-info,
 body.dark-mode .recent-post-info {
     background-color: #2a2a2a !important
+}
+
+/* ===== 相册图片优化 ===== */
+.gallery-container {
+    opacity: 1 !important;
+}
+.gallery-items .item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
+}
+[data-theme="dark"] .gallery-items .item {
+    background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
+}
+.gallery-items .item .gallery-skeleton {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+    background-size: 200% 100%;
+    animation: gallery-shimmer 1.5s infinite;
+    pointer-events: none;
+}
+[data-theme="dark"] .gallery-items .item .gallery-skeleton {
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0) 100%);
+    background-size: 200% 100%;
+}
+@keyframes gallery-shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+.gallery-items .item img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    border-radius: 12px;
+}
+.gallery-items .item img.gallery-img-loaded {
+    opacity: 1;
+}
+.gallery-items .item img.gallery-img-error {
+    opacity: 0.3;
+    filter: grayscale(1);
+}
+.gallery-items .item.gallery-img-ready .gallery-skeleton {
+    opacity: 0;
+}
+.gallery-items .item:hover img.gallery-img-loaded {
+    transform: scale(1.05);
+}
+.gallery-items .item .gallery-error-icon {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background: rgba(0,0,0,0.05);
+    pointer-events: none;
+}
+[data-theme="dark"] .gallery-items .item .gallery-error-icon {
+    background: rgba(255,255,255,0.05);
+}
+.gallery-items .item .gallery-error-icon svg {
+    width: 48px;
+    height: 48px;
+    color: #ccc;
+    opacity: 0.6;
+}
+[data-theme="dark"] .gallery-items .item .gallery-error-icon svg {
+    color: #555;
+}
+@media screen and (max-width: 768px) {
+    .gallery-items .item,
+    .gallery-items .item img {
+        border-radius: 8px;
+    }
 }

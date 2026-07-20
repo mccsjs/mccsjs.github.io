@@ -243,78 +243,6 @@
   background: var(--blogessay-secondbg);
 }
 
-#bber .aplayer {
-  margin: 0;
-}
-
-#bber .aplayer.aplayer-withlrc .aplayer-pic {
-  height: 82px;
-  width: 82px;
-  margin: 4px;
-  border-radius: 4px;
-}
-
-.bber-music .aplayer.aplayer-withlrc .aplayer-info {
-  padding: 5px 7px 0;
-}
-
-#bber .aplayer .aplayer-info .aplayer-music {
-  height: 23px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
-  font-size: 0.8rem;
-  font-weight: 700;
-  margin: 0;
-  color: var(--blogessay-fontcolor);
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller {
-  align-items: center;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
-  padding: 0;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
-  position: initial;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
-  background: var(--blogessay-gray);
-  height: 8px;
-  border-radius: 12px;
-  transition: 0.3s;
-  overflow: hidden;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
-  height: 100%;
-  border-radius: 12px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
-  height: 100%;
-  border-radius: 12px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
-  display: none;
-}
-
-/* 歌词样式 */
-#bber .aplayer .aplayer-lrc p {
-  color: var(--blogessay-fontcolor);
-}
-
-[data-theme="dark"] #bber .bber-music .aplayer,
-[data-theme="dark"] #bber .aplayer .aplayer-lrc:before,
-[data-theme="dark"] #bber .aplayer .aplayer-lrc:after {
-  background: var(--blogessay-card-bg);
-  color: var(--blogessay-fontcolor);
-}
-
 /* 响应式设计 */
 @media screen and (max-width: 1300px) {
   #bber .timeline ul li.bber-item {
@@ -365,4 +293,70 @@
   padding: 1em !important;
   margin: 1em 0 !important;
   overflow: auto !important;
+}
+
+/* ============================================
+   相册图片优化 - 骨架屏与渐入动画
+   ============================================ */
+
+.gallery-container .item {
+  position: relative;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+:root.dark .gallery-container .item {
+  background: #2a2a2a;
+}
+
+/* 骨架屏微光动画 */
+.gallery-container .item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    transparent 100%
+  );
+  animation: gallery-shimmer 1.8s infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+
+:root.dark .gallery-container .item::after {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.06) 50%,
+    transparent 100%
+  );
+}
+
+.gallery-container .item.gallery-img-ready::after {
+  display: none;
+}
+
+@keyframes gallery-shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.gallery-container .item img.gallery-img {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.5s ease;
+}
+
+.gallery-container .item img.gallery-img-loaded {
+  opacity: 1;
+}
+
+.gallery-container .item img.gallery-img-loaded:hover {
+  transform: scale(1.03);
+}
+
+.gallery-container .item img.gallery-img-error {
+  opacity: 0.4;
+  filter: grayscale(0.8);
 }
