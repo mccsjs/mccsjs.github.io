@@ -4,24 +4,51 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>mccsjs</title>
-    <link>https://hexo.seln.cn/</link>
+    <link>https://blog.seln.cn/</link>
     
     <image>
-      <url>https://hexo.seln.cn/img/head.jpg</url>
+      <url>https://blog.seln.cn/img/head.jpg</url>
       <title>mccsjs</title>
-      <link>https://hexo.seln.cn/</link>
+      <link>https://blog.seln.cn/</link>
     </image>
     
-    <atom:link href="https://hexo.seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://blog.seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 15 Jun 2026 13:01:13 GMT</pubDate>
+    <pubDate>Mon, 20 Jul 2026 08:09:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>什么是Agent，它能干什么</title>
+      <link>https://blog.seln.cn/posts/d29e4129/</link>
+      <guid>https://blog.seln.cn/posts/d29e4129/</guid>
+      <pubDate>Thu, 11 Jun 2026 12:38:05 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;AI-和-Agent-到底有什么区别？&quot;&gt;&lt;a href=&quot;#AI-和-Agent-到底有什么区别？&quot; class=&quot;headerlink&quot; title=&quot;AI 和 Agent 到底有什么区别？&quot;&gt;&lt;/a&gt;AI 和 Agent</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <category domain="https://blog.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
+      
+      <comments>https://blog.seln.cn/posts/d29e4129/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>近期</title>
-      <link>https://hexo.seln.cn/posts/cc95c699/</link>
-      <guid>https://hexo.seln.cn/posts/cc95c699/</guid>
+      <link>https://blog.seln.cn/posts/cc95c699/</link>
+      <guid>https://blog.seln.cn/posts/cc95c699/</guid>
       <pubDate>Sat, 11 Apr 2026 22:35:14 GMT</pubDate>
       
         
@@ -37,17 +64,17 @@
       
       
       
-      <category domain="https://hexo.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <comments>https://hexo.seln.cn/posts/cc95c699/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/cc95c699/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>新年快乐，马到成功</title>
-      <link>https://hexo.seln.cn/posts/eb007bb7/</link>
-      <guid>https://hexo.seln.cn/posts/eb007bb7/</guid>
+      <link>https://blog.seln.cn/posts/eb007bb7/</link>
+      <guid>https://blog.seln.cn/posts/eb007bb7/</guid>
       <pubDate>Mon, 16 Feb 2026 16:00:03 GMT</pubDate>
       
         
@@ -63,14 +90,14 @@
       
       
       
-      <comments>https://hexo.seln.cn/posts/eb007bb7/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/eb007bb7/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>2026星河长明，步履不停</title>
-      <link>https://hexo.seln.cn/posts/1a3b11fa/</link>
-      <guid>https://hexo.seln.cn/posts/1a3b11fa/</guid>
+      <link>https://blog.seln.cn/posts/1a3b11fa/</link>
+      <guid>https://blog.seln.cn/posts/1a3b11fa/</guid>
       <pubDate>Wed, 31 Dec 2025 16:08:57 GMT</pubDate>
       
         
@@ -84,20 +111,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <comments>https://hexo.seln.cn/posts/1a3b11fa/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/1a3b11fa/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>利用Cloudflare自建图床并套入cdn</title>
-      <link>https://hexo.seln.cn/posts/cf308b7c/</link>
-      <guid>https://hexo.seln.cn/posts/cf308b7c/</guid>
+      <link>https://blog.seln.cn/posts/cf308b7c/</link>
+      <guid>https://blog.seln.cn/posts/cf308b7c/</guid>
       <pubDate>Sun, 28 Dec 2025 11:00:22 GMT</pubDate>
       
         
@@ -111,20 +138,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <comments>https://hexo.seln.cn/posts/cf308b7c/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/cf308b7c/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>给博客大部分图标更换成iconfont【hexo-butterfly】</title>
-      <link>https://hexo.seln.cn/posts/f179c74c/</link>
-      <guid>https://hexo.seln.cn/posts/f179c74c/</guid>
+      <link>https://blog.seln.cn/posts/f179c74c/</link>
+      <guid>https://blog.seln.cn/posts/f179c74c/</guid>
       <pubDate>Sat, 27 Dec 2025 10:44:11 GMT</pubDate>
       
         
@@ -139,20 +166,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <comments>https://hexo.seln.cn/posts/f179c74c/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/f179c74c/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>关于今天提交博客时遇到的问题</title>
-      <link>https://hexo.seln.cn/posts/202e94d4/</link>
-      <guid>https://hexo.seln.cn/posts/202e94d4/</guid>
+      <link>https://blog.seln.cn/posts/202e94d4/</link>
+      <guid>https://blog.seln.cn/posts/202e94d4/</guid>
       <pubDate>Sat, 27 Dec 2025 01:17:43 GMT</pubDate>
       
         
@@ -166,20 +193,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <comments>https://hexo.seln.cn/posts/202e94d4/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/202e94d4/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>关于首页文章双栏、文心一言（hexo-butterfly）</title>
-      <link>https://hexo.seln.cn/posts/406f96a5/</link>
-      <guid>https://hexo.seln.cn/posts/406f96a5/</guid>
+      <link>https://blog.seln.cn/posts/406f96a5/</link>
+      <guid>https://blog.seln.cn/posts/406f96a5/</guid>
       <pubDate>Mon, 22 Dec 2025 10:31:15 GMT</pubDate>
       
         
@@ -194,20 +221,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <comments>https://hexo.seln.cn/posts/406f96a5/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/406f96a5/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>博客配置追番页面【hexo-butterfly】</title>
-      <link>https://hexo.seln.cn/posts/18217915/</link>
-      <guid>https://hexo.seln.cn/posts/18217915/</guid>
+      <link>https://blog.seln.cn/posts/18217915/</link>
+      <guid>https://blog.seln.cn/posts/18217915/</guid>
       <pubDate>Sun, 21 Dec 2025 07:58:24 GMT</pubDate>
       
         
@@ -221,20 +248,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <comments>https://hexo.seln.cn/posts/18217915/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/18217915/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>twikoo配置邮箱和即时提醒</title>
-      <link>https://hexo.seln.cn/posts/86f502cb/</link>
-      <guid>https://hexo.seln.cn/posts/86f502cb/</guid>
+      <link>https://blog.seln.cn/posts/86f502cb/</link>
+      <guid>https://blog.seln.cn/posts/86f502cb/</guid>
       <pubDate>Sun, 21 Dec 2025 06:46:44 GMT</pubDate>
       
         
@@ -249,20 +276,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <comments>https://hexo.seln.cn/posts/86f502cb/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/86f502cb/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>本站已公安联网备案，关于备案流程</title>
-      <link>https://hexo.seln.cn/posts/74e99a86/</link>
-      <guid>https://hexo.seln.cn/posts/74e99a86/</guid>
+      <link>https://blog.seln.cn/posts/74e99a86/</link>
+      <guid>https://blog.seln.cn/posts/74e99a86/</guid>
       <pubDate>Fri, 19 Dec 2025 09:23:58 GMT</pubDate>
       
         
@@ -278,20 +305,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <comments>https://hexo.seln.cn/posts/74e99a86/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/74e99a86/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>本站已成功备案，关于备案的材料</title>
-      <link>https://hexo.seln.cn/posts/a121d29a/</link>
-      <guid>https://hexo.seln.cn/posts/a121d29a/</guid>
+      <link>https://blog.seln.cn/posts/a121d29a/</link>
+      <guid>https://blog.seln.cn/posts/a121d29a/</guid>
       <pubDate>Sat, 13 Dec 2025 13:00:45 GMT</pubDate>
       
         
@@ -306,20 +333,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <comments>https://hexo.seln.cn/posts/a121d29a/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/a121d29a/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>给博客添加一个小菜单【hexo-butterfly】</title>
-      <link>https://hexo.seln.cn/posts/2ec44b4c/</link>
-      <guid>https://hexo.seln.cn/posts/2ec44b4c/</guid>
+      <link>https://blog.seln.cn/posts/2ec44b4c/</link>
+      <guid>https://blog.seln.cn/posts/2ec44b4c/</guid>
       <pubDate>Sat, 29 Nov 2025 05:57:19 GMT</pubDate>
       
         
@@ -333,20 +360,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <comments>https://hexo.seln.cn/posts/2ec44b4c/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/2ec44b4c/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>QEXO的注意事项</title>
-      <link>https://hexo.seln.cn/posts/qexo/</link>
-      <guid>https://hexo.seln.cn/posts/qexo/</guid>
+      <link>https://blog.seln.cn/posts/qexo/</link>
+      <guid>https://blog.seln.cn/posts/qexo/</guid>
       <pubDate>Sun, 23 Nov 2025 08:00:23 GMT</pubDate>
       
         
@@ -360,20 +387,20 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      <category domain="https://blog.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
-      <comments>https://hexo.seln.cn/posts/qexo/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/qexo/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>给静态博客添加一个优雅的在线后端【hexo-qexo】</title>
-      <link>https://hexo.seln.cn/posts/fd555bb4/</link>
-      <guid>https://hexo.seln.cn/posts/fd555bb4/</guid>
+      <link>https://blog.seln.cn/posts/fd555bb4/</link>
+      <guid>https://blog.seln.cn/posts/fd555bb4/</guid>
       <pubDate>Sun, 23 Nov 2025 07:00:12 GMT</pubDate>
       
         
@@ -388,40 +415,13 @@
       
       
       
-      <category domain="https://hexo.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://hexo.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <comments>https://hexo.seln.cn/posts/fd555bb4/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>记录博客第二次回档</title>
-      <link>https://hexo.seln.cn/posts/658e192d/</link>
-      <guid>https://hexo.seln.cn/posts/658e192d/</guid>
-      <pubDate>Thu, 20 Nov 2025 07:49:47 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;自从Cloudflare坠机之后，本博客因莫名其妙的原因失效了一些组件，无从修复，遂回档试试，结果发现还真有用。&lt;br&gt;我最后的存档日期是2025-11-13,在此之后在没修改过东西，回档能修复真的神奇&lt;br&gt;最后:&lt;br&gt;&lt;div class=&quot;note info</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://hexo.seln.cn/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <category domain="https://hexo.seln.cn/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
-      
-      
-      <comments>https://hexo.seln.cn/posts/658e192d/#disqus_thread</comments>
+      <comments>https://blog.seln.cn/posts/fd555bb4/#disqus_thread</comments>
       
     </item>
     
