@@ -15,8 +15,32 @@
     <atom:link href="https://blog.seln.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 20 Jul 2026 08:23:56 GMT</pubDate>
+    <pubDate>Mon, 20 Jul 2026 09:13:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>域名备案中，部分组件和服务可能无法使用</title>
+      <link>https://blog.seln.cn/posts/56d6af58/</link>
+      <guid>https://blog.seln.cn/posts/56d6af58/</guid>
+      <pubDate>Mon, 20 Jul 2026 09:11:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;需要调整一下备案内容，正在重新备案，预计7-10天恢复&lt;/p&gt;
+</description>
+          
+        
+      
+      
+      
+      
+      
+      
+      <comments>https://blog.seln.cn/posts/56d6af58/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>什么是Agent，它能干什么</title>
@@ -394,34 +418,6 @@
       
       
       <comments>https://blog.seln.cn/posts/qexo/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>给静态博客添加一个优雅的在线后端【hexo-qexo】</title>
-      <link>https://blog.seln.cn/posts/fd555bb4/</link>
-      <guid>https://blog.seln.cn/posts/fd555bb4/</guid>
-      <pubDate>Sun, 23 Nov 2025 07:00:12 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;项目部署&quot;&gt;&lt;a href=&quot;#项目部署&quot; class=&quot;headerlink&quot; title=&quot;项目部署&quot;&gt;&lt;/a&gt;项目部署&lt;/h2&gt;&lt;p&gt;点击下面的按钮部署到 Vercel：&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <category domain="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <comments>https://blog.seln.cn/posts/fd555bb4/#disqus_thread</comments>
       
     </item>
     

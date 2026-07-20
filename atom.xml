@@ -6,7 +6,7 @@
   <link href="https://blog.seln.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.seln.cn/"/>
-  <updated>2026-07-20T08:23:56.253Z</updated>
+  <updated>2026-07-20T09:13:12.889Z</updated>
   <id>https://blog.seln.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>域名备案中，部分组件和服务可能无法使用</title>
+    <link href="https://blog.seln.cn/posts/56d6af58/"/>
+    <id>https://blog.seln.cn/posts/56d6af58/</id>
+    <published>2026-07-20T09:11:56.000Z</published>
+    <updated>2026-07-20T09:13:12.889Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;需要调整一下备案内容，正在重新备案，预计7-10天恢复&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>什么是Agent，它能干什么</title>
@@ -364,32 +386,6 @@
     
     
     <category term="随笔" scheme="https://blog.seln.cn/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>给静态博客添加一个优雅的在线后端【hexo-qexo】</title>
-    <link href="https://blog.seln.cn/posts/fd555bb4/"/>
-    <id>https://blog.seln.cn/posts/fd555bb4/</id>
-    <published>2025-11-23T07:00:12.000Z</published>
-    <updated>2025-11-23T07:37:08.277Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;项目部署&quot;&gt;&lt;a href=&quot;#项目部署&quot; class=&quot;headerlink&quot; title=&quot;项目部署&quot;&gt;&lt;/a&gt;项目部署&lt;/h2&gt;&lt;p&gt;点击下面的按钮部署到 Vercel：&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="教程" scheme="https://blog.seln.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="教程" scheme="https://blog.seln.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
